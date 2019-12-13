@@ -21,6 +21,7 @@ using DevExpress.XtraGrid.Editors;
 using DevExpress.XtraGrid.Views.Grid;
 using System.Diagnostics;
 using DevExpress.XtraSplashScreen;
+using GUI.report.PXM.FormPrint68;
 
 namespace GUI
 {
@@ -208,6 +209,13 @@ namespace GUI
         protected override void print()
         {
             var report = new r_pxmnhapkho();
+            report.DataSource = dbData.InPhieuNhapKho(_key);
+            report.ShowPreviewDialog();
+        }
+
+        protected override void print68()
+        {
+            var report = new r_pxmnhapkho68();
             report.DataSource = dbData.InPhieuNhapKho(_key);
             report.ShowPreviewDialog();
         }

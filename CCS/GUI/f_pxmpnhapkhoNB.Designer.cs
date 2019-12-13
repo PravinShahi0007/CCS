@@ -83,7 +83,7 @@
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtctxuat.Properties)).BeginInit();
@@ -245,7 +245,7 @@
             // txtctxuat
             // 
             this.txtctxuat.Location = new System.Drawing.Point(68, 60);
-            this.txtctxuat.MenuManager = this.barManager1;
+            this.txtctxuat.MenuManager = this.barMain;
             this.txtctxuat.Name = "txtctxuat";
             this.txtctxuat.Size = new System.Drawing.Size(136, 20);
             this.txtctxuat.StyleController = this.layoutControl1;
@@ -800,7 +800,7 @@
             this.Controls.SetChildIndex(this.barDockControlRight, 0);
             this.Controls.SetChildIndex(this.barDockControlLeft, 0);
             this.Controls.SetChildIndex(this.layoutControl1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtctxuat.Properties)).EndInit();

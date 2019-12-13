@@ -26,7 +26,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmp));
-            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barMain = new DevExpress.XtraBars.BarManager(this.components);
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.btnmo = new DevExpress.XtraBars.BarButtonItem();
             this.btnthem = new DevExpress.XtraBars.BarButtonItem();
@@ -34,6 +34,7 @@
             this.btnsua = new DevExpress.XtraBars.BarButtonItem();
             this.btnxoa = new DevExpress.XtraBars.BarButtonItem();
             this.btnin = new DevExpress.XtraBars.BarButtonItem();
+            this.btnIn68 = new DevExpress.XtraBars.BarButtonItem();
             this.btnreload = new DevExpress.XtraBars.BarButtonItem();
             this.btntop = new DevExpress.XtraBars.BarButtonItem();
             this.btnprev = new DevExpress.XtraBars.BarButtonItem();
@@ -45,20 +46,23 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).BeginInit();
             this.SuspendLayout();
             // 
-            // barManager1
+            // barMain
             // 
-            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
+            this.barMain.AllowCustomization = false;
+            this.barMain.AllowQuickCustomization = false;
+            this.barMain.AllowShowToolbarsPopup = false;
+            this.barMain.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
             this.bar2,
             this.bar3});
-            this.barManager1.DockControls.Add(this.barDockControlTop);
-            this.barManager1.DockControls.Add(this.barDockControlBottom);
-            this.barManager1.DockControls.Add(this.barDockControlLeft);
-            this.barManager1.DockControls.Add(this.barDockControlRight);
-            this.barManager1.Form = this;
-            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.barMain.DockControls.Add(this.barDockControlTop);
+            this.barMain.DockControls.Add(this.barDockControlBottom);
+            this.barMain.DockControls.Add(this.barDockControlLeft);
+            this.barMain.DockControls.Add(this.barDockControlRight);
+            this.barMain.Form = this;
+            this.barMain.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.btnmo,
             this.btnthem,
             this.btnluu,
@@ -70,10 +74,11 @@
             this.btnprev,
             this.btnnext,
             this.btnend,
-            this.btnduyet});
-            this.barManager1.MainMenu = this.bar2;
-            this.barManager1.MaxItemId = 12;
-            this.barManager1.StatusBar = this.bar3;
+            this.btnduyet,
+            this.btnIn68});
+            this.barMain.MainMenu = this.bar2;
+            this.barMain.MaxItemId = 13;
+            this.barMain.StatusBar = this.bar3;
             // 
             // bar2
             // 
@@ -87,12 +92,14 @@
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnluu, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnsua, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnxoa, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
-            new DevExpress.XtraBars.LinkPersistInfo(this.btnin),
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnin, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnIn68, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(this.btnreload),
             new DevExpress.XtraBars.LinkPersistInfo(this.btntop),
             new DevExpress.XtraBars.LinkPersistInfo(this.btnprev),
             new DevExpress.XtraBars.LinkPersistInfo(this.btnnext),
             new DevExpress.XtraBars.LinkPersistInfo(this.btnend)});
+            this.bar2.OptionsBar.AllowQuickCustomization = false;
             this.bar2.OptionsBar.MultiLine = true;
             this.bar2.OptionsBar.UseWholeRow = true;
             this.bar2.Text = "Main menu";
@@ -150,6 +157,15 @@
             this.btnin.ImageOptions.LargeImage = global::GUI.Properties.Resources.preview_32x32;
             this.btnin.Name = "btnin";
             this.btnin.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnin_ItemClick);
+            // 
+            // btnIn68
+            // 
+            this.btnIn68.Caption = "IN 68";
+            this.btnIn68.Id = 12;
+            this.btnIn68.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnIn68.ImageOptions.Image")));
+            this.btnIn68.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnIn68.ImageOptions.LargeImage")));
+            this.btnIn68.Name = "btnIn68";
+            this.btnIn68.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnIn68_ItemClick);
             // 
             // btnreload
             // 
@@ -223,49 +239,54 @@
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(744, 24);
+            this.barDockControlTop.Manager = this.barMain;
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlTop.Size = new System.Drawing.Size(1116, 40);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 353);
-            this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(744, 59);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 516);
+            this.barDockControlBottom.Manager = this.barMain;
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1116, 86);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
-            this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 329);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 40);
+            this.barDockControlLeft.Manager = this.barMain;
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 476);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(744, 24);
-            this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 329);
+            this.barDockControlRight.Location = new System.Drawing.Point(1116, 40);
+            this.barDockControlRight.Manager = this.barMain;
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 476);
             // 
             // frmp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 412);
+            this.ClientSize = new System.Drawing.Size(1116, 602);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmp";
             this.Load += new System.EventHandler(this.frmp_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,8 +310,9 @@
         protected DevExpress.XtraBars.BarButtonItem btnprev;
         protected DevExpress.XtraBars.BarButtonItem btnnext;
         protected DevExpress.XtraBars.BarButtonItem btnend;
-        protected System.ComponentModel.IContainer components;
         protected DevExpress.XtraBars.BarButtonItem btnduyet;
-        protected DevExpress.XtraBars.BarManager barManager1;
+        protected DevExpress.XtraBars.BarManager barMain;
+        private System.ComponentModel.IContainer components;
+        protected DevExpress.XtraBars.BarButtonItem btnIn68;
     }
 }

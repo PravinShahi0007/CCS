@@ -13,6 +13,7 @@ using BUS;
 using DevExpress.Data;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraSplashScreen;
+using GUI.report.PXM.FormPrint68;
 
 namespace GUI.report.PXM
 {
@@ -87,11 +88,24 @@ namespace GUI.report.PXM
             try
             {
                 var rp = Activator.CreateInstance<T>() as XtraReport;
-                  rp.DataSource =
-                            dbData.INBCNhapXuatTon(Biencucbo.idnv, Name, Biencucbo.hostname,
-                            DateTime.Parse(tungay.EditValue.ToString()),
-                            DateTime.Parse(denngay.EditValue.ToString()), tg);
+                if (checkTon0.Checked == false) //in tat ca
+                {
+                    rp.DataSource =
+                          dbData.INBCNhapXuatTon(Biencucbo.idnv, Name, Biencucbo.hostname,
+                          DateTime.Parse(tungay.EditValue.ToString()),
+                          DateTime.Parse(denngay.EditValue.ToString()), tg);
+                }
+                else//LOC
+                {
+                    rp.DataSource =
+                          dbData.INBCNhapXuatTon_0(Biencucbo.idnv, Name, Biencucbo.hostname,
+                          DateTime.Parse(tungay.EditValue.ToString()),
+                          DateTime.Parse(denngay.EditValue.ToString()), tg);
+                }
                 rp.ShowPreview();
+
+
+
             }
             catch (Exception ex)
             {
@@ -124,7 +138,41 @@ namespace GUI.report.PXM
             }
             else
             {
-                 inbc<r_BCNhapXuatTon_TH>(true);
+                inbc<r_BCNhapXuatTon_TH>(true);
+            }
+
+            SplashScreenManager.CloseForm();
+
+        }
+
+
+        protected override void search68()
+        {
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
+            if (tgsmode.IsOn == false)
+            {
+
+                inbc<r_BCNhapXuatTon_CT68>(false);
+            }
+            else
+            {
+                inbc<r_BCNhapXuatTon_TH68>(false);
+            }
+
+            SplashScreenManager.CloseForm();
+
+        }
+        protected override void searchall68()
+        {
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
+            if (tgsmode.IsOn == false)
+            {
+
+                inbc<r_BCNhapXuatTon_CT68>(true);
+            }
+            else
+            {
+                inbc<r_BCNhapXuatTon_TH68>(true);
             }
 
             SplashScreenManager.CloseForm();

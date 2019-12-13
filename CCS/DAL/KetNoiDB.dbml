@@ -2983,4 +2983,33 @@
       <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
     </ElementType>
   </Function>
+  <Function Name="dbo.INBCNhapXuatTon_0" Method="INBCNhapXuatTon_0">
+    <Parameter Name="idnv" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="form" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="PC" Parameter="pC" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tungay" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="denngay" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="tg" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="INBCNhapXuatTon_0Result">
+      <Column Name="[key]" Member="key" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="dt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="congtrinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sln" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="slx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="idpn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idpx" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tondau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="toncuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
 </Database>

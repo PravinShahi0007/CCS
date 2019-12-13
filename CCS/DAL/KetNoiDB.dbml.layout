@@ -274,7 +274,7 @@
         <elementListCompartment Id="7fd47904-f872-4327-bf2d-ccb908e7c4dc" absoluteBounds="0.76500000000000057, 1.71, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(2.75 : 2.23159912109375); (3.25 : 2.23159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.75 : 2.23159912109375); (3.25 : 2.23159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/KetNoiDBDataContext/hopdong_tp/hopdong_tp_hopdongct_tp" />
       <nodes>
         <classShapeMoniker Id="051f2b27-32ae-494c-97c9-4ad843f2cd20" />
@@ -986,7 +986,7 @@
         <elementListCompartment Id="fa6607da-0a97-4fdf-9998-3ef731103c67" absoluteBounds="58.89, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(58 : 1.85659912109375); (58.875 : 1.85659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(58 : 1.85659912109375); (58.875 : 1.85659912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/KetNoiDBDataContext/dutoan_cpql/dutoan_cpql_dutoan_cpqlct" />
       <nodes>
         <classShapeMoniker Id="17984334-c954-43a3-af64-f42823e26b43" />

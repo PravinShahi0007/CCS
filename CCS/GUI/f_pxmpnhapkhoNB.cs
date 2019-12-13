@@ -20,6 +20,7 @@ using DevExpress.XtraEditors.Popup;
 using DevExpress.XtraGrid.Editors;
 using DevExpress.XtraGrid.Views.Grid;
 using GUI.Properties;
+using GUI.report.PXM.FormPrint68;
 
 namespace GUI
 {
@@ -52,17 +53,17 @@ namespace GUI
                 {
                     Biencucbo.xembc = false;
                     loadinfo(Biencucbo.ma);
-                    
+
                 }
                 else
                 {
                     var so = (from a in dbData.pxm_nhapkho_NBs where a.idct == _idct select a.so).Max();
-                if (so == null)
-                    return;
-                var lst = (from a in dbData.pxm_nhapkho_NBs where a.idct == _idct select a).Single(t => t.so == so);
-                loadinfo(lst.key);
+                    if (so == null)
+                        return;
+                    var lst = (from a in dbData.pxm_nhapkho_NBs where a.idct == _idct select a).Single(t => t.so == so);
+                    loadinfo(lst.key);
+                }
             }
-        }
             catch (Exception ex)
             {
 
@@ -130,7 +131,15 @@ namespace GUI
 
         protected override void print()
         {
-            var report = new r_pxmpnhapkhonb();report.DataSource = dbData.InPhieuNhapKhoNB(_key);
+            var report = new r_pxmpnhapkhonb();
+            report.DataSource = dbData.InPhieuNhapKhoNB(_key);
+            report.ShowPreviewDialog();
+        }
+
+        protected override void print68()
+        {
+            var report = new r_pxmpnhapkhonb68();
+            report.DataSource = dbData.InPhieuNhapKhoNB(_key);
             report.ShowPreviewDialog();
         }
 
@@ -445,9 +454,9 @@ namespace GUI
             LayoutControl popupControl = pop.Controls.OfType<LayoutControl>().FirstOrDefault();
             Control clearBtn =
                 popupControl.Controls.OfType<Control>().Where(ct => ct.Name == "btClear").FirstOrDefault();
-            LayoutControlItem clearLCI = (LayoutControlItem) popupControl.GetItemByControl(clearBtn);
-            LayoutControlItem myLCI = (LayoutControlItem) clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
-            LayoutControlItem myrefresh = (LayoutControlItem) clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
+            LayoutControlItem clearLCI = (LayoutControlItem)popupControl.GetItemByControl(clearBtn);
+            LayoutControlItem myLCI = (LayoutControlItem)clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
+            LayoutControlItem myrefresh = (LayoutControlItem)clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
 
             //btn edit
             var btnadd = new SimpleButton
@@ -532,9 +541,9 @@ namespace GUI
             LayoutControl popupControl = pop.Controls.OfType<LayoutControl>().FirstOrDefault();
             Control clearBtn =
                 popupControl.Controls.OfType<Control>().Where(ct => ct.Name == "btClear").FirstOrDefault();
-            LayoutControlItem clearLCI = (LayoutControlItem) popupControl.GetItemByControl(clearBtn);
-            LayoutControlItem myLCI = (LayoutControlItem) clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
-            LayoutControlItem myrefresh = (LayoutControlItem) clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
+            LayoutControlItem clearLCI = (LayoutControlItem)popupControl.GetItemByControl(clearBtn);
+            LayoutControlItem myLCI = (LayoutControlItem)clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
+            LayoutControlItem myrefresh = (LayoutControlItem)clearLCI.Owner.CreateLayoutItem(clearLCI.Parent);
 
             //btn edit
             var btnaddslu = new SimpleButton
@@ -578,7 +587,7 @@ namespace GUI
             //slu.DataSource = (from a in new KetNoiDBDataContext().pxm_sanphams select a);
             loadsp();
             checkbtnslu = true;
-            
+
         }
 
         public void btnaddslu_Click(object sender, EventArgs e)
@@ -596,14 +605,14 @@ namespace GUI
             var frm = new f_pxmdssanpham();
             frm.ShowDialog();
             loadsluslu();
-            
+
         }
 
         public void btnreloadslu_Click(object sender, EventArgs e)
         {
             loadsluslu();
-            
-        
+
+
         }
     }
 }

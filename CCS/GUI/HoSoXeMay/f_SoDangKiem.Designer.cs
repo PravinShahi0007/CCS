@@ -71,7 +71,7 @@
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtduongdan.Properties)).BeginInit();
@@ -251,7 +251,7 @@
             // txtduongdan
             // 
             this.txtduongdan.Location = new System.Drawing.Point(110, 156);
-            this.txtduongdan.MenuManager = this.barManager1;
+            this.txtduongdan.MenuManager = this.barMain;
             this.txtduongdan.Name = "txtduongdan";
             editorButtonImageOptions1.Image = global::GUI.Properties.Resources.article_16x16;
             this.txtduongdan.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -265,7 +265,7 @@
             // txttype
             // 
             this.txttype.Location = new System.Drawing.Point(550, 132);
-            this.txttype.MenuManager = this.barManager1;
+            this.txttype.MenuManager = this.barMain;
             this.txttype.Name = "txttype";
             this.txttype.Properties.ReadOnly = true;
             this.txttype.Size = new System.Drawing.Size(72, 20);
@@ -275,7 +275,7 @@
             // txttenfile
             // 
             this.txttenfile.Location = new System.Drawing.Point(110, 132);
-            this.txttenfile.MenuManager = this.barManager1;
+            this.txttenfile.MenuManager = this.barMain;
             this.txttenfile.Name = "txttenfile";
             this.txttenfile.Properties.ReadOnly = true;
             this.txttenfile.Size = new System.Drawing.Size(350, 20);
@@ -286,7 +286,7 @@
             // 
             this.gd.Location = new System.Drawing.Point(12, 220);
             this.gd.MainView = this.gv;
-            this.gd.MenuManager = this.barManager1;
+            this.gd.MenuManager = this.barMain;
             this.gd.Name = "gd";
             this.gd.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.spn});
@@ -386,7 +386,7 @@
             // txtdiengiai
             // 
             this.txtdiengiai.Location = new System.Drawing.Point(110, 66);
-            this.txtdiengiai.MenuManager = this.barManager1;
+            this.txtdiengiai.MenuManager = this.barMain;
             this.txtdiengiai.Name = "txtdiengiai";
             this.txtdiengiai.Size = new System.Drawing.Size(512, 20);
             this.txtdiengiai.StyleController = this.layoutControl1;
@@ -400,7 +400,7 @@
             0,
             0});
             this.txtthoihan.Location = new System.Drawing.Point(530, 42);
-            this.txtthoihan.MenuManager = this.barManager1;
+            this.txtthoihan.MenuManager = this.barMain;
             this.txtthoihan.Name = "txtthoihan";
             this.txtthoihan.Properties.AllowMouseWheel = false;
             this.txtthoihan.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -425,7 +425,7 @@
             // 
             this.txtngaydk.EditValue = null;
             this.txtngaydk.Location = new System.Drawing.Point(295, 42);
-            this.txtngaydk.MenuManager = this.barManager1;
+            this.txtngaydk.MenuManager = this.barMain;
             this.txtngaydk.Name = "txtngaydk";
             this.txtngaydk.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -439,7 +439,7 @@
             // txtid
             // 
             this.txtid.Location = new System.Drawing.Point(110, 42);
-            this.txtid.MenuManager = this.barManager1;
+            this.txtid.MenuManager = this.barMain;
             this.txtid.Name = "txtid";
             this.txtid.Properties.ReadOnly = true;
             this.txtid.Size = new System.Drawing.Size(95, 20);
@@ -614,7 +614,7 @@
             this.Controls.SetChildIndex(this.barDockControlRight, 0);
             this.Controls.SetChildIndex(this.barDockControlLeft, 0);
             this.Controls.SetChildIndex(this.layoutControl1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtduongdan.Properties)).EndInit();

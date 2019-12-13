@@ -439,3 +439,9 @@ D:\CODE\CCS\08 11 2019\DAL\bin\Debug\DAL.pdb
 D:\CODE\CCS\08 11 2019\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\CODE\CCS\08 11 2019\DAL\obj\Debug\DAL.dll
 D:\CODE\CCS\08 11 2019\DAL\obj\Debug\DAL.pdb
+D:\CODE\WINFORMS\CODE CCS\CCS\DAL\bin\Debug\DAL.dll.config
+D:\CODE\WINFORMS\CODE CCS\CCS\DAL\bin\Debug\DAL.dll
+D:\CODE\WINFORMS\CODE CCS\CCS\DAL\bin\Debug\DAL.pdb
+D:\CODE\WINFORMS\CODE CCS\CCS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\CODE\WINFORMS\CODE CCS\CCS\DAL\obj\Debug\DAL.dll
+D:\CODE\WINFORMS\CODE CCS\CCS\DAL\obj\Debug\DAL.pdb

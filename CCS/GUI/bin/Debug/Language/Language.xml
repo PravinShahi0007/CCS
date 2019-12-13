@@ -211,6 +211,7 @@
   <Language>
     <name>f_main.ribbon.ribbonPage2.ribbonPageGroup13.btnnhapkho</name>
     <value>Phập Kho</value>
+    <Vietnam>Nhập Kho</Vietnam>
   </Language>
   <Language>
     <name>f_main.ribbon.ribbonPage2.ribbonPageGroup13.btnpxuatkho</name>
@@ -2879,5 +2880,25 @@
   <Language>
     <name>f_main.ribbon.ribbonPage3.ribbonPageGroup16.btndutoanvattu</name>
     <value>Vật Tư</value>
+  </Language>
+  <Language>
+    <name>FrmMain.Root</name>
+    <value>Root</value>
+  </Language>
+  <Language>
+    <name>FrmMain.layoutControlItem1</name>
+    <value>Đường dẫn</value>
+  </Language>
+  <Language>
+    <name>FrmMain.btnSave</name>
+    <value>Lưu</value>
+  </Language>
+  <Language>
+    <name>FrmMain.btnActive</name>
+    <value>Kích hoạt</value>
+  </Language>
+  <Language>
+    <name>FrmMain.layoutControlItem5</name>
+    <value>Ngôn ngữ</value>
   </Language>
 </NewDataSet>

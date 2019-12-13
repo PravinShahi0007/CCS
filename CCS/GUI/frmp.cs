@@ -148,6 +148,11 @@ namespace GUI
         {
 
         }
+
+        protected virtual void print68()
+        {
+
+        }
         protected virtual void top()
         {
 
@@ -365,6 +370,11 @@ namespace GUI
                 btnduyet.Glyph = Resources.folder_full_icon;
                 btnduyet.Caption = "Chưa duyệt";
             }
+        }
+
+        private void BtnIn68_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            print68();
         }
     }
 }

@@ -16,6 +16,7 @@ using DevExpress.Utils.Zip.Internal;
 using DevExpress.XtraLayout.Utils;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraSpreadsheet.Model;
+using GUI.report.PXM.FormPrint68;
 
 namespace GUI.report.dk_report
 {
@@ -186,6 +187,53 @@ namespace GUI.report.dk_report
             else
             {
                 inbc<PXM.r_BCNhapkho_TH>(true);
+            }
+
+            SplashScreenManager.CloseForm();
+        }
+
+        protected override void search68()
+        {
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
+            if (tgsmode.IsOn == false)
+            {
+                if (tgsloai.IsOn)
+                {
+
+                    inbc<r_BCnhapkhopn_CT68>(false);
+                }
+                else
+                {
+                    inbc<r_BCNhapKho_CT68>(false);
+                }
+            }
+            else
+            {
+                inbc<r_BCNhapkho_TH68>(false);
+            }
+
+            SplashScreenManager.CloseForm();
+
+        }
+
+        protected override void searchall68()
+        {
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
+            if (tgsmode.IsOn == false)
+            {
+                if (tgsloai.IsOn)
+                {
+
+                    inbc<r_BCnhapkhopn_CT68>(true);
+                }
+                else
+                {
+                    inbc<r_BCNhapKho_CT68>(true);
+                }
+            }
+            else
+            {
+                inbc<r_BCNhapkho_TH68>(true);
             }
 
             SplashScreenManager.CloseForm();

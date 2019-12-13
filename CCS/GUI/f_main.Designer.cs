@@ -386,6 +386,7 @@
             this.btndmchiphi,
             this.btndutoanvattu});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
+            this.ribbon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ribbon.MaxItemId = 189;
             this.ribbon.Name = "ribbon";
             this.ribbon.PageHeaderItemLinks.Add(this.btnmize);
@@ -411,7 +412,7 @@
             this.ribbon.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2007;
             this.ribbon.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.True;
             this.ribbon.ShowToolbarCustomizeItem = false;
-            this.ribbon.Size = new System.Drawing.Size(1248, 161);
+            this.ribbon.Size = new System.Drawing.Size(1872, 216);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             this.ribbon.Toolbar.ShowCustomizeItem = false;
             this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
@@ -1515,7 +1516,7 @@
             // 
             // btnnhapkho
             // 
-            this.btnnhapkho.Caption = "Phập Kho";
+            this.btnnhapkho.Caption = "Nhập Kho";
             this.btnnhapkho.Id = 178;
             this.btnnhapkho.ImageOptions.DisabledLargeImage = global::GUI.Properties.Resources.icons8_warehouse_32;
             this.btnnhapkho.ImageOptions.LargeImage = global::GUI.Properties.Resources.icons8_warehouse_321;
@@ -1850,10 +1851,11 @@
             this.ribbonStatusBar.ItemLinks.Add(this.btninfo_donvi);
             this.ribbonStatusBar.ItemLinks.Add(this.btnVersion);
             this.ribbonStatusBar.ItemLinks.Add(this.btnDb);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 509);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 743);
+            this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1248, 25);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1872, 37);
             // 
             // MdiManager
             // 
@@ -1903,15 +1905,16 @@
             // 
             // f_main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1248, 534);
+            this.ClientSize = new System.Drawing.Size(1872, 780);
             this.ControlBox = false;
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Close;
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "f_main";
             this.Ribbon = this.ribbon;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -44,6 +44,9 @@
             this.simpleSeparator1 = new DevExpress.XtraLayout.SimpleSeparator();
             this.simpleSeparator2 = new DevExpress.XtraLayout.SimpleSeparator();
             this.simpleSeparator3 = new DevExpress.XtraLayout.SimpleSeparator();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
@@ -90,8 +93,9 @@
             this.layoutControl1.Controls.Add(this.tgsloai);
             this.layoutControl1.Controls.Add(this.rdgloai);
             this.layoutControl1.Controls.Add(this.tgsmode);
-            this.layoutControl1.Location = new System.Drawing.Point(0, 53);
-            this.layoutControl1.Size = new System.Drawing.Size(1228, 432);
+            this.layoutControl1.Location = new System.Drawing.Point(0, 67);
+            this.layoutControl1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.layoutControl1.Size = new System.Drawing.Size(1842, 651);
             this.layoutControl1.Controls.SetChildIndex(this.txtdanhmuc, 0);
             this.layoutControl1.Controls.SetChildIndex(this.tgsmode, 0);
             this.layoutControl1.Controls.SetChildIndex(this.rdgloai, 0);
@@ -107,16 +111,17 @@
             this.ltgsloai,
             this.simpleSeparator2,
             this.simpleSeparator3});
-            this.Root.Size = new System.Drawing.Size(1228, 432);
+            this.Root.Size = new System.Drawing.Size(1842, 651);
             // 
             // layoutControlItem1
             // 
-            this.layoutControlItem1.Size = new System.Drawing.Size(479, 275);
+            this.layoutControlItem1.Size = new System.Drawing.Size(691, 340);
             // 
             // txtdanhmuc
             // 
             this.txtdanhmuc.EditValue = "Công Trình";
-            this.txtdanhmuc.Location = new System.Drawing.Point(447, 388);
+            this.txtdanhmuc.Location = new System.Drawing.Point(681, 559);
+            this.txtdanhmuc.Size = new System.Drawing.Size(415, 28);
             // 
             // layoutControlItem2
             // 
@@ -138,12 +143,12 @@
             // 
             // tgsmode
             // 
-            this.tgsmode.Location = new System.Drawing.Point(799, 12);
+            this.tgsmode.Location = new System.Drawing.Point(845, 25);
             this.tgsmode.MenuManager = this.barManager1;
             this.tgsmode.Name = "tgsmode";
             this.tgsmode.Properties.OffText = "Chi Tiết";
             this.tgsmode.Properties.OnText = "Tổng Hợp";
-            this.tgsmode.Size = new System.Drawing.Size(119, 24);
+            this.tgsmode.Size = new System.Drawing.Size(302, 34);
             this.tgsmode.StyleController = this.layoutControl1;
             this.tgsmode.TabIndex = 11;
             this.tgsmode.EditValueChanged += new System.EventHandler(this.tgsmode_EditValueChanged);
@@ -161,7 +166,7 @@
             // 
             // rdgloai
             // 
-            this.rdgloai.Location = new System.Drawing.Point(975, 12);
+            this.rdgloai.Location = new System.Drawing.Point(1239, 25);
             this.rdgloai.MenuManager = this.barManager1;
             this.rdgloai.Name = "rdgloai";
             this.rdgloai.Properties.Columns = 3;
@@ -170,7 +175,7 @@
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Nhập Mua"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Nội Bộ"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Tất Cả")});
-            this.rdgloai.Size = new System.Drawing.Size(241, 25);
+            this.rdgloai.Size = new System.Drawing.Size(577, 54);
             this.rdgloai.StyleController = this.layoutControl1;
             this.rdgloai.TabIndex = 12;
             this.rdgloai.SelectedIndexChanged += new System.EventHandler(this.rdgloai_SelectedIndexChanged);
@@ -205,86 +210,105 @@
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.rdgloai;
-            this.layoutControlItem8.Location = new System.Drawing.Point(912, 0);
-            this.layoutControlItem8.MaxSize = new System.Drawing.Size(296, 29);
-            this.layoutControlItem8.MinSize = new System.Drawing.Size(296, 29);
+            this.layoutControlItem8.Location = new System.Drawing.Point(1132, 0);
+            this.layoutControlItem8.MaxSize = new System.Drawing.Size(666, 62);
+            this.layoutControlItem8.MinSize = new System.Drawing.Size(666, 62);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(296, 29);
+            this.layoutControlItem8.Size = new System.Drawing.Size(666, 62);
             this.layoutControlItem8.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem8.Text = "Loại Nhập";
-            this.layoutControlItem8.TextSize = new System.Drawing.Size(47, 13);
+            this.layoutControlItem8.TextSize = new System.Drawing.Size(72, 19);
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.Location = new System.Drawing.Point(0, 0);
-            this.emptySpaceItem2.MinSize = new System.Drawing.Size(104, 24);
+            this.emptySpaceItem2.MinSize = new System.Drawing.Size(234, 51);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(550, 29);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(323, 62);
             this.emptySpaceItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.tgsmode;
-            this.layoutControlItem7.Location = new System.Drawing.Point(736, 0);
-            this.layoutControlItem7.MaxSize = new System.Drawing.Size(174, 29);
-            this.layoutControlItem7.MinSize = new System.Drawing.Size(174, 29);
+            this.layoutControlItem7.Location = new System.Drawing.Point(738, 0);
+            this.layoutControlItem7.MaxSize = new System.Drawing.Size(391, 62);
+            this.layoutControlItem7.MinSize = new System.Drawing.Size(391, 62);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(174, 29);
+            this.layoutControlItem7.Size = new System.Drawing.Size(391, 62);
             this.layoutControlItem7.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem7.Text = "Báo Cáo";
-            this.layoutControlItem7.TextSize = new System.Drawing.Size(47, 13);
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(72, 19);
             // 
             // tgsloai
             // 
-            this.tgsloai.Location = new System.Drawing.Point(615, 12);
+            this.tgsloai.Location = new System.Drawing.Point(433, 25);
             this.tgsloai.MenuManager = this.barManager1;
             this.tgsloai.Name = "tgsloai";
             this.tgsloai.Properties.OffText = "Vật Tư";
             this.tgsloai.Properties.OnText = "Phiếu Nhập";
-            this.tgsloai.Size = new System.Drawing.Size(127, 24);
+            this.tgsloai.Size = new System.Drawing.Size(320, 34);
             this.tgsloai.StyleController = this.layoutControl1;
             this.tgsloai.TabIndex = 13;
             // 
             // ltgsloai
             // 
             this.ltgsloai.Control = this.tgsloai;
-            this.ltgsloai.Location = new System.Drawing.Point(552, 0);
-            this.ltgsloai.MaxSize = new System.Drawing.Size(182, 29);
-            this.ltgsloai.MinSize = new System.Drawing.Size(182, 29);
+            this.ltgsloai.Location = new System.Drawing.Point(326, 0);
+            this.ltgsloai.MaxSize = new System.Drawing.Size(409, 62);
+            this.ltgsloai.MinSize = new System.Drawing.Size(409, 62);
             this.ltgsloai.Name = "ltgsloai";
-            this.ltgsloai.Size = new System.Drawing.Size(182, 29);
+            this.ltgsloai.Size = new System.Drawing.Size(409, 62);
             this.ltgsloai.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.ltgsloai.Text = "Xem Theo";
-            this.ltgsloai.TextSize = new System.Drawing.Size(47, 13);
+            this.ltgsloai.TextSize = new System.Drawing.Size(72, 19);
             // 
             // simpleSeparator1
             // 
             this.simpleSeparator1.AllowHotTrack = false;
-            this.simpleSeparator1.Location = new System.Drawing.Point(550, 0);
+            this.simpleSeparator1.Location = new System.Drawing.Point(323, 0);
             this.simpleSeparator1.Name = "simpleSeparator1";
-            this.simpleSeparator1.Size = new System.Drawing.Size(2, 29);
+            this.simpleSeparator1.Size = new System.Drawing.Size(3, 62);
             // 
             // simpleSeparator2
             // 
             this.simpleSeparator2.AllowHotTrack = false;
-            this.simpleSeparator2.Location = new System.Drawing.Point(734, 0);
+            this.simpleSeparator2.Location = new System.Drawing.Point(735, 0);
             this.simpleSeparator2.Name = "simpleSeparator2";
-            this.simpleSeparator2.Size = new System.Drawing.Size(2, 29);
+            this.simpleSeparator2.Size = new System.Drawing.Size(3, 62);
             // 
             // simpleSeparator3
             // 
             this.simpleSeparator3.AllowHotTrack = false;
-            this.simpleSeparator3.Location = new System.Drawing.Point(910, 0);
+            this.simpleSeparator3.Location = new System.Drawing.Point(1129, 0);
             this.simpleSeparator3.Name = "simpleSeparator3";
-            this.simpleSeparator3.Size = new System.Drawing.Size(2, 29);
+            this.simpleSeparator3.Size = new System.Drawing.Size(3, 62);
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Search 68";
+            this.barButtonItem1.Id = 7;
+            this.barButtonItem1.Name = "barButtonItem1";
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "Search All 68";
+            this.barButtonItem2.Id = 8;
+            this.barButtonItem2.Name = "barButtonItem2";
+            // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "barButtonItem3";
+            this.barButtonItem3.Id = 9;
+            this.barButtonItem3.Name = "barButtonItem3";
             // 
             // f_pxmbcnhapkho
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1228, 508);
+            this.ClientSize = new System.Drawing.Size(1842, 742);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "f_pxmbcnhapkho";
             this.Text = "Báo Cáo Nhập Kho";
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).EndInit();
@@ -339,5 +363,8 @@
         private DevExpress.XtraLayout.SimpleSeparator simpleSeparator1;
         private DevExpress.XtraLayout.SimpleSeparator simpleSeparator2;
         private DevExpress.XtraLayout.SimpleSeparator simpleSeparator3;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
     }
 }

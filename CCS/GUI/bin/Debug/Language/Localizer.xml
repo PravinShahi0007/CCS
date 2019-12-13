@@ -1,2050 +1,1996 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <data name="StringId.None">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CaptionError">
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Localizer name="StringId.None">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CaptionError">
     <value>Error</value>
-  </data>
-  <data name="StringId.InvalidValueText">
+  </Localizer>
+  <Localizer name="StringId.InvalidValueText">
     <value>Invalid Value</value>
-  </data>
-  <data name="StringId.CheckChecked">
+  </Localizer>
+  <Localizer name="StringId.CheckChecked">
     <value>Checked</value>
-  </data>
-  <data name="StringId.CheckUnchecked">
+  </Localizer>
+  <Localizer name="StringId.CheckUnchecked">
     <value>Unchecked</value>
-  </data>
-  <data name="StringId.CheckIndeterminate">
+  </Localizer>
+  <Localizer name="StringId.CheckIndeterminate">
     <value>Indeterminate</value>
-  </data>
-  <data name="StringId.SearchControlNullValuePrompt">
+  </Localizer>
+  <Localizer name="StringId.SearchControlNullValuePrompt">
     <value>Enter text to search...</value>
-  </data>
-  <data name="StringId.DateEditToday">
+  </Localizer>
+  <Localizer name="StringId.DateEditToday">
     <value>Today</value>
-  </data>
-  <data name="StringId.DateEditClear">
+  </Localizer>
+  <Localizer name="StringId.DateEditClear">
     <value>Clear</value>
-  </data>
-  <data name="StringId.OK">
+  </Localizer>
+  <Localizer name="StringId.OK">
     <value>OK</value>
-  </data>
-  <data name="StringId.Cancel">
+  </Localizer>
+  <Localizer name="StringId.Cancel">
     <value>Cancel</value>
-  </data>
-  <data name="StringId.NavigatorFirstButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorFirstButtonHint">
     <value>First</value>
-  </data>
-  <data name="StringId.NavigatorPreviousButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorPreviousButtonHint">
     <value>Previous</value>
-  </data>
-  <data name="StringId.NavigatorPreviousPageButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorPreviousPageButtonHint">
     <value>Previous Page</value>
-  </data>
-  <data name="StringId.NavigatorNextButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorNextButtonHint">
     <value>Next</value>
-  </data>
-  <data name="StringId.NavigatorNextPageButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorNextPageButtonHint">
     <value>Next Page</value>
-  </data>
-  <data name="StringId.NavigatorLastButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorLastButtonHint">
     <value>Last</value>
-  </data>
-  <data name="StringId.NavigatorAppendButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorAppendButtonHint">
     <value>Append</value>
-  </data>
-  <data name="StringId.NavigatorRemoveButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorRemoveButtonHint">
     <value>Delete</value>
-  </data>
-  <data name="StringId.NavigatorEditButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorEditButtonHint">
     <value>Edit</value>
-  </data>
-  <data name="StringId.NavigatorEndEditButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorEndEditButtonHint">
     <value>End Edit</value>
-  </data>
-  <data name="StringId.NavigatorCancelEditButtonHint">
+  </Localizer>
+  <Localizer name="StringId.NavigatorCancelEditButtonHint">
     <value>Cancel Edit</value>
-  </data>
-  <data name="StringId.NavigatorTextStringFormat">
+  </Localizer>
+  <Localizer name="StringId.NavigatorTextStringFormat">
     <value>Record {0} of {1}</value>
-  </data>
-  <data name="StringId.PictureEditMenuCut">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuCut">
     <value>Cut</value>
-  </data>
-  <data name="StringId.PictureEditMenuCopy">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuCopy">
     <value>Copy</value>
-  </data>
-  <data name="StringId.PictureEditMenuPaste">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuPaste">
     <value>Paste</value>
-  </data>
-  <data name="StringId.PictureEditMenuDelete">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuDelete">
     <value>Delete</value>
-  </data>
-  <data name="StringId.PictureEditMenuLoad">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuLoad">
     <value>Load</value>
-  </data>
-  <data name="StringId.PictureEditMenuSave">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuSave">
     <value>Save</value>
-  </data>
-  <data name="StringId.PictureEditOpenFileFilter">
+  </Localizer>
+  <Localizer name="StringId.PictureEditOpenFileFilter">
     <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg;*.jpeg)|*.jpg;*.jpeg|Icon Files (*.ico)|*.ico|Portable Network Graphics Format (*.png)|*.png|Scalable Vector Graphics Format (*.svg)|*.svg|All Picture Files |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif;*.svg|All Files |*.*</value>
-  </data>
-  <data name="StringId.PictureEditSaveFileFilter">
+  </Localizer>
+  <Localizer name="StringId.PictureEditSaveFileFilter">
     <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg)|*.jpg|Portable Network Graphics Format (*.png)|*.png|Scalable Vector Graphics Format (*.svg)|*.svg</value>
-  </data>
-  <data name="StringId.PictureEditOpenFileTitle">
+  </Localizer>
+  <Localizer name="StringId.PictureEditOpenFileTitle">
     <value>Open</value>
-  </data>
-  <data name="StringId.PictureEditSaveFileTitle">
+  </Localizer>
+  <Localizer name="StringId.PictureEditSaveFileTitle">
     <value>Save As</value>
-  </data>
-  <data name="StringId.PictureEditOpenFileError">
+  </Localizer>
+  <Localizer name="StringId.PictureEditOpenFileError">
     <value>Wrong picture format</value>
-  </data>
-  <data name="StringId.PictureEditOpenFileErrorCaption">
+  </Localizer>
+  <Localizer name="StringId.PictureEditOpenFileErrorCaption">
     <value>Open error</value>
-  </data>
-  <data name="StringId.PictureEditCopyImageError">
+  </Localizer>
+  <Localizer name="StringId.PictureEditCopyImageError">
     <value>Could not copy image</value>
-  </data>
-  <data name="StringId.LookUpEditValueIsNull">
+  </Localizer>
+  <Localizer name="StringId.LookUpEditValueIsNull">
     <value>[EditValue is null]</value>
-  </data>
-  <data name="StringId.LookUpInvalidEditValueType">
+  </Localizer>
+  <Localizer name="StringId.LookUpInvalidEditValueType">
     <value>Invalid LookUpEdit EditValue type.</value>
-  </data>
-  <data name="StringId.LookUpColumnDefaultName">
+  </Localizer>
+  <Localizer name="StringId.LookUpColumnDefaultName">
     <value>Name</value>
-  </data>
-  <data name="StringId.MaskBoxValidateError">
+  </Localizer>
+  <Localizer name="StringId.MaskBoxValidateError">
     <value>The entered value is incomplete.  Do you want to correct it?
 
 Yes - to the editor and correct the value.
 No - leave the value as is.
 Cancel - reset to the previous value.
 </value>
-  </data>
-  <data name="StringId.UnknownPictureFormat">
+  </Localizer>
+  <Localizer name="StringId.UnknownPictureFormat">
     <value>Unknown picture format</value>
-  </data>
-  <data name="StringId.DataEmpty">
+  </Localizer>
+  <Localizer name="StringId.DataEmpty">
     <value>No image data</value>
-  </data>
-  <data name="StringId.NotValidArrayLength">
+  </Localizer>
+  <Localizer name="StringId.NotValidArrayLength">
     <value>Not valid array length.</value>
-  </data>
-  <data name="StringId.ImagePopupEmpty">
+  </Localizer>
+  <Localizer name="StringId.ImagePopupEmpty">
     <value>(Empty)</value>
-  </data>
-  <data name="StringId.ImagePopupPicture">
+  </Localizer>
+  <Localizer name="StringId.ImagePopupPicture">
     <value>(Picture)</value>
-  </data>
-  <data name="StringId.ColorTabCustom">
+  </Localizer>
+  <Localizer name="StringId.ColorTabCustom">
     <value>Custom</value>
-  </data>
-  <data name="StringId.ColorTabWeb">
+  </Localizer>
+  <Localizer name="StringId.ColorTabWeb">
     <value>Web</value>
-  </data>
-  <data name="StringId.ColorTabSystem">
+  </Localizer>
+  <Localizer name="StringId.ColorTabSystem">
     <value>System</value>
-  </data>
-  <data name="StringId.CalcButtonMC">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonMC">
     <value>MC</value>
-  </data>
-  <data name="StringId.CalcButtonMR">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonMR">
     <value>MR</value>
-  </data>
-  <data name="StringId.CalcButtonMS">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonMS">
     <value>MS</value>
-  </data>
-  <data name="StringId.CalcButtonMx">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonMx">
     <value>M+</value>
-  </data>
-  <data name="StringId.CalcButtonSqrt">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonSqrt">
     <value>sqrt</value>
-  </data>
-  <data name="StringId.CalcButtonBack">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonBack">
     <value>Back</value>
-  </data>
-  <data name="StringId.CalcButtonCE">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonCE">
     <value>CE</value>
-  </data>
-  <data name="StringId.CalcButtonC">
+  </Localizer>
+  <Localizer name="StringId.CalcButtonC">
     <value>C</value>
-  </data>
-  <data name="StringId.CalcError">
+  </Localizer>
+  <Localizer name="StringId.CalcError">
     <value>Calculation Error</value>
-  </data>
-  <data name="StringId.TabHeaderButtonPrev">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonPrev">
     <value>Scroll Left</value>
-  </data>
-  <data name="StringId.TabHeaderButtonNext">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonNext">
     <value>Scroll Right</value>
-  </data>
-  <data name="StringId.TabHeaderButtonUp">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonUp">
     <value>Scroll Up</value>
-  </data>
-  <data name="StringId.TabHeaderButtonDown">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonDown">
     <value>Scroll Down</value>
-  </data>
-  <data name="StringId.TabHeaderButtonClose">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonClose">
     <value>Close</value>
-  </data>
-  <data name="StringId.TabHeaderButtonPin">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonPin">
     <value>Pin</value>
-  </data>
-  <data name="StringId.TabHeaderButtonUnpin">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderButtonUnpin">
     <value>Unpin</value>
-  </data>
-  <data name="StringId.TabHeaderSelectorButton">
+  </Localizer>
+  <Localizer name="StringId.TabHeaderSelectorButton">
     <value>Show Window List</value>
-  </data>
-  <data name="StringId.XtraMessageBoxOkButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxOkButtonText">
     <value>&amp;OK</value>
-  </data>
-  <data name="StringId.XtraMessageBoxCancelButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxCancelButtonText">
     <value>&amp;Cancel</value>
-  </data>
-  <data name="StringId.XtraMessageBoxYesButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxYesButtonText">
     <value>&amp;Yes</value>
-  </data>
-  <data name="StringId.XtraMessageBoxNoButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxNoButtonText">
     <value>&amp;No</value>
-  </data>
-  <data name="StringId.XtraMessageBoxAbortButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxAbortButtonText">
     <value>&amp;Abort</value>
-  </data>
-  <data name="StringId.XtraMessageBoxRetryButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxRetryButtonText">
     <value>&amp;Retry</value>
-  </data>
-  <data name="StringId.XtraMessageBoxIgnoreButtonText">
+  </Localizer>
+  <Localizer name="StringId.XtraMessageBoxIgnoreButtonText">
     <value>&amp;Ignore</value>
-  </data>
-  <data name="StringId.TextEditMenuUndo">
+  </Localizer>
+  <Localizer name="StringId.TextEditMenuUndo">
     <value>&amp;Undo</value>
-  </data>
-  <data name="StringId.TextEditMenuCut">
+  </Localizer>
+  <Localizer name="StringId.TextEditMenuCut">
     <value>Cu&amp;t</value>
-  </data>
-  <data name="StringId.TextEditMenuCopy">
+  </Localizer>
+  <Localizer name="StringId.TextEditMenuCopy">
     <value>&amp;Copy</value>
-  </data>
-  <data name="StringId.TextEditMenuPaste">
+  </Localizer>
+  <Localizer name="StringId.TextEditMenuPaste">
     <value>&amp;Paste</value>
-  </data>
-  <data name="StringId.TextEditMenuDelete">
+  </Localizer>
+  <Localizer name="StringId.TextEditMenuDelete">
     <value>&amp;Delete</value>
-  </data>
-  <data name="StringId.TextEditMenuSelectAll">
+  </Localizer>
+  <Localizer name="StringId.TextEditMenuSelectAll">
     <value>Select &amp;All</value>
-  </data>
-  <data name="StringId.FilterEditorTabText">
+  </Localizer>
+  <Localizer name="StringId.FilterEditorTabText">
     <value>Text</value>
-  </data>
-  <data name="StringId.FilterEditorTabVisual">
+  </Localizer>
+  <Localizer name="StringId.FilterEditorTabVisual">
     <value>Visual</value>
-  </data>
-  <data name="StringId.FilterShowAll">
+  </Localizer>
+  <Localizer name="StringId.FilterShowAll">
     <value>(Select All)</value>
-  </data>
-  <data name="StringId.FilterGroupAnd">
+  </Localizer>
+  <Localizer name="StringId.FilterGroupAnd">
     <value>And</value>
-  </data>
-  <data name="StringId.FilterGroupNotAnd">
+  </Localizer>
+  <Localizer name="StringId.FilterGroupNotAnd">
     <value>Not And</value>
-  </data>
-  <data name="StringId.FilterGroupNotOr">
+  </Localizer>
+  <Localizer name="StringId.FilterGroupNotOr">
     <value>Not Or</value>
-  </data>
-  <data name="StringId.FilterGroupOr">
+  </Localizer>
+  <Localizer name="StringId.FilterGroupOr">
     <value>Or</value>
-  </data>
-  <data name="StringId.FilterClauseAnyOf">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseAnyOf">
     <value>Is any of</value>
-  </data>
-  <data name="StringId.FilterClauseBeginsWith">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseBeginsWith">
     <value>Begins with</value>
-  </data>
-  <data name="StringId.FilterClauseBetween">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseBetween">
     <value>Is between</value>
-  </data>
-  <data name="StringId.FilterClauseBetweenAnd">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseBetweenAnd">
     <value>and</value>
-  </data>
-  <data name="StringId.FilterClauseContains">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseContains">
     <value>Contains</value>
-  </data>
-  <data name="StringId.FilterClauseEndsWith">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseEndsWith">
     <value>Ends with</value>
-  </data>
-  <data name="StringId.FilterClauseEquals">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseEquals">
     <value>Equals</value>
-  </data>
-  <data name="StringId.FilterClauseGreater">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseGreater">
     <value>Is greater than</value>
-  </data>
-  <data name="StringId.FilterClauseGreaterOrEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseGreaterOrEqual">
     <value>Is greater than or equal to</value>
-  </data>
-  <data name="StringId.FilterClauseIsNotNull">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseIsNotNull">
     <value>Is not null</value>
-  </data>
-  <data name="StringId.FilterClauseIsNull">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseIsNull">
     <value>Is null</value>
-  </data>
-  <data name="StringId.FilterClauseIsNotNullOrEmpty">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseIsNotNullOrEmpty">
     <value>Is not blank</value>
-  </data>
-  <data name="StringId.FilterClauseIsNullOrEmpty">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseIsNullOrEmpty">
     <value>Is blank</value>
-  </data>
-  <data name="StringId.FilterClauseLess">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseLess">
     <value>Is less than</value>
-  </data>
-  <data name="StringId.FilterClauseLessOrEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseLessOrEqual">
     <value>Is less than or equal to</value>
-  </data>
-  <data name="StringId.FilterClauseLike">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseLike">
     <value>Is like</value>
-  </data>
-  <data name="StringId.FilterClauseNoneOf">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseNoneOf">
     <value>Is none of</value>
-  </data>
-  <data name="StringId.FilterClauseNotBetween">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseNotBetween">
     <value>Is not between</value>
-  </data>
-  <data name="StringId.FilterClauseDoesNotContain">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseDoesNotContain">
     <value>Does not contain</value>
-  </data>
-  <data name="StringId.FilterClauseDoesNotEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseDoesNotEqual">
     <value>Does not equal</value>
-  </data>
-  <data name="StringId.FilterClauseNotLike">
+  </Localizer>
+  <Localizer name="StringId.FilterClauseNotLike">
     <value>Is not like</value>
-  </data>
-  <data name="StringId.FilterEmptyEnter">
+  </Localizer>
+  <Localizer name="StringId.FilterEmptyEnter">
     <value>&lt;enter a value&gt;</value>
-  </data>
-  <data name="StringId.FilterEmptyParameter">
+  </Localizer>
+  <Localizer name="StringId.FilterEmptyParameter">
     <value>&lt;enter a parameter name&gt;</value>
-  </data>
-  <data name="StringId.FilterMenuAddNewParameter">
+  </Localizer>
+  <Localizer name="StringId.FilterMenuAddNewParameter">
     <value>Add Parameter...</value>
-  </data>
-  <data name="StringId.FilterEmptyValue">
+  </Localizer>
+  <Localizer name="StringId.FilterEmptyValue">
     <value>&lt;empty&gt;</value>
-  </data>
-  <data name="StringId.FilterMenuConditionAdd">
+  </Localizer>
+  <Localizer name="StringId.FilterMenuConditionAdd">
     <value>Add Condition</value>
-  </data>
-  <data name="StringId.FilterMenuGroupAdd">
+  </Localizer>
+  <Localizer name="StringId.FilterMenuGroupAdd">
     <value>Add Group</value>
-  </data>
-  <data name="StringId.FilterMenuClearAll">
+  </Localizer>
+  <Localizer name="StringId.FilterMenuClearAll">
     <value>Clear All</value>
-  </data>
-  <data name="StringId.FilterMenuRowRemove">
+  </Localizer>
+  <Localizer name="StringId.FilterMenuRowRemove">
     <value>Remove Group</value>
-  </data>
-  <data name="StringId.FilterToolTipNodeAdd">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipNodeAdd">
     <value>Adds a new condition to this group</value>
-  </data>
-  <data name="StringId.FilterToolTipNodeRemove">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipNodeRemove">
     <value>Removes this condition</value>
-  </data>
-  <data name="StringId.FilterToolTipNodeAction">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipNodeAction">
     <value>Actions</value>
-  </data>
-  <data name="StringId.FilterToolTipValueType">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipValueType">
     <value>Compare with a value / another field's value</value>
-  </data>
-  <data name="StringId.FilterToolTipElementAdd">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipElementAdd">
     <value>Adds a new item to the list</value>
-  </data>
-  <data name="StringId.FilterToolTipKeysAdd">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipKeysAdd">
     <value>(Use the Insert or Add key)</value>
-  </data>
-  <data name="StringId.FilterToolTipKeysRemove">
+  </Localizer>
+  <Localizer name="StringId.FilterToolTipKeysRemove">
     <value>(Use the Delete or Subtract key)</value>
-  </data>
-  <data name="StringId.ContainerAccessibleEditName">
+  </Localizer>
+  <Localizer name="StringId.ContainerAccessibleEditName">
     <value>Editing control</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringGroupOperatorAnd">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringGroupOperatorAnd">
     <value>And</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringGroupOperatorOr">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringGroupOperatorOr">
     <value>Or</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringUnaryOperatorBitwiseNot">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringUnaryOperatorBitwiseNot">
     <value>~</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringUnaryOperatorIsNull">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringUnaryOperatorIsNull">
     <value>Is Null</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringUnaryOperatorMinus">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringUnaryOperatorMinus">
     <value>-</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringUnaryOperatorNot">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringUnaryOperatorNot">
     <value>Not</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringUnaryOperatorPlus">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringUnaryOperatorPlus">
     <value>+</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd">
     <value>&amp;</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseOr">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseOr">
     <value>|</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseXor">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseXor">
     <value>^</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorDivide">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorDivide">
     <value>/</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorEqual">
     <value>=</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreater">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorGreater">
     <value>&gt;</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual">
     <value>&gt;=</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorLess">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorLess">
     <value>&lt;</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorLessOrEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorLessOrEqual">
     <value>&lt;=</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorLike">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorLike">
     <value>Like</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorMinus">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorMinus">
     <value>-</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorModulo">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorModulo">
     <value>%</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorMultiply">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorMultiply">
     <value>*</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorNotEqual">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorNotEqual">
     <value>&lt;&gt;</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBinaryOperatorPlus">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBinaryOperatorPlus">
     <value>+</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringBetween">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringBetween">
     <value>Between</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringIn">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringIn">
     <value>In</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringIsNotNull">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringIsNotNull">
     <value>Is Not Null</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringNotLike">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringNotLike">
     <value>Not Like</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIif">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIif">
     <value>Iif</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsNull">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsNull">
     <value>IsNull</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLen">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLen">
     <value>Len</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLower">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLower">
     <value>Lower</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionNone">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionNone">
     <value>None</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionSubstring">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionSubstring">
     <value>Substring</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionTrim">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionTrim">
     <value>Trim</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionUpper">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionUpper">
     <value>Upper</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsThisYear">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsThisMonth">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsThisWeek">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsThisYear">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsThisMonth">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsThisWeek">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisYear">
     <value>This year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisMonth">
     <value>This month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastWeek">
     <value>Last week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisWeek">
     <value>This week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYesterday">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYesterday">
     <value>Yesterday</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeToday">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeToday">
     <value>Today</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNow">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNow">
     <value>Now</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTomorrow">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTomorrow">
     <value>Tomorrow</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeDayAfterTomorrow">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeDayAfterTomorrow">
     <value>Day after tomorrow</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextWeek">
     <value>Next week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoWeeksAway">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoWeeksAway">
     <value>Two weeks away</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextMonth">
     <value>Next month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextYear">
     <value>Next year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalBeyondThisYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalBeyondThisYear">
     <value>Is beyond this year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisYear">
     <value>Is later this year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisMonth">
     <value>Is later this month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalNextWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalNextWeek">
     <value>Is next week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisWeek">
     <value>Is later this week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalTomorrow">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalTomorrow">
     <value>Is tomorrow</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalToday">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalToday">
     <value>Is today</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalYesterday">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalYesterday">
     <value>Is yesterday</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisWeek">
     <value>Is earlier this week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLastWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLastWeek">
     <value>Is last week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisMonth">
     <value>Is earlier this month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisYear">
     <value>Is earlier this year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalPriorThisYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalPriorThisYear">
     <value>Is prior to this year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionCustom">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionCustom">
     <value>Custom</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionCustomNonDeterministic">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionCustomNonDeterministic">
     <value>Custom non deterministic</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsNullOrEmpty">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsNullOrEmpty">
     <value>Is null or empty</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionConcat">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionConcat">
     <value>Concat</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAscii">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAscii">
     <value>Ascii</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionChar">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionChar">
     <value>Char</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToInt">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToInt">
     <value>To int</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToLong">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToLong">
     <value>To long</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToFloat">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToFloat">
     <value>To float</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToDouble">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToDouble">
     <value>To double</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToDecimal">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToDecimal">
     <value>To decimal</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToStr">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToStr">
     <value>To str</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionReplace">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionReplace">
     <value>Replace</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionReverse">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionReverse">
     <value>Reverse</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionInsert">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionInsert">
     <value>Insert</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionCharIndex">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionCharIndex">
     <value>Char index</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionRemove">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionRemove">
     <value>Remove</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAbs">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAbs">
     <value>Abs</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionSqr">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionSqr">
     <value>Sqr</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionCos">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionCos">
     <value>Cos</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionSin">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionSin">
     <value>Sin</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAtn">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAtn">
     <value>Atn</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionExp">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionExp">
     <value>Exp</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLog">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLog">
     <value>Log</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionRnd">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionRnd">
     <value>Rnd</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionTan">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionTan">
     <value>Tan</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionPower">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionPower">
     <value>Power</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionSign">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionSign">
     <value>Sign</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionRound">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionRound">
     <value>Round</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionCeiling">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionCeiling">
     <value>Ceiling</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionFloor">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionFloor">
     <value>Floor</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionMax">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionMax">
     <value>Max</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionMin">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionMin">
     <value>Min</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAcos">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAcos">
     <value>Acos</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAsin">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAsin">
     <value>Asin</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAtn2">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAtn2">
     <value>Atn2</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionBigMul">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionBigMul">
     <value>Big mul</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionCosh">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionCosh">
     <value>Cosh</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLog10">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLog10">
     <value>Log10</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionSinh">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionSinh">
     <value>Sinh</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionTanh">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionTanh">
     <value>Tanh</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionPadLeft">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionPadLeft">
     <value>Pad left</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionPadRight">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionPadRight">
     <value>Pad right</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffTick">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffTick">
     <value>Date diff tick</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffSecond">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffSecond">
     <value>Date diff second</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMilliSecond">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffMilliSecond">
     <value>Date diff millisecond</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMinute">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffMinute">
     <value>Date diff minute</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffHour">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffHour">
     <value>Date diff hour</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffDay">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffDay">
     <value>Date diff day</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffMonth">
     <value>Date diff month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionDateDiffYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionDateDiffYear">
     <value>Date diff year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetDate">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetDate">
     <value>Get date</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetMilliSecond">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetMilliSecond">
     <value>Get millisecond</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetSecond">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetSecond">
     <value>Get second</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetMinute">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetMinute">
     <value>Get minute</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetHour">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetHour">
     <value>Get hour</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetDay">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetDay">
     <value>Get day</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetMonth">
     <value>Get month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetYear">
     <value>Get year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfWeek">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetDayOfWeek">
     <value>Get day of week</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetDayOfYear">
     <value>Get day of year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionGetTimeOfDay">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionGetTimeOfDay">
     <value>Get time of day</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionNow">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionNow">
     <value>Now</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionUtcNow">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionUtcNow">
     <value>Utc now</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionToday">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionToday">
     <value>Today</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddTimeSpan">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddTimeSpan">
     <value>Add time span</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddTicks">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddTicks">
     <value>Add ticks</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddMilliSeconds">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddMilliSeconds">
     <value>Add milliseconds</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddSeconds">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddSeconds">
     <value>Add seconds</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddMinutes">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddMinutes">
     <value>Add minutes</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddHours">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddHours">
     <value>Add hours</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddDays">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddDays">
     <value>Add days</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddMonths">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddMonths">
     <value>Add months</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionAddYears">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionAddYears">
     <value>Add years</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionStartsWith">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionStartsWith">
     <value>Starts with</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionEndsWith">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionEndsWith">
     <value>Ends with</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionContains">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionContains">
     <value>Contains</value>
-  </data>
-  <data name="StringId.FilterCriteriaInvalidExpression">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaInvalidExpression">
     <value>The specified expression contains invalid symbols (line {0}, character {1}).</value>
-  </data>
-  <data name="StringId.FilterCriteriaInvalidExpressionEx">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaInvalidExpressionEx">
     <value>The specified expression is invalid. {0}</value>
-  </data>
-  <data name="StringId.Apply">
+  </Localizer>
+  <Localizer name="StringId.Apply">
     <value>Apply</value>
-  </data>
-  <data name="StringId.PreviewPanelText">
+  </Localizer>
+  <Localizer name="StringId.PreviewPanelText">
     <value>Preview,</value>
-  </data>
-  <data name="StringId.TransparentBackColorNotSupported">
+  </Localizer>
+  <Localizer name="StringId.TransparentBackColorNotSupported">
     <value>This control does not support transparent background colors</value>
-  </data>
-  <data name="StringId.FilterOutlookDateText">
+  </Localizer>
+  <Localizer name="StringId.FilterOutlookDateText">
     <value>Show all|Show Empty|Filter by a specific date,|Beyond this year|Later this year|Later this month|Next week|Later this week|Tomorrow|Today|Yesterday|Earlier this week|Last week|Earlier this month|Earlier this year|Prior to this year</value>
-  </data>
-  <data name="StringId.FilterDateTimeConstantMenuCaption">
+  </Localizer>
+  <Localizer name="StringId.FilterDateTimeConstantMenuCaption">
     <value>Date and time constants</value>
-  </data>
-  <data name="StringId.FilterDateTimeOperatorMenuCaption">
+  </Localizer>
+  <Localizer name="StringId.FilterDateTimeOperatorMenuCaption">
     <value>Date and time operators</value>
-  </data>
-  <data name="StringId.FilterDateTextAlt">
+  </Localizer>
+  <Localizer name="StringId.FilterDateTextAlt">
     <value>Show all|Show Empty|Filter by a specific date,|Beyond|||Next week|Today|This week|This month|Earlier|{0,yyyy}, {0,MMMM}</value>
-  </data>
-  <data name="StringId.FilterFunctionsMenuCaption">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.DefaultBooleanTrue">
+  </Localizer>
+  <Localizer name="StringId.FilterFunctionsMenuCaption">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.DefaultBooleanTrue">
     <value>True</value>
-  </data>
-  <data name="StringId.DefaultBooleanFalse">
+  </Localizer>
+  <Localizer name="StringId.DefaultBooleanFalse">
     <value>False</value>
-  </data>
-  <data name="StringId.DefaultBooleanDefault">
+  </Localizer>
+  <Localizer name="StringId.DefaultBooleanDefault">
     <value>Default</value>
-  </data>
-  <data name="StringId.ProgressExport">
+  </Localizer>
+  <Localizer name="StringId.ProgressExport">
     <value>Exporting</value>
-  </data>
-  <data name="StringId.ProgressPrinting">
+  </Localizer>
+  <Localizer name="StringId.ProgressPrinting">
     <value>Printing</value>
-  </data>
-  <data name="StringId.ProgressCreateDocument">
+  </Localizer>
+  <Localizer name="StringId.ProgressCreateDocument">
     <value>Creating document</value>
-  </data>
-  <data name="StringId.ProgressCancel">
+  </Localizer>
+  <Localizer name="StringId.ProgressCancel">
     <value>Cancel</value>
-  </data>
-  <data name="StringId.ProgressCancelPending">
+  </Localizer>
+  <Localizer name="StringId.ProgressCancelPending">
     <value>Cancel pending</value>
-  </data>
-  <data name="StringId.ProgressLoadingData">
+  </Localizer>
+  <Localizer name="StringId.ProgressLoadingData">
     <value>Loading data</value>
-  </data>
-  <data name="StringId.FilterAggregateAvg">
+  </Localizer>
+  <Localizer name="StringId.FilterAggregateAvg">
     <value>Avg</value>
-  </data>
-  <data name="StringId.FilterAggregateCount">
+  </Localizer>
+  <Localizer name="StringId.FilterAggregateCount">
     <value>Count</value>
-  </data>
-  <data name="StringId.FilterAggregateExists">
+  </Localizer>
+  <Localizer name="StringId.FilterAggregateExists">
     <value>Exists</value>
-  </data>
-  <data name="StringId.FilterAggregateMax">
+  </Localizer>
+  <Localizer name="StringId.FilterAggregateMax">
     <value>Max</value>
-  </data>
-  <data name="StringId.FilterAggregateMin">
+  </Localizer>
+  <Localizer name="StringId.FilterAggregateMin">
     <value>Min</value>
-  </data>
-  <data name="StringId.FilterAggregateSum">
+  </Localizer>
+  <Localizer name="StringId.FilterAggregateSum">
     <value>Sum</value>
-  </data>
-  <data name="StringId.FieldListName">
+  </Localizer>
+  <Localizer name="StringId.FieldListName">
     <value>Field List ({0})</value>
-  </data>
-  <data name="StringId.RestoreLayoutDialogFileFilter">
+  </Localizer>
+  <Localizer name="StringId.RestoreLayoutDialogFileFilter">
     <value>XML files (*.xml)|*.xml|All files|*.*</value>
-  </data>
-  <data name="StringId.SaveLayoutDialogFileFilter">
+  </Localizer>
+  <Localizer name="StringId.SaveLayoutDialogFileFilter">
     <value>XML files (*.xml)|*.xml</value>
-  </data>
-  <data name="StringId.RestoreLayoutDialogTitle">
+  </Localizer>
+  <Localizer name="StringId.RestoreLayoutDialogTitle">
     <value>Restore Layout</value>
-  </data>
-  <data name="StringId.SaveLayoutDialogTitle">
+  </Localizer>
+  <Localizer name="StringId.SaveLayoutDialogTitle">
     <value>Save Layout</value>
-  </data>
-  <data name="StringId.PictureEditMenuZoom">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuZoom">
     <value>Zoom</value>
-  </data>
-  <data name="StringId.PictureEditMenuFullSize">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuFullSize">
     <value>Full Size</value>
-  </data>
-  <data name="StringId.PictureEditMenuFitImage">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuFitImage">
     <value>Fit Image</value>
-  </data>
-  <data name="StringId.PictureEditMenuZoomIn">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuZoomIn">
     <value>Zoom In</value>
-  </data>
-  <data name="StringId.PictureEditMenuZoomOut">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuZoomOut">
     <value>Zoom Out</value>
-  </data>
-  <data name="StringId.PictureEditMenuZoomTo">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuZoomTo">
     <value>Zoom to,</value>
-  </data>
-  <data name="StringId.PictureEditMenuZoomToolTip">
+  </Localizer>
+  <Localizer name="StringId.PictureEditMenuZoomToolTip">
     <value>{0}%</value>
-  </data>
-  <data name="StringId.FilterPopupToolbarShowOnlyAvailableItems">
+  </Localizer>
+  <Localizer name="StringId.FilterPopupToolbarShowOnlyAvailableItems">
     <value>Show Only Available Items</value>
-  </data>
-  <data name="StringId.FilterPopupToolbarShowNewValues">
+  </Localizer>
+  <Localizer name="StringId.FilterPopupToolbarShowNewValues">
     <value>Show New Field Values</value>
-  </data>
-  <data name="StringId.FilterPopupToolbarIncrementalSearch">
+  </Localizer>
+  <Localizer name="StringId.FilterPopupToolbarIncrementalSearch">
     <value>Incremental Search</value>
-  </data>
-  <data name="StringId.FilterPopupToolbarMultiSelection">
+  </Localizer>
+  <Localizer name="StringId.FilterPopupToolbarMultiSelection">
     <value>Multi-Selection</value>
-  </data>
-  <data name="StringId.FilterPopupToolbarRadioMode">
+  </Localizer>
+  <Localizer name="StringId.FilterPopupToolbarRadioMode">
     <value>Radio Mode</value>
-  </data>
-  <data name="StringId.FilterPopupToolbarInvertFilter">
+  </Localizer>
+  <Localizer name="StringId.FilterPopupToolbarInvertFilter">
     <value>Invert Filter</value>
-  </data>
-  <data name="StringId.ColorPickPopupAutomaticItemCaption">
+  </Localizer>
+  <Localizer name="StringId.ColorPickPopupAutomaticItemCaption">
     <value>Automatic</value>
-  </data>
-  <data name="StringId.ColorPickPopupThemeColorsGroupCaption">
+  </Localizer>
+  <Localizer name="StringId.ColorPickPopupThemeColorsGroupCaption">
     <value>Theme Colors</value>
-  </data>
-  <data name="StringId.ColorPickPopupStandardColorsGroupCaption">
+  </Localizer>
+  <Localizer name="StringId.ColorPickPopupStandardColorsGroupCaption">
     <value>Standard Colors</value>
-  </data>
-  <data name="StringId.ColorPickPopupRecentColorsGroupCaption">
+  </Localizer>
+  <Localizer name="StringId.ColorPickPopupRecentColorsGroupCaption">
     <value>Recent Colors</value>
-  </data>
-  <data name="StringId.ColorPickPopupMoreColorsItemCaption">
+  </Localizer>
+  <Localizer name="StringId.ColorPickPopupMoreColorsItemCaption">
     <value>More Colors...</value>
-  </data>
-  <data name="StringId.ColorPickHueAxisName">
+  </Localizer>
+  <Localizer name="StringId.ColorPickHueAxisName">
     <value>Hue</value>
-  </data>
-  <data name="StringId.ColorPickSaturationAxisName">
+  </Localizer>
+  <Localizer name="StringId.ColorPickSaturationAxisName">
     <value>Saturation</value>
-  </data>
-  <data name="StringId.ColorPickLuminanceAxisName">
+  </Localizer>
+  <Localizer name="StringId.ColorPickLuminanceAxisName">
     <value>Luminance</value>
-  </data>
-  <data name="StringId.ColorPickBrightnessAxisName">
+  </Localizer>
+  <Localizer name="StringId.ColorPickBrightnessAxisName">
     <value>Brightness</value>
-  </data>
-  <data name="StringId.ColorPickOpacityAxisName">
+  </Localizer>
+  <Localizer name="StringId.ColorPickOpacityAxisName">
     <value>Opacity</value>
-  </data>
-  <data name="StringId.ColorPickRedValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickRedValidationMsg">
     <value>Red component should be in range 0..255</value>
-  </data>
-  <data name="StringId.ColorPickGreenValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickGreenValidationMsg">
     <value>Green component should be in range 0..255</value>
-  </data>
-  <data name="StringId.ColorPickBlueValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickBlueValidationMsg">
     <value>Blue component should be in range 0..255</value>
-  </data>
-  <data name="StringId.ColorPickOpacityValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickOpacityValidationMsg">
     <value>Opacity component should be in range 0..255</value>
-  </data>
-  <data name="StringId.ColorPickColorHexValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickColorHexValidationMsg">
     <value>Invalid hexadecimal value</value>
-  </data>
-  <data name="StringId.ColorPickHueValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickHueValidationMsg">
     <value>Hue component should be in range 0..359</value>
-  </data>
-  <data name="StringId.ColorPickSaturationValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickSaturationValidationMsg">
     <value>Saturation component should be in range 0..100</value>
-  </data>
-  <data name="StringId.ColorPickBrightValidationMsg">
+  </Localizer>
+  <Localizer name="StringId.ColorPickBrightValidationMsg">
     <value>Brightness component should be in range 0..100</value>
-  </data>
-  <data name="StringId.ColorTabWebSafeColors">
+  </Localizer>
+  <Localizer name="StringId.ColorTabWebSafeColors">
     <value>Web-Safe</value>
-  </data>
-  <data name="StringId.Days">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.Hours">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.Mins">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.Secs">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.Millisecs">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPaused">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewError">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPendingDeletion">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPaperJam">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPaperOut">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewManualFeed">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPaperProblem">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewOffline">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewIOActive">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewBusy">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPrinting">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewOutputBinFull">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewNotAvaible">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewWaiting">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewProcessing">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewInitializing">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewWarmingUp">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewTonerLow">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewNoToner">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPagePunt">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewUserIntervention">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewOutOfMemory">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewDoorOpen">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewServerUnknown">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewPowerSave">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewReady">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewServerOffline">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.PreviewDriverUpdateNeeded">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.IncorrectNumberCopies">
+  </Localizer>
+  <Localizer name="StringId.Days">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.Hours">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.Mins">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.Secs">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.Millisecs">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPaused">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewError">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPendingDeletion">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPaperJam">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPaperOut">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewManualFeed">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPaperProblem">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewOffline">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewIOActive">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewBusy">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPrinting">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewOutputBinFull">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewNotAvaible">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewWaiting">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewProcessing">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewInitializing">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewWarmingUp">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewTonerLow">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewNoToner">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPagePunt">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewUserIntervention">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewOutOfMemory">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewDoorOpen">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewServerUnknown">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewPowerSave">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewReady">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewServerOffline">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.PreviewDriverUpdateNeeded">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.IncorrectNumberCopies">
     <value>The number must be between 1 and 32767.</value>
-  </data>
-  <data name="StringId.ChartRangeControlClientInvalidGrid">
+  </Localizer>
+  <Localizer name="StringId.ChartRangeControlClientInvalidGrid">
     <value>The interval  between grid lines is too small to be represented in the range control.</value>
-  </data>
-  <data name="StringId.ChartRangeControlClientNoData">
+  </Localizer>
+  <Localizer name="StringId.ChartRangeControlClientNoData">
     <value>There is no data to represent in a range control.</value>
-  </data>
-  <data name="StringId.DataBarBlue">
+  </Localizer>
+  <Localizer name="StringId.DataBarBlue">
     <value>Blue Data Bar</value>
-  </data>
-  <data name="StringId.DataBarLightBlue">
+  </Localizer>
+  <Localizer name="StringId.DataBarLightBlue">
     <value>Light Blue Data Bar</value>
-  </data>
-  <data name="StringId.DataBarGreen">
+  </Localizer>
+  <Localizer name="StringId.DataBarGreen">
     <value>Green Data Bar</value>
-  </data>
-  <data name="StringId.DataBarYellow">
+  </Localizer>
+  <Localizer name="StringId.DataBarYellow">
     <value>Yellow Data Bar</value>
-  </data>
-  <data name="StringId.DataBarOrange">
+  </Localizer>
+  <Localizer name="StringId.DataBarOrange">
     <value>Orange Data Bar</value>
-  </data>
-  <data name="StringId.DataBarMint">
+  </Localizer>
+  <Localizer name="StringId.DataBarMint">
     <value>Mint Data Bar</value>
-  </data>
-  <data name="StringId.DataBarViolet">
+  </Localizer>
+  <Localizer name="StringId.DataBarViolet">
     <value>Violet Data Bar</value>
-  </data>
-  <data name="StringId.DataBarRaspberry">
+  </Localizer>
+  <Localizer name="StringId.DataBarRaspberry">
     <value>Raspberry Data Bar</value>
-  </data>
-  <data name="StringId.DataBarCoral">
+  </Localizer>
+  <Localizer name="StringId.DataBarCoral">
     <value>Coral Data Bar</value>
-  </data>
-  <data name="StringId.DataBarBlueGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarBlueGradient">
     <value>Blue Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarLightBlueGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarLightBlueGradient">
     <value>Light Blue Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarGreenGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarGreenGradient">
     <value>Green Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarYellowGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarYellowGradient">
     <value>Yellow Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarOrangeGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarOrangeGradient">
     <value>Orange Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarMintGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarMintGradient">
     <value>Mint Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarVioletGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarVioletGradient">
     <value>Violet Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarRaspberryGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarRaspberryGradient">
     <value>Raspberry Data Bar Gradient</value>
-  </data>
-  <data name="StringId.DataBarCoralGradient">
+  </Localizer>
+  <Localizer name="StringId.DataBarCoralGradient">
     <value>Coral Data Bar Gradient</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemClearColumnRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemClearColumnRules">
     <value>Clear Rules from This Column</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemClearAllRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemClearAllRules">
     <value>Clear Rules from All Columns</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemHighlightCellRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemHighlightCellRules">
     <value>Highlight Cell Rules</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemTopBottomRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemTopBottomRules">
     <value>Top/Bottom Rules</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemDataBars">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemDataBars">
     <value>Data Bars</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemColorScales">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemColorScales">
     <value>Color Scales</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemIconSets">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemIconSets">
     <value>Icon Sets</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemClearRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemClearRules">
     <value>Clear Rules</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemManageRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemManageRules">
     <value>Manage Rules...</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemUniqueDuplicateRules">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemUniqueDuplicateRules">
     <value>Unique/Duplicate Rules</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemGradientFill">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemGradientFill">
     <value>Gradient Fill</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemSolidFill">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemSolidFill">
     <value>Solid Fill</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemDataBarDescription">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemDataBarDescription">
     <value>Add a colored data bar to represent
 the value in a cell. The higher the
 value, the longer the bar.</value>
-  </data>
-  <data name="StringId.IconSetCategoryRatings">
+  </Localizer>
+  <Localizer name="StringId.IconSetCategoryRatings">
     <value>Ratings</value>
-  </data>
-  <data name="StringId.IconSetCategoryIndicators">
+  </Localizer>
+  <Localizer name="StringId.IconSetCategoryIndicators">
     <value>Indicators</value>
-  </data>
-  <data name="StringId.IconSetCategorySymbols">
+  </Localizer>
+  <Localizer name="StringId.IconSetCategorySymbols">
     <value>Symbols</value>
-  </data>
-  <data name="StringId.IconSetCategoryShapes">
+  </Localizer>
+  <Localizer name="StringId.IconSetCategoryShapes">
     <value>Shapes</value>
-  </data>
-  <data name="StringId.IconSetCategoryDirectional">
+  </Localizer>
+  <Localizer name="StringId.IconSetCategoryDirectional">
     <value>Directional</value>
-  </data>
-  <data name="StringId.IconSetCategoryPositiveNegative">
+  </Localizer>
+  <Localizer name="StringId.IconSetCategoryPositiveNegative">
     <value>Positive/Negative</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemIconSetDescription">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemIconSetDescription">
     <value>Use this icon set to classify column
 values into the following ranges:</value>
-  </data>
-  <data name="StringId.ColorScaleGreenYellowRed">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleGreenYellowRed">
     <value>Green - Yellow - Red</value>
-  </data>
-  <data name="StringId.ColorScalePurpleWhiteAzure">
+  </Localizer>
+  <Localizer name="StringId.ColorScalePurpleWhiteAzure">
     <value>Purple - White - Azure</value>
-  </data>
-  <data name="StringId.ColorScaleYellowOrangeCoral">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleYellowOrangeCoral">
     <value>Yellow - Orange - Coral</value>
-  </data>
-  <data name="StringId.ColorScaleGreenWhiteRed">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleGreenWhiteRed">
     <value>Green - White - Red</value>
-  </data>
-  <data name="StringId.ColorScaleEmeraldAzureBlue">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleEmeraldAzureBlue">
     <value>Emerald - Azure - Blue</value>
-  </data>
-  <data name="StringId.ColorScaleWhiteRed">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleWhiteRed">
     <value>White - Red</value>
-  </data>
-  <data name="StringId.ColorScaleWhiteGreen">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleWhiteGreen">
     <value>White - Green</value>
-  </data>
-  <data name="StringId.ColorScaleWhiteAzure">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleWhiteAzure">
     <value>White - Azure</value>
-  </data>
-  <data name="StringId.ColorScaleYellowGreen">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleYellowGreen">
     <value>Yellow - Green</value>
-  </data>
-  <data name="StringId.ColorScaleBlueWhiteRed">
+  </Localizer>
+  <Localizer name="StringId.ColorScaleBlueWhiteRed">
     <value>Blue - White - Red</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemColorScaleDescription">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemColorScaleDescription">
     <value>Apply a color gradient to a range of
 cells in this column. The color indicates
 where each cell falls within that range.</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemUnique">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemUnique">
     <value>Unique Values</value>
-  </data>
-  <data name="StringId.FormatRuleUniqueText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleUniqueText">
     <value>Format cells that are UNIQUE VALUES</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemDuplicate">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemDuplicate">
     <value>Duplicate Values</value>
-  </data>
-  <data name="StringId.FormatRuleDuplicateText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleDuplicateText">
     <value>Format cells that are DUPLICATE VALUES</value>
-  </data>
-  <data name="StringId.FormatRuleApplyFormatProperty">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleApplyFormatProperty">
     <value>Apply formatting to an entire row</value>
-  </data>
-  <data name="StringId.FormatRuleWith">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleWith">
     <value>with</value>
-  </data>
-  <data name="StringId.FormatRuleForThisColumnWith">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleForThisColumnWith">
     <value>for this column with</value>
-  </data>
-  <data name="StringId.IconSetTitleStars3">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleStars3">
     <value>3 Stars</value>
-  </data>
-  <data name="StringId.IconSetTitleRatings4">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleRatings4">
     <value>4 Ratings</value>
-  </data>
-  <data name="StringId.IconSetTitleRatings5">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleRatings5">
     <value>5 Ratings</value>
-  </data>
-  <data name="StringId.IconSetTitleQuarters5">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleQuarters5">
     <value>5 Quarters</value>
-  </data>
-  <data name="StringId.IconSetTitleBoxes5">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleBoxes5">
     <value>5 Boxes</value>
-  </data>
-  <data name="StringId.IconSetTitleArrows3Colored">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleArrows3Colored">
     <value>3 Arrows (Colored)</value>
-  </data>
-  <data name="StringId.IconSetTitleArrows3Gray">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleArrows3Gray">
     <value>3 Arrows (Gray)</value>
-  </data>
-  <data name="StringId.IconSetTitleTriangles3">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleTriangles3">
     <value>3 Triangles</value>
-  </data>
-  <data name="StringId.IconSetTitleArrows4Colored">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleArrows4Colored">
     <value>4 Arrows (Colored)</value>
-  </data>
-  <data name="StringId.IconSetTitleArrows4Gray">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleArrows4Gray">
     <value>4 Arrows (Gray)</value>
-  </data>
-  <data name="StringId.IconSetTitleArrows5Colored">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleArrows5Colored">
     <value>5 Arrows (Colored)</value>
-  </data>
-  <data name="StringId.IconSetTitleArrows5Gray">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleArrows5Gray">
     <value>5 Arrows (Gray)</value>
-  </data>
-  <data name="StringId.IconSetTitleTrafficLights3Unrimmed">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleTrafficLights3Unrimmed">
     <value>3 Traffic Lights (Unrimmed)</value>
-  </data>
-  <data name="StringId.IconSetTitleTrafficLights3Rimmed">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleTrafficLights3Rimmed">
     <value>3 Traffic Lights (Rimmed)</value>
-  </data>
-  <data name="StringId.IconSetTitleSigns3">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleSigns3">
     <value>3 Signs</value>
-  </data>
-  <data name="StringId.IconSetTitleTrafficLights4">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleTrafficLights4">
     <value>4 Traffic Lights</value>
-  </data>
-  <data name="StringId.IconSetTitleRedToBlack">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleRedToBlack">
     <value>Red To Black</value>
-  </data>
-  <data name="StringId.IconSetTitleSymbols3Circled">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleSymbols3Circled">
     <value>3 Symbols (Circled)</value>
-  </data>
-  <data name="StringId.IconSetTitleSymbols3Uncircled">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleSymbols3Uncircled">
     <value>3 Symbols (Uncircled)</value>
-  </data>
-  <data name="StringId.IconSetTitleFlags3">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitleFlags3">
     <value>3 Flags</value>
-  </data>
-  <data name="StringId.IconSetTitlePositiveNegativeArrows">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitlePositiveNegativeArrows">
     <value>Arrows (Colored)</value>
-  </data>
-  <data name="StringId.IconSetTitlePositiveNegativeArrowsGray">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitlePositiveNegativeArrowsGray">
     <value>Arrows (Gray)</value>
-  </data>
-  <data name="StringId.IconSetTitlePositiveNegativeTriangles">
+  </Localizer>
+  <Localizer name="StringId.IconSetTitlePositiveNegativeTriangles">
     <value>Triangles</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemTop10Items">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemTop10Items">
     <value>Top 10 Items</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemTop10Percent">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemTop10Percent">
     <value>Top 10 %</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemBottom10Items">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemBottom10Items">
     <value>Bottom 10 Items</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemBottom10Percent">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemBottom10Percent">
     <value>Bottom 10 %</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemAboveAverage">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemAboveAverage">
     <value>Above Average</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemBelowAverage">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemBelowAverage">
     <value>Below Average</value>
-  </data>
-  <data name="StringId.FormatRuleTopText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleTopText">
     <value>Format cells that rank in the TOP</value>
-  </data>
-  <data name="StringId.FormatRuleBottomText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleBottomText">
     <value>Format cells that rank in the BOTTOM</value>
-  </data>
-  <data name="StringId.FormatRuleAboveAverageText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleAboveAverageText">
     <value>Format cells that are ABOVE AVERAGE</value>
-  </data>
-  <data name="StringId.FormatRuleBelowAverageText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleBelowAverageText">
     <value>Format cells that are BELOW AVERAGE</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemGreaterThan">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemGreaterThan">
     <value>Greater Than</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemLessThan">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemLessThan">
     <value>Less Than</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemBetween">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemBetween">
     <value>Between</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemEqualTo">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemEqualTo">
     <value>Equal To</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemTextThatContains">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemTextThatContains">
     <value>Text that Contains</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemCustomCondition">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemCustomCondition">
     <value>Custom Condition</value>
-  </data>
-  <data name="StringId.FormatRuleGreaterThanText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleGreaterThanText">
     <value>Format cells that are GREATER THAN</value>
-  </data>
-  <data name="StringId.FormatRuleLessThanText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleLessThanText">
     <value>Format cells that are LESS THAN</value>
-  </data>
-  <data name="StringId.FormatRuleBetweenText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleBetweenText">
     <value>Format cells that are BETWEEN</value>
-  </data>
-  <data name="StringId.FormatRuleEqualToText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleEqualToText">
     <value>Format cells that are EQUAL TO</value>
-  </data>
-  <data name="StringId.FormatRuleTextThatContainsText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleTextThatContainsText">
     <value>Format cells that contain the text</value>
-  </data>
-  <data name="StringId.FormatRuleCustomConditionText">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleCustomConditionText">
     <value>Format cells that match the following condition</value>
-  </data>
-  <data name="StringId.FormatRuleExpressionEmptyEnter">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleExpressionEmptyEnter">
     <value>&lt;enter an expression&gt;</value>
-  </data>
-  <data name="StringId.FormatRuleMenuItemDateOccurring">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleMenuItemDateOccurring">
     <value>A Date Occurring</value>
-  </data>
-  <data name="StringId.FormatRuleDateOccurring">
+  </Localizer>
+  <Localizer name="StringId.FormatRuleDateOccurring">
     <value>Format cells that contain a date matching these conditions</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceRedFillRedText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceRedFillRedText">
     <value>Red Fill with Red Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceYellowFillYellowText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceYellowFillYellowText">
     <value>Yellow Fill with Yellow Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceGreenFillGreenText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceGreenFillGreenText">
     <value>Green Fill with Green Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceRedFill">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceRedFill">
     <value>Red Fill</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceRedText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceRedText">
     <value>Red Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceGreenFill">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceGreenFill">
     <value>Green Fill</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceGreenText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceGreenText">
     <value>Green Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceBoldText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceBoldText">
     <value>Bold Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceItalicText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceItalicText">
     <value>Italic Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceStrikeoutText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceStrikeoutText">
     <value>Strikeout Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceRedBoldText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceRedBoldText">
     <value>Red Bold Text</value>
-  </data>
-  <data name="StringId.FormatPredefinedAppearanceGreenBoldText">
+  </Localizer>
+  <Localizer name="StringId.FormatPredefinedAppearanceGreenBoldText">
     <value>Green Bold Text</value>
-  </data>
-  <data name="StringId.SearchForColumn">
+  </Localizer>
+  <Localizer name="StringId.SearchForColumn">
     <value>Search for a column...</value>
-  </data>
-  <data name="StringId.SearchForField">
+  </Localizer>
+  <Localizer name="StringId.SearchForField">
     <value>Search for a field...</value>
-  </data>
-  <data name="StringId.ManageRuleCaption">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCaption">
     <value>Conditional Formatting Rules Manager</value>
-  </data>
-  <data name="StringId.ManageRuleShowFormattingRules">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleShowFormattingRules">
     <value>Show rules for:</value>
-  </data>
-  <data name="StringId.ManageRuleUp">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleUp">
     <value>Up</value>
-  </data>
-  <data name="StringId.ManageRuleDown">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDown">
     <value>Down</value>
-  </data>
-  <data name="StringId.ManageRuleNewRule">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleNewRule">
     <value>New Rule...</value>
-  </data>
-  <data name="StringId.ManageRuleEditRule">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleEditRule">
     <value>Edit Rule...</value>
-  </data>
-  <data name="StringId.ManageRuleDeleteRule">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDeleteRule">
     <value>Delete Rule</value>
-  </data>
-  <data name="StringId.ManageRuleGridCaptionRule">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleGridCaptionRule">
     <value>Rule</value>
-  </data>
-  <data name="StringId.ManageRuleGridCaptionFormat">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleGridCaptionFormat">
     <value>Format</value>
-  </data>
-  <data name="StringId.ManageRuleGridCaptionApplyToTheRow">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleGridCaptionApplyToTheRow">
     <value>Apply to the row</value>
-  </data>
-  <data name="StringId.ManageRuleGridCaptionColumn">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleGridCaptionColumn">
     <value>Column</value>
-  </data>
-  <data name="StringId.ManageRuleGridCaptionStopIfTrue">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleGridCaptionStopIfTrue">
     <value>Stop If True</value>
-  </data>
-  <data name="StringId.ManageRuleGridCaptionColumnApplyTo">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleGridCaptionColumnApplyTo">
     <value>Column Apply To</value>
-  </data>
-  <data name="StringId.ManageRuleAllColumns">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAllColumns">
     <value>(All)</value>
-  </data>
-  <data name="StringId.NewFormattingRule">
+  </Localizer>
+  <Localizer name="StringId.NewFormattingRule">
     <value>New Formatting Rule</value>
-  </data>
-  <data name="StringId.EditFormattingRule">
+  </Localizer>
+  <Localizer name="StringId.EditFormattingRule">
     <value>Edit Formatting Rule</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleSelectARuleType">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleSelectARuleType">
     <value>Select a Rule Type:</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleEditTheRuleDescription">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleEditTheRuleDescription">
     <value>Edit the Rule Description:</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleFormatAllCellsBasedOnTheirValues">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleFormatAllCellsBasedOnTheirValues">
     <value>Format all cells based on their values</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleFormatOnlyCellsThatContain">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleFormatOnlyCellsThatContain">
     <value>Format only cells that contain</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleFormatOnlyTopOrBottomRankedValues">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleFormatOnlyTopOrBottomRankedValues">
     <value>Format only top or bottom ranked values</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleFormatOnlyValuesThatAreAboveOrBelowAverage">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleFormatOnlyValuesThatAreAboveOrBelowAverage">
     <value>Format only values that are above or below average</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleFormatOnlyUniqueOrDuplicateValues">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleFormatOnlyUniqueOrDuplicateValues">
     <value>Format only unique or duplicate values</value>
-  </data>
-  <data name="StringId.NewEditFormattingRuleUseAFormulaToDetermineWhichCellsToFormat">
+  </Localizer>
+  <Localizer name="StringId.NewEditFormattingRuleUseAFormulaToDetermineWhichCellsToFormat">
     <value>Use a formula to determine which cells to format</value>
-  </data>
-  <data name="StringId.ManageRuleComplexRuleBaseFormatStyle">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleComplexRuleBaseFormatStyle">
     <value>Format Style:</value>
-  </data>
-  <data name="StringId.ManageRuleColorScale2">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleColorScale2">
     <value>2-Color Scale</value>
-  </data>
-  <data name="StringId.ManageRuleColorScale3">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleColorScale3">
     <value>3-Color Scale</value>
-  </data>
-  <data name="StringId.ManageRuleDataBar">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBar">
     <value>Data Bar</value>
-  </data>
-  <data name="StringId.ManageRuleIconSets">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleIconSets">
     <value>Icon Sets</value>
-  </data>
-  <data name="StringId.ManageRuleCommonMinimum">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonMinimum">
     <value>Minimum</value>
-  </data>
-  <data name="StringId.ManageRuleCommonMaximum">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonMaximum">
     <value>Maximum</value>
-  </data>
-  <data name="StringId.ManageRuleCommonType">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonType">
     <value>Type:</value>
-  </data>
-  <data name="StringId.ManageRuleCommonAutomatic">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonAutomatic">
     <value>Automatic</value>
-  </data>
-  <data name="StringId.ManageRuleCommonPercent">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonPercent">
     <value>Percent</value>
-  </data>
-  <data name="StringId.ManageRuleCommonNumber">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonNumber">
     <value>Number</value>
-  </data>
-  <data name="StringId.ManageRuleCommonValue">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonValue">
     <value>Value:</value>
-  </data>
-  <data name="StringId.ManageRuleCommonColor">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonColor">
     <value>Color:</value>
-  </data>
-  <data name="StringId.ManageRuleCommonPreview">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCommonPreview">
     <value>Preview:</value>
-  </data>
-  <data name="StringId.ManageRuleNoFormatSet">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleNoFormatSet">
     <value>No Format Set</value>
-  </data>
-  <data name="StringId.ManageRuleColorScaleMidpoint">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleColorScaleMidpoint">
     <value>Midpoint</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarBarAppearance">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarBarAppearance">
     <value>Bar Appearance:</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarFill">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarFill">
     <value>Fill:</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarBorder">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarBorder">
     <value>Border:</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarDrawAxis">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarDrawAxis">
     <value>Draw Axis</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarUseNegativeBar">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarUseNegativeBar">
     <value>Use Negative Bar</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarAxisColor">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarAxisColor">
     <value>Axis Color:</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarBarDirection">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarBarDirection">
     <value>Bar Direction:</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarSolidFill">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarSolidFill">
     <value>Solid Fill</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarGradientFill">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarGradientFill">
     <value>Gradient Fill</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarNoBorder">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarNoBorder">
     <value>No Border</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarSolidBorder">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarSolidBorder">
     <value>Solid Border</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarContext">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarContext">
     <value>Context</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarLTR">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarLTR">
     <value>Left-to-Right</value>
-  </data>
-  <data name="StringId.ManageRuleDataBarRTL">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDataBarRTL">
     <value>Right-to-Left</value>
-  </data>
-  <data name="StringId.ManageRuleIconSetsDisplayEachIconAccordingToTheseRules">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleIconSetsDisplayEachIconAccordingToTheseRules">
     <value>Display each icon according to these rules:</value>
-  </data>
-  <data name="StringId.ManageRuleIconSetsReverseIconOrder">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleIconSetsReverseIconOrder">
     <value>Reverse Icon Order</value>
-  </data>
-  <data name="StringId.ManageRuleIconSetsWhen">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleIconSetsWhen">
     <value>When</value>
-  </data>
-  <data name="StringId.ManageRuleIconSetsValueIs">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleIconSetsValueIs">
     <value>value is</value>
-  </data>
-  <data name="StringId.ManageRuleSimpleRuleBaseFormat">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleSimpleRuleBaseFormat">
     <value>Format...</value>
-  </data>
-  <data name="StringId.ManageRuleAverageFormatValuesThatAre">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAverageFormatValuesThatAre">
     <value>Format values that are:</value>
-  </data>
-  <data name="StringId.ManageRuleAverageTheAverageForTheSelectedRange">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAverageTheAverageForTheSelectedRange">
     <value>the average of column values</value>
-  </data>
-  <data name="StringId.ManageRuleAverageAbove">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAverageAbove">
     <value>Above</value>
-  </data>
-  <data name="StringId.ManageRuleAverageBelow">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAverageBelow">
     <value>Below</value>
-  </data>
-  <data name="StringId.ManageRuleAverageEqualOrAbove">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAverageEqualOrAbove">
     <value>Equal Or Above</value>
-  </data>
-  <data name="StringId.ManageRuleAverageEqualOrBelow">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAverageEqualOrBelow">
     <value>Equal Or Below</value>
-  </data>
-  <data name="StringId.ManageRuleFormulaFormatValuesWhereThisFormulaIsTrue">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormulaFormatValuesWhereThisFormulaIsTrue">
     <value>Format values where this formula is true:</value>
-  </data>
-  <data name="StringId.ManageRuleRankedValuesFormatValuesThatRankInThe">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleRankedValuesFormatValuesThatRankInThe">
     <value>Format values that rank in the:</value>
-  </data>
-  <data name="StringId.ManageRuleRankedValuesOfTheColumnsCellValues">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleRankedValuesOfTheColumnsCellValues">
     <value>% of column values</value>
-  </data>
-  <data name="StringId.ManageRuleRankedValuesTop">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleRankedValuesTop">
     <value>Top</value>
-  </data>
-  <data name="StringId.ManageRuleRankedValuesBottom">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleRankedValuesBottom">
     <value>Bottom</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainFormatOnlyCellsWith">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainFormatOnlyCellsWith">
     <value>Format only cells with:</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainCellValue">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainCellValue">
     <value>Cell Value</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainDatesOccurring">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainDatesOccurring">
     <value>Dates Occurring</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainSpecificText">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainSpecificText">
     <value>Specific Text</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainBlanks">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainBlanks">
     <value>Blanks</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainNoBlanks">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainNoBlanks">
     <value>No Blanks</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainErrors">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainErrors">
     <value>Errors</value>
-  </data>
-  <data name="StringId.ManageRuleThatContainNoErrors">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleThatContainNoErrors">
     <value>No Errors</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueBetween">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueBetween">
     <value>Between</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueNotBetween">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueNotBetween">
     <value>Not Between</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueEqualTo">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueEqualTo">
     <value>Equal To</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueNotEqualTo">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueNotEqualTo">
     <value>Not Equal To</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueGreaterThan">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueGreaterThan">
     <value>Greater Than</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueLessThan">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueLessThan">
     <value>Less Than</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueGreaterThanOrEqualTo">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueGreaterThanOrEqualTo">
     <value>Greater Than Or Equal To</value>
-  </data>
-  <data name="StringId.ManageRuleCellValueLessThanOrEqualTo">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleCellValueLessThanOrEqualTo">
     <value>Less Than Or Equal To</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringBeyond">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringBeyond">
     <value>Following the month in 2 months time</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringBeyondThisYear">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringBeyondThisYear">
     <value>Following this year</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringEarlier">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringEarlier">
     <value>Prior to the month 6 months ago</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringEarlierThisMonth">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringEarlierThisMonth">
     <value>This month, prior to previous week</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringEarlierThisWeek">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringEarlierThisWeek">
     <value>This week, prior to yesterday</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringEarlierThisYear">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringEarlierThisYear">
     <value>This year, prior to this month</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringLastWeek">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringLastWeek">
     <value>Last Week</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringLaterThisMonth">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringLaterThisMonth">
     <value>This month, beyond next week</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringLaterThisWeek">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringLaterThisWeek">
     <value>This week, beyond tomorrow</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringLaterThisYear">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringLaterThisYear">
     <value>This year, beyond this month</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAfter1">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAfter1">
     <value>Next Month</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAfter2">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAfter2">
     <value>During the month in 2 months time</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAgo1">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAgo1">
     <value>Last Month</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAgo2">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAgo2">
     <value>During the month 2 months ago</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAgo3">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAgo3">
     <value>During the month 3 months ago</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAgo4">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAgo4">
     <value>During the month 4 months ago</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAgo5">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAgo5">
     <value>During the month 5 months ago</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringMonthAgo6">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringMonthAgo6">
     <value>During the month 6 months ago</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringNextWeek">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringNextWeek">
     <value>Next Week</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringPriorThisYear">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringPriorThisYear">
     <value>Prior to this year</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringThisMonth">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringThisMonth">
     <value>This Month</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringThisWeek">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringThisWeek">
     <value>This Week</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringTomorrow">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringTomorrow">
     <value>Tomorrow</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringToday">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringToday">
     <value>Today</value>
-  </data>
-  <data name="StringId.ManageRuleDatesOccurringYesterday">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleDatesOccurringYesterday">
     <value>Yesterday</value>
-  </data>
-  <data name="StringId.ManageRuleSpecificTextContaining">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleSpecificTextContaining">
     <value>Containing</value>
-  </data>
-  <data name="StringId.ManageRuleSpecificTextNotContaining">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleSpecificTextNotContaining">
     <value>Not Containing</value>
-  </data>
-  <data name="StringId.ManageRuleSpecificTextBeginningWith">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleSpecificTextBeginningWith">
     <value>Beginning With</value>
-  </data>
-  <data name="StringId.ManageRuleSpecificTextEndingWith">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleSpecificTextEndingWith">
     <value>Ending With</value>
-  </data>
-  <data name="StringId.ManageRuleUniqueOrDuplicateFormatAll">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleUniqueOrDuplicateFormatAll">
     <value>Format all:</value>
-  </data>
-  <data name="StringId.ManageRuleUniqueOrDuplicateValuesInTheSelectedRange">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleUniqueOrDuplicateValuesInTheSelectedRange">
     <value>column values</value>
-  </data>
-  <data name="StringId.ManageRuleUniqueOrDuplicateUnique">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleUniqueOrDuplicateUnique">
     <value>Unique</value>
-  </data>
-  <data name="StringId.ManageRuleUniqueOrDuplicateDuplicate">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleUniqueOrDuplicateDuplicate">
     <value>Duplicate</value>
-  </data>
-  <data name="StringId.ManageRuleColorScale">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleColorScale">
     <value>Graded Color Scale</value>
-  </data>
-  <data name="StringId.ManageRuleIconSet">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleIconSet">
     <value>Icon Set</value>
-  </data>
-  <data name="StringId.ManageRuleFormula">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormula">
     <value>Formula</value>
-  </data>
-  <data name="StringId.ManageRuleAboveAverage">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleAboveAverage">
     <value>Above Average</value>
-  </data>
-  <data name="StringId.ManageRuleBelowAverage">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleBelowAverage">
     <value>Below Average</value>
-  </data>
-  <data name="StringId.ManageRuleEqualOrAboveAverage">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleEqualOrAboveAverage">
     <value>Equal to or Above Average</value>
-  </data>
-  <data name="StringId.ManageRuleEqualOrBelowAverage">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleEqualOrBelowAverage">
     <value>Equal to or Below Average</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsCaption">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsCaption">
     <value>Format Cells</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsFont">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsFont">
     <value>Font</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsFill">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsFill">
     <value>Fill</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsPredefinedAppearance">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsPredefinedAppearance">
     <value>Predefined Appearance</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsFontStyle">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsFontStyle">
     <value>Font style</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsFontColor">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsFontColor">
     <value>Font color</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsEffects">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsEffects">
     <value>Effects:</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsUnderline">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsUnderline">
     <value>Underline</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsStrikethrough">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsStrikethrough">
     <value>Strikethrough</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsClear">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsClear">
     <value>Clear</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsBackgroundColor">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsBackgroundColor">
     <value>Background Color:</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsNone">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsNone">
     <value>None</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsRegular">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsRegular">
     <value>Regular</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsBold">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsBold">
     <value>Bold</value>
-  </data>
-  <data name="StringId.ManageRuleFormatCellsItalic">
+  </Localizer>
+  <Localizer name="StringId.ManageRuleFormatCellsItalic">
     <value>Italic</value>
-  </data>
-  <data name="StringId.TakePictureDialogTitle">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.TakePictureMenuItem">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.TakePictureDialogCapture">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.TakePictureDialogTryAgain">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.TakePictureDialogSave">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsActiveDevice">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsBrightness">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsContrast">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsDesaturate">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsDefaults">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsCaption">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraSettingsResolution">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraDeviceNotFound">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraDeviceIsBusy">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.CameraDesignTimeInfo">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.OfficeNavigationOptions">
-    <value>
-    </value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsNextMonth">
+  </Localizer>
+  <Localizer name="StringId.TakePictureDialogTitle">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.TakePictureMenuItem">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.TakePictureDialogCapture">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.TakePictureDialogTryAgain">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.TakePictureDialogSave">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsActiveDevice">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsBrightness">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsContrast">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsDesaturate">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsDefaults">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsCaption">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraSettingsResolution">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraDeviceNotFound">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraDeviceIsBusy">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.CameraDesignTimeInfo">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.OfficeNavigationOptions">
+    <value />
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsNextMonth">
     <value>Is next month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsNextYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsNextYear">
     <value>Is next year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsLastMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsLastMonth">
     <value>Is last month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsLastYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsLastYear">
     <value>Is last year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsYearToDate">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsYearToDate">
     <value>Is the year-to-date period</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoMonthsAway">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoMonthsAway">
     <value>Two months away</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoYearsAway">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoYearsAway">
     <value>Two years away</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastMonth">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastMonth">
     <value>Last month</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastYear">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastYear">
     <value>Last year</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYearBeforeToday">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYearBeforeToday">
     <value>One year ago</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsJanuary">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsJanuary">
     <value>Is January</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsFebruary">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsFebruary">
     <value>Is February</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsMarch">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsMarch">
     <value>Is March</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsApril">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsApril">
     <value>Is April</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsMay">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsMay">
     <value>Is May</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsJune">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsJune">
     <value>Is June</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsJuly">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsJuly">
     <value>Is July</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsAugust">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsAugust">
     <value>Is August</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsSeptember">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsSeptember">
     <value>Is September</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsOctober">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsOctober">
     <value>Is October</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsNovember">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsNovember">
     <value>Is November</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsDecember">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsDecember">
     <value>Is December</value>
-  </data>
-  <data name="StringId.FilterCriteriaToStringFunctionIsSameDay">
+  </Localizer>
+  <Localizer name="StringId.FilterCriteriaToStringFunctionIsSameDay">
     <value>Is same day</value>
-  </data>
-  <data name="StringId.NoneItemText">
+  </Localizer>
+  <Localizer name="StringId.NoneItemText">
     <value>(None)</value>
-  </data>
-  <data name="StringId.ProgressPanelDefaultCaption">
+  </Localizer>
+  <Localizer name="StringId.ProgressPanelDefaultCaption">
     <value>Please Wait</value>
-  </data>
-  <data name="StringId.ProgressPanelDefaultDescription">
+  </Localizer>
+  <Localizer name="StringId.ProgressPanelDefaultDescription">
     <value>Loading ...</value>
-  </data>
-</root>
+  </Localizer>
+</NewDataSet>

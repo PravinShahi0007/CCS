@@ -74,7 +74,7 @@
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataLayoutControl1)).BeginInit();
             this.dataLayoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txttype.Properties)).BeginInit();
@@ -259,7 +259,7 @@
             // txttype
             // 
             this.txttype.Location = new System.Drawing.Point(425, 126);
-            this.txttype.MenuManager = this.barManager1;
+            this.txttype.MenuManager = this.barMain;
             this.txttype.Name = "txttype";
             this.txttype.Properties.ReadOnly = true;
             this.txttype.Size = new System.Drawing.Size(139, 20);
@@ -269,7 +269,7 @@
             // txttenfile
             // 
             this.txttenfile.Location = new System.Drawing.Point(98, 126);
-            this.txttenfile.MenuManager = this.barManager1;
+            this.txttenfile.MenuManager = this.barMain;
             this.txttenfile.Name = "txttenfile";
             this.txttenfile.Properties.ReadOnly = true;
             this.txttenfile.Size = new System.Drawing.Size(237, 20);
@@ -279,7 +279,7 @@
             // txtduongdan
             // 
             this.txtduongdan.Location = new System.Drawing.Point(98, 150);
-            this.txtduongdan.MenuManager = this.barManager1;
+            this.txtduongdan.MenuManager = this.barMain;
             this.txtduongdan.Name = "txtduongdan";
             editorButtonImageOptions1.Image = global::GUI.Properties.Resources.article_16x162;
             this.txtduongdan.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -294,7 +294,7 @@
             // 
             this.idTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lephididuongBindingSource, "id", true));
             this.idTextEdit.Location = new System.Drawing.Point(110, 42);
-            this.idTextEdit.MenuManager = this.barManager1;
+            this.idTextEdit.MenuManager = this.barMain;
             this.idTextEdit.Name = "idTextEdit";
             this.idTextEdit.Properties.ReadOnly = true;
             this.idTextEdit.Size = new System.Drawing.Size(119, 20);
@@ -310,7 +310,7 @@
             this.ngaydkDateEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lephididuongBindingSource, "ngaydk", true));
             this.ngaydkDateEdit.EditValue = null;
             this.ngaydkDateEdit.Location = new System.Drawing.Point(110, 66);
-            this.ngaydkDateEdit.MenuManager = this.barManager1;
+            this.ngaydkDateEdit.MenuManager = this.barMain;
             this.ngaydkDateEdit.Name = "ngaydkDateEdit";
             this.ngaydkDateEdit.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.True;
             this.ngaydkDateEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -330,7 +330,7 @@
             0,
             0});
             this.thoihanSpinEdit.Location = new System.Drawing.Point(319, 66);
-            this.thoihanSpinEdit.MenuManager = this.barManager1;
+            this.thoihanSpinEdit.MenuManager = this.barMain;
             this.thoihanSpinEdit.Name = "thoihanSpinEdit";
             this.thoihanSpinEdit.Properties.AllowMouseWheel = false;
             this.thoihanSpinEdit.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.True;
@@ -359,7 +359,7 @@
             // 
             this.diengiaiTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lephididuongBindingSource, "diengiai", true));
             this.diengiaiTextEdit.Location = new System.Drawing.Point(110, 90);
-            this.diengiaiTextEdit.MenuManager = this.barManager1;
+            this.diengiaiTextEdit.MenuManager = this.barMain;
             this.diengiaiTextEdit.Name = "diengiaiTextEdit";
             this.diengiaiTextEdit.Size = new System.Drawing.Size(442, 20);
             this.diengiaiTextEdit.StyleController = this.dataLayoutControl1;
@@ -370,7 +370,7 @@
             this.gd.DataSource = this.lephididuongfileBindingSource;
             this.gd.Location = new System.Drawing.Point(12, 202);
             this.gd.MainView = this.gv;
-            this.gd.MenuManager = this.barManager1;
+            this.gd.MenuManager = this.barMain;
             this.gd.Name = "gd";
             this.gd.Size = new System.Drawing.Size(552, 129);
             this.gd.TabIndex = 8;
@@ -636,7 +636,7 @@
             this.Controls.SetChildIndex(this.barDockControlRight, 0);
             this.Controls.SetChildIndex(this.barDockControlLeft, 0);
             this.Controls.SetChildIndex(this.dataLayoutControl1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataLayoutControl1)).EndInit();
             this.dataLayoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txttype.Properties)).EndInit();

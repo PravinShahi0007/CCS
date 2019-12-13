@@ -1,283 +1,282 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <data name="BarString.None">
-    <value>
-    </value>
-  </data>
-  <data name="BarString.PopupMenuEditor">
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <BarLocalizer name="BarString.None">
+    <value />
+  </BarLocalizer>
+  <BarLocalizer name="BarString.PopupMenuEditor">
     <value>Popup Menu Editor</value>
-  </data>
-  <data name="BarString.AddOrRemove">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.AddOrRemove">
     <value>&amp;Add or Remove Buttons</value>
-  </data>
-  <data name="BarString.Visible">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.Visible">
     <value>Visible</value>
-  </data>
-  <data name="BarString.ResetBar">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ResetBar">
     <value>Are you sure you want to reset the changes made to the '{0}' toolbar?</value>
-  </data>
-  <data name="BarString.ResetBarCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ResetBarCaption">
     <value>Customize</value>
-  </data>
-  <data name="BarString.ResetButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ResetButton">
     <value>&amp;Reset Toolbar</value>
-  </data>
-  <data name="BarString.CustomizeButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CustomizeButton">
     <value>&amp;Customize ...</value>
-  </data>
-  <data name="BarString.CancelButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CancelButton">
     <value>Cancel</value>
-  </data>
-  <data name="BarString.ToolBarMenu">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ToolBarMenu">
     <value>&amp;Reset$&amp;Delete$!&amp;Name$!Defau&amp;lt style$&amp;Text Only (Always)$Text &amp;Only (in Menus)$Image &amp;and Text$!Begin a &amp;Group$&amp;Visible$&amp;Most recently used</value>
-  </data>
-  <data name="BarString.ToolbarNameCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ToolbarNameCaption">
     <value>&amp;Toolbar Name:</value>
-  </data>
-  <data name="BarString.NewToolbarCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.NewToolbarCaption">
     <value>New Toolbar</value>
-  </data>
-  <data name="BarString.NewToolbarCustomNameFormat">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.NewToolbarCustomNameFormat">
     <value>Custom {0}</value>
-  </data>
-  <data name="BarString.RenameToolbarCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RenameToolbarCaption">
     <value>Rename Toolbar</value>
-  </data>
-  <data name="BarString.CustomizeWindowCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CustomizeWindowCaption">
     <value>Customization</value>
-  </data>
-  <data name="BarString.MenuAnimationSystem">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MenuAnimationSystem">
     <value>(System default)</value>
-  </data>
-  <data name="BarString.MenuAnimationNone">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MenuAnimationNone">
     <value>None</value>
-  </data>
-  <data name="BarString.MenuAnimationSlide">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MenuAnimationSlide">
     <value>Slide</value>
-  </data>
-  <data name="BarString.MenuAnimationFade">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MenuAnimationFade">
     <value>Fade</value>
-  </data>
-  <data name="BarString.MenuAnimationUnfold">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MenuAnimationUnfold">
     <value>Unfold</value>
-  </data>
-  <data name="BarString.MenuAnimationRandom">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MenuAnimationRandom">
     <value>Random</value>
-  </data>
-  <data name="BarString.RibbonToolbarAbove">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonToolbarAbove">
     <value>&amp;Show Quick Access Toolbar Above the Ribbon</value>
-  </data>
-  <data name="BarString.RibbonToolbarBelow">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonToolbarBelow">
     <value>&amp;Show Quick Access Toolbar Below the Ribbon</value>
-  </data>
-  <data name="BarString.RibbonToolbarAdd">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonToolbarAdd">
     <value>&amp;Add to Quick Access Toolbar</value>
-  </data>
-  <data name="BarString.RibbonToolbarMinimizeRibbon">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonToolbarMinimizeRibbon">
     <value>Mi&amp;nimize the Ribbon</value>
-  </data>
-  <data name="BarString.RibbonToolbarRemove">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonToolbarRemove">
     <value>&amp;Remove from Quick Access Toolbar</value>
-  </data>
-  <data name="BarString.RibbonGalleryFilter">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonGalleryFilter">
     <value>All groups</value>
-  </data>
-  <data name="BarString.RibbonGalleryFilterNone">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonGalleryFilterNone">
     <value>None</value>
-  </data>
-  <data name="BarString.BarUnassignedItems">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.BarUnassignedItems">
     <value>(Unassigned Items)</value>
-  </data>
-  <data name="BarString.BarAllItems">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.BarAllItems">
     <value>(All Items)</value>
-  </data>
-  <data name="BarString.RibbonUnassignedPages">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonUnassignedPages">
     <value>(Unassigned Pages)</value>
-  </data>
-  <data name="BarString.RibbonAllPages">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonAllPages">
     <value>(All Pages)</value>
-  </data>
-  <data name="BarString.NewToolbarName">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.NewToolbarName">
     <value>Tools</value>
-  </data>
-  <data name="BarString.NewMenuName">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.NewMenuName">
     <value>Main menu</value>
-  </data>
-  <data name="BarString.NewStatusBarName">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.NewStatusBarName">
     <value>Status bar</value>
-  </data>
-  <data name="BarString.CloseButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CloseButton">
     <value>Close</value>
-  </data>
-  <data name="BarString.MinimizeButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MinimizeButton">
     <value>Minimize</value>
-  </data>
-  <data name="BarString.MaximizeButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MaximizeButton">
     <value>Maximize</value>
-  </data>
-  <data name="BarString.RestoreButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RestoreButton">
     <value>Restore Down</value>
-  </data>
-  <data name="BarString.HelpButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.HelpButton">
     <value>Help</value>
-  </data>
-  <data name="BarString.FullScreenButton">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.FullScreenButton">
     <value>Auto-hide Ribbon</value>
-  </data>
-  <data name="BarString.SkinsMain">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SkinsMain">
     <value>Standard Skins</value>
-  </data>
-  <data name="BarString.SkinsOffice">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SkinsOffice">
     <value>Office Skins</value>
-  </data>
-  <data name="BarString.SkinsTheme">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SkinsTheme">
     <value>Theme Skins</value>
-  </data>
-  <data name="BarString.SkinsBonus">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SkinsBonus">
     <value>Bonus Skins</value>
-  </data>
-  <data name="BarString.SkinsCustom">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SkinsCustom">
     <value>Custom Skins</value>
-  </data>
-  <data name="BarString.SkinCaptions">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SkinCaptions">
     <value>|DevExpress Style|Caramel|Money Twins|DevExpress Dark Style|iMaginary|Lilian|Black|Blue|Office 2010 Blue|Office 2010 Black|Office 2010 Silver|Office 2007 Blue|Office 2007 Black|Office 2007 Silver|Office 2007 Green|Office 2007 Pink|Seven|Seven Classic|Darkroom|McSkin|Sharp|Sharp Plus|Foggy|Dark Side|Xmas (Blue)|Springtime|Summer|Pumpkin|Valentine|Stardust|Coffee|Glass Oceans|High Contrast|Liquid Sky|London Liquid Sky|The Asphalt World|Blueprint|Whiteprint|Visual Studio 2010|Metropolis|Metropolis Dark|Office 2013 White|Office 2013 Dark Gray|Office 2013 Light Gray|Visual Studio 2013 Blue|Visual Studio 2013 Dark|Visual Studio 2013 Light|Office 2016 Colorful|Office 2016 Dark|Office 2016 Black|</value>
-  </data>
-  <data name="BarString.ShowScreenTipsOnToolbarsName">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ShowScreenTipsOnToolbarsName">
     <value>Show ScreenTips on toolbars</value>
-  </data>
-  <data name="BarString.ShowShortcutKeysOnScreenTipsName">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ShowShortcutKeysOnScreenTipsName">
     <value>Show shortcut keys in ScreenTips</value>
-  </data>
-  <data name="BarString.ExpandRibbonSuperTipHeader">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ExpandRibbonSuperTipHeader">
     <value>Expand the Ribbon (Ctrl+F1)</value>
-  </data>
-  <data name="BarString.CollapseRibbonSuperTipHeader">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CollapseRibbonSuperTipHeader">
     <value>Minimize the Ribbon (Ctrl+F1)</value>
-  </data>
-  <data name="BarString.ExpandRibbonSuperTipText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ExpandRibbonSuperTipText">
     <value>Show the Ribbon so that it is always expanded even after you click a command</value>
-  </data>
-  <data name="BarString.CollapseRibbonSuperTipText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CollapseRibbonSuperTipText">
     <value>Only show tab names on the Ribbon</value>
-  </data>
-  <data name="BarString.SwitchRibbonsSuperTipHeader">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SwitchRibbonsSuperTipHeader">
     <value>Switch Ribbons</value>
-  </data>
-  <data name="BarString.SwitchRibbonsSuperTipText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.SwitchRibbonsSuperTipText">
     <value>Switch between the Simplified Ribbon and the Classic Ribbon</value>
-  </data>
-  <data name="BarString.MoreCommands">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.MoreCommands">
     <value>&amp;More Commands...</value>
-  </data>
-  <data name="BarString.CustomizeRibbon">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CustomizeRibbon">
     <value>Customize the &amp;Ribbon...</value>
-  </data>
-  <data name="BarString.CustomizeQuickAccessToolbar">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CustomizeQuickAccessToolbar">
     <value>&amp;Customize Quick Access Toolbar...</value>
-  </data>
-  <data name="BarString.CustomizeToolbarText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CustomizeToolbarText">
     <value>Customize Toolbar</value>
-  </data>
-  <data name="BarString.CustomizeToolbarSuperTipText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.CustomizeToolbarSuperTipText">
     <value>Customize Quick Access Toolbar</value>
-  </data>
-  <data name="BarString.RibbonCustomizationOptionAllTabs">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationOptionAllTabs">
     <value>All Tabs</value>
-  </data>
-  <data name="BarString.RibbonCustomizationOptionAllCommands">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationOptionAllCommands">
     <value>All Commands</value>
-  </data>
-  <data name="BarString.RibbonCustomizationStandardCustomItemSuffix">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationStandardCustomItemSuffix">
     <value>Custom</value>
-  </data>
-  <data name="BarString.RibbonCustomizationResetSelectedTabSettingsCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationResetSelectedTabSettingsCommand">
     <value>Reset only selected Ribbon tab</value>
-  </data>
-  <data name="BarString.RibbonCustomizationResetSettingsCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationResetSettingsCommand">
     <value>Reset all customizations</value>
-  </data>
-  <data name="BarString.RibbonCustomizationImportSettingsCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationImportSettingsCommand">
     <value>Import customization file</value>
-  </data>
-  <data name="BarString.RibbonCustomizationExportSettingsCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationExportSettingsCommand">
     <value>Export all customizations</value>
-  </data>
-  <data name="BarString.RibbonCustomizationNewTabDefaultAlias">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationNewTabDefaultAlias">
     <value>New Tab</value>
-  </data>
-  <data name="BarString.RibbonCustomizationNewGroupDefaultAlias">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationNewGroupDefaultAlias">
     <value>New Group</value>
-  </data>
-  <data name="BarString.RibbonCustomizationNewCategoryDefaultAlias">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationNewCategoryDefaultAlias">
     <value>New Category</value>
-  </data>
-  <data name="BarString.RibbonCustomizationNewCategoryCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationNewCategoryCommand">
     <value>New Category</value>
-  </data>
-  <data name="BarString.RibbonCustomizationNewPageCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationNewPageCommand">
     <value>New Tab</value>
-  </data>
-  <data name="BarString.RibbonCustomizationNewGroupCommand">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationNewGroupCommand">
     <value>New Group</value>
-  </data>
-  <data name="BarString.RibbonCustomizationRenameText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationRenameText">
     <value>Rename</value>
-  </data>
-  <data name="BarString.RibbonCustomizationRemoveText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationRemoveText">
     <value>Remove</value>
-  </data>
-  <data name="BarString.RibbonCustomizationAddText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationAddText">
     <value>Add</value>
-  </data>
-  <data name="BarString.RibbonCustomizationDownText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationDownText">
     <value>Move Down</value>
-  </data>
-  <data name="BarString.RibbonCustomizationUpText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCustomizationUpText">
     <value>Move Up</value>
-  </data>
-  <data name="BarString.RibbonCaptionTextNone">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonCaptionTextNone">
     <value>No name</value>
-  </data>
-  <data name="BarString.RibbonTouchMouseModeCommandText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonTouchMouseModeCommandText">
     <value>Touch/Mouse Mode</value>
-  </data>
-  <data name="BarString.RibbonTouchMouseModeGalleryGroupText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonTouchMouseModeGalleryGroupText">
     <value>Optimize space between commands.</value>
-  </data>
-  <data name="BarString.RibbonTouchMouseModeTouchItemText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonTouchMouseModeTouchItemText">
     <value>Touch</value>
-  </data>
-  <data name="BarString.RibbonTouchMouseModeMouseItemText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonTouchMouseModeMouseItemText">
     <value>Mouse</value>
-  </data>
-  <data name="BarString.RibbonTouchMouseModeTouchItemDescription">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonTouchMouseModeTouchItemDescription">
     <value>More space between commands. Optimized for use with touch.</value>
-  </data>
-  <data name="BarString.RibbonTouchMouseModeMouseItemDescription">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonTouchMouseModeMouseItemDescription">
     <value>Standard ribbon and commands. Optimized for use with a mouse.</value>
-  </data>
-  <data name="BarString.ColorAuto">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.ColorAuto">
     <value>Auto</value>
-  </data>
-  <data name="BarString.AccordionControlSearchBoxPromptText">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.AccordionControlSearchBoxPromptText">
     <value>Type keywords here</value>
-  </data>
-  <data name="BarString.RibbonFullScreenItemCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonFullScreenItemCaption">
     <value>Auto-hide Ribbon</value>
-  </data>
-  <data name="BarString.RibbonFullScreenItemDescription">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonFullScreenItemDescription">
     <value>Hide the Ribbon. Click at the top of the application to show it.</value>
-  </data>
-  <data name="BarString.RibbonMinimizedItemCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonMinimizedItemCaption">
     <value>Show Tabs</value>
-  </data>
-  <data name="BarString.RibbonMinimizedItemDescription">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonMinimizedItemDescription">
     <value>Show Ribbon tabs only. Click a tab to show the commands.</value>
-  </data>
-  <data name="BarString.RibbonExpandedItemCaption">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonExpandedItemCaption">
     <value>Show Tabs and Commands</value>
-  </data>
-  <data name="BarString.RibbonExpandedItemDescription">
+  </BarLocalizer>
+  <BarLocalizer name="BarString.RibbonExpandedItemDescription">
     <value>Show Ribbon tabs and commands all the time.</value>
-  </data>
-</root>
+  </BarLocalizer>
+</NewDataSet>

@@ -148,6 +148,16 @@ namespace GUI
 
         }
 
+        protected virtual void search68()
+        {
+
+        }
+
+        protected virtual void searchall68()
+        {
+
+        }
+
         private void thoigian_EditValueChanged(object sender, EventArgs e)
         {
             changetime();
@@ -358,6 +368,16 @@ namespace GUI
         private void txtdanhmuc_SelectedIndexChanged(object sender, EventArgs e)
         {
             loaddata();
+        }
+
+        private void BtnSearch68_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            search68();
+        }
+
+        private void BtnSearchAll68_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            searchall68();
         }
     }
 }

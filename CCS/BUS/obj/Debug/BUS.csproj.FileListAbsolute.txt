@@ -635,3 +635,14 @@ D:\CODE\CCS\08 11 2019\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\CODE\CCS\08 11 2019\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\CODE\CCS\08 11 2019\BUS\obj\Debug\BUS.dll
 D:\CODE\CCS\08 11 2019\BUS\obj\Debug\BUS.pdb
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\bin\Debug\BUS.dll.config
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\bin\Debug\BUS.dll
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\bin\Debug\BUS.pdb
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\bin\Debug\DAL.dll
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\bin\Debug\DAL.pdb
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\bin\Debug\DAL.dll.config
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.dll
+D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.pdb

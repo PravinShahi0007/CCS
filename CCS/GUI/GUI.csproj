@@ -1167,6 +1167,102 @@
     <Compile Include="report\pnhap\r_bccpvt_th.Designer.cs">
       <DependentUpon>r_bccpvt_th.cs</DependentUpon>
     </Compile>
+    <Compile Include="report\PXM\FormPrint68\BaseReport_68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\BaseReport_68.Designer.cs">
+      <DependentUpon>BaseReport_68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCchenhlechCT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCchenhlechCT68.Designer.cs">
+      <DependentUpon>r_BCchenhlechCT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCChenhlechpn_CT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCChenhlechpn_CT68.Designer.cs">
+      <DependentUpon>r_BCChenhlechpn_CT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCChenhlech_TH68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCChenhlech_TH68.Designer.cs">
+      <DependentUpon>r_BCChenhlech_TH68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCnhapkhopn_CT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCnhapkhopn_CT68.Designer.cs">
+      <DependentUpon>r_BCnhapkhopn_CT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapKho_CT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapKho_CT68.Designer.cs">
+      <DependentUpon>r_BCNhapKho_CT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapkho_TH68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapkho_TH68.Designer.cs">
+      <DependentUpon>r_BCNhapkho_TH68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapXuatTon_CT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapXuatTon_CT68.Designer.cs">
+      <DependentUpon>r_BCNhapXuatTon_CT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapXuatTon_TH68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCNhapXuatTon_TH68.Designer.cs">
+      <DependentUpon>r_BCNhapXuatTon_TH68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCxuatkhopx_CT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCxuatkhopx_CT68.Designer.cs">
+      <DependentUpon>r_BCxuatkhopx_CT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCXuatKho_CT68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCXuatKho_CT68.Designer.cs">
+      <DependentUpon>r_BCXuatKho_CT68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCXuatkho_TH68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_BCXuatkho_TH68.Designer.cs">
+      <DependentUpon>r_BCXuatkho_TH68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmnhapkho68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmnhapkho68.Designer.cs">
+      <DependentUpon>r_pxmnhapkho68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmpnhapkhonb68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmpnhapkhonb68.Designer.cs">
+      <DependentUpon>r_pxmpnhapkhonb68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmpxuatkho68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmpxuatkho68.Designer.cs">
+      <DependentUpon>r_pxmpxuatkho68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmpxuatkhoNB68.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\FormPrint68\r_pxmpxuatkhoNB68.Designer.cs">
+      <DependentUpon>r_pxmpxuatkhoNB68.cs</DependentUpon>
+    </Compile>
     <Compile Include="report\PXM\f_pxmbcchenhlech.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1176,7 +1272,7 @@
     <Compile Include="report\PXM\f_pxmbcNhapXuatTon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="report\PXM\f_pxmbcNhapXuatTon.Designer.cs">
+    <Compile Include="report\PXM\f_pxmbcNhapXuatTon.designer.cs">
       <DependentUpon>f_pxmbcNhapXuatTon.cs</DependentUpon>
     </Compile>
     <Compile Include="report\PXM\f_pxmbcxuatkho.cs">
@@ -1413,6 +1509,7 @@
     <Compile Include="report\PXM\r_BCChenhlech_TH.Designer.cs">
       <DependentUpon>r_BCChenhlech_TH.cs</DependentUpon>
     </Compile>
+    <Compile Include="report\PXM\r_BCNhapKho_CT68.cs" />
     <Compile Include="report\PXM\r_BCNhapXuatTon_CT.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -2116,6 +2213,54 @@
     </EmbeddedResource>
     <EmbeddedResource Include="report\pnhap\r_bccpvt_th.resx">
       <DependentUpon>r_bccpvt_th.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\BaseReport_68.resx">
+      <DependentUpon>BaseReport_68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCchenhlechCT68.resx">
+      <DependentUpon>r_BCchenhlechCT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCChenhlechpn_CT68.resx">
+      <DependentUpon>r_BCChenhlechpn_CT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCChenhlech_TH68.resx">
+      <DependentUpon>r_BCChenhlech_TH68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCnhapkhopn_CT68.resx">
+      <DependentUpon>r_BCnhapkhopn_CT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCNhapKho_CT68.resx">
+      <DependentUpon>r_BCNhapKho_CT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCNhapkho_TH68.resx">
+      <DependentUpon>r_BCNhapkho_TH68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCNhapXuatTon_CT68.resx">
+      <DependentUpon>r_BCNhapXuatTon_CT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCNhapXuatTon_TH68.resx">
+      <DependentUpon>r_BCNhapXuatTon_TH68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCxuatkhopx_CT68.resx">
+      <DependentUpon>r_BCxuatkhopx_CT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCXuatKho_CT68.resx">
+      <DependentUpon>r_BCXuatKho_CT68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_BCXuatkho_TH68.resx">
+      <DependentUpon>r_BCXuatkho_TH68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_pxmnhapkho68.resx">
+      <DependentUpon>r_pxmnhapkho68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_pxmpnhapkhonb68.resx">
+      <DependentUpon>r_pxmpnhapkhonb68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_pxmpxuatkho68.resx">
+      <DependentUpon>r_pxmpxuatkho68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\FormPrint68\r_pxmpxuatkhoNB68.resx">
+      <DependentUpon>r_pxmpxuatkhoNB68.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="report\PXM\f_pxmbcchenhlech.resx">
       <DependentUpon>f_pxmbcchenhlech.cs</DependentUpon>

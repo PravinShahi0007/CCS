@@ -20,6 +20,7 @@ using DevExpress.XtraLayout.Utils;
 using DevExpress.XtraReports.UI;
 using GUI.Properties;
 using DevExpress.Utils.Win;
+using GUI.report.PXM.FormPrint68;
 
 namespace GUI
 {
@@ -321,6 +322,13 @@ namespace GUI
         protected override void print()
         {
             var report = new r_pxmpxuatkhoNB();
+            report.DataSource = dbData.InPhieuXuatKhoNB(_key);
+            report.ShowPreviewDialog();
+        }
+
+        protected override void print68()
+        {
+            var report = new r_pxmpxuatkhoNB68();
             report.DataSource = dbData.InPhieuXuatKhoNB(_key);
             report.ShowPreviewDialog();
         }
