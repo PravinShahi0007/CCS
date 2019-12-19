@@ -2901,4 +2901,88 @@
     <name>FrmMain.layoutControlItem5</name>
     <value>Ngôn ngữ</value>
   </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn1</name>
+    <value>Mã Nhân Viên</value>
+  </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn2</name>
+    <value>Tên Nhân Viên</value>
+  </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn3</name>
+    <value>Tên Đăng Nhập</value>
+  </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn4</name>
+    <value>Phòng Ban</value>
+  </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn5</name>
+    <value>Mã Đơn vị</value>
+  </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn6</name>
+    <value>Đơn vị</value>
+  </Language>
+  <Language>
+    <name>f_account.dataaccount.gridColumn7</name>
+    <value>Trạng thái</value>
+  </Language>
+  <Language>
+    <name>f_account.txt1</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_account.</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem1</name>
+    <value>thêm</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem2</name>
+    <value>Thêm</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem3</name>
+    <value>Sửa</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem4</name>
+    <value>Thêm</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem5</name>
+    <value>Sửa</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem6</name>
+    <value>Xóa</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem7</name>
+    <value>In</value>
+  </Language>
+  <Language>
+    <name>f_account.barSubItem1</name>
+    <value>barSubItem1</value>
+  </Language>
+  <Language>
+    <name>f_account.skinBarSubItem1</name>
+    <value>skinBarSubItem1</value>
+  </Language>
+  <Language>
+    <name>f_account.barLargeButtonItem1</name>
+    <value>barLargeButtonItem1</value>
+  </Language>
+  <Language>
+    <name>f_account.barButtonItem9</name>
+    <value>Load</value>
+  </Language>
+  <Language>
+    <name>.f_account_title</name>
+    <value>Tài Khoản Đăng Nhập</value>
+  </Language>
 </NewDataSet>

@@ -742,15 +742,12 @@ namespace GUI
             }
 
 
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
-                return;
-            }
-            //else if (txtidnv.Text != Biencucbo.idnv)
+            //if (Biencucbo.idnv != txtidnv.Text)
             //{
             //    XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
-            //}
+            //    return;
+            //} 
+
             if (txtid.Text == "")
             {
                 return;

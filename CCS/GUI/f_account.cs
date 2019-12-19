@@ -147,6 +147,8 @@ namespace GUI
             loadData();
         }
 
+
+        //btn XOÁ
         private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
         {
             if (MsgBox.ShowYesNoCancelDialog("Bạn có chắc chắn muốn xóa tài khoản này khỏi hệ thống?") ==

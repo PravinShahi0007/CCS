@@ -540,13 +540,6 @@ namespace GUI
 
                     // History
                     hs.add(txtid.Text, "Thêm mới chứng từ");
-
-                    //ShowAlert.Alert_Add_Success(this);
-                    //}
-                    //catch (Exception ex)
-                    //{
-                    //    MsgBox.ShowErrorDialog(ex.ToString());
-                    //}
                 }
                 else
                 {
@@ -583,8 +576,6 @@ namespace GUI
 
 
                         hs.add(txtid.Text, "Sửa chứng từ");
-
-                        //ShowAlert.Alert_Edit_Success(this);
                     }
                     catch (Exception ex)
                     {
@@ -628,15 +619,12 @@ namespace GUI
         //Sửa
         private void sua()
         {
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
-                return;
-            }
-            //else if (txtidnv.Text != Biencucbo.idnv)
+            //if (Biencucbo.idnv != txtidnv.Text)
             //{
             //    XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
+            //    return;
             //}
+
             if (txtid.Text == "")
             {
                 return;

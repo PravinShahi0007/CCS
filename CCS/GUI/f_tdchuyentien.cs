@@ -68,11 +68,11 @@ namespace GUI
 
         protected override bool sua()
         {
-            if (Biencucbo.idnv != gv.GetFocusedRowCellValue("idnv").ToString())
-            {
-                XtraMessageBox.Show("Bạn không có quyền sửa phiếu này");
-                return false;
-            }
+            //if (Biencucbo.idnv != gv.GetFocusedRowCellValue("idnv").ToString())
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền sửa phiếu này");
+            //    return false;
+            //}
 
             Biencucbo.hdong = 2;
             Biencucbo.key = gv.GetFocusedRowCellValue("id").ToString();
@@ -86,11 +86,12 @@ namespace GUI
 
         protected override bool xoa()
         {
-            if (Biencucbo.idnv != gv.GetFocusedRowCellValue("idnv").ToString())
-            {
-                XtraMessageBox.Show("Bạn không có quyền xóa phiếu này");
-                return false;
-            }
+            //if (Biencucbo.idnv != gv.GetFocusedRowCellValue("idnv").ToString())
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền xóa phiếu này");
+            //    return false;
+            //}
+
             try
             {
                 td.xoa(gv.GetFocusedRowCellValue("id").ToString());

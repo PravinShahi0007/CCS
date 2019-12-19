@@ -32,10 +32,8 @@ namespace GUI
                 txtngay.DateTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
 
             }
-            catch (Exception)
+            catch
             {
-
-
             }
             try
             {
@@ -49,13 +47,7 @@ namespace GUI
             }
             catch
             {
-
             }
-
-
-
-
-
         }
 
         private void txtndc_EditValueChanged(object sender, EventArgs e)
@@ -65,10 +57,8 @@ namespace GUI
                 var lst = (from a in new KetNoiDBDataContext().congtrinhs select a).Single((t => t.id == txtndc.Text));
                 lblndc.Text = lst.tencongtrinh;
             }
-            catch (Exception)
+            catch
             {
-
-
             }
         }
         t_history hs = new t_history();
@@ -159,10 +149,8 @@ namespace GUI
 
                 }
             }
-            catch (Exception)
+            catch
             {
-
-
             }
         }
     }

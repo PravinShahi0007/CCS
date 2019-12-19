@@ -113,7 +113,7 @@ namespace GUI
             }
         }
 
-    
+
 
         private void rlan_CheckedChanged(object sender, EventArgs e)
         {
@@ -228,10 +228,7 @@ namespace GUI
             try
             {
                 sqlCon.Open();
-                //db = new KetNoiDBDataContext(sqlCon);
-
                 XtraMessageBox.Show("Connection succeeded");
-                //Settings.Default.Save();
             }
             catch
             {

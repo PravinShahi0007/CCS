@@ -279,23 +279,12 @@ namespace GUI
 
         private void btnsua_ItemClick(object sender, ItemClickEventArgs e)
         {
-            //if (Biencucbo.dvTen != txtdv.Text)
-            //{
-            //    XtraMessageBox.Show("Bạn không có quyền điều chỉnh phiếu này", "THÔNG BÁO");
-            //    return;
-            //}
-            //else if (txtidnv.Text != Biencucbo.idnv)
+            //if (Biencucbo.idnv != gridView1.GetFocusedRowCellValue("idnv").ToString())
             //{
             //    XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
+            //    return;
             //}
 
-            //gridView1.OptionsBehavior.Editable = true;
-
-            if (Biencucbo.idnv != gridView1.GetFocusedRowCellValue("idnv").ToString())
-            {
-                XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
-                return;
-            }
             try
             {
                 Biencucbo.hdtthdtp = 1;

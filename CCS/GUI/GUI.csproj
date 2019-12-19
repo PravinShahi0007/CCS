@@ -1167,6 +1167,24 @@
     <Compile Include="report\pnhap\r_bccpvt_th.Designer.cs">
       <DependentUpon>r_bccpvt_th.cs</DependentUpon>
     </Compile>
+    <Compile Include="report\PXM\BCXuatKho_new\r_BCxuatkhopx_CT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\BCXuatKho_new\r_BCxuatkhopx_CT.Designer.cs">
+      <DependentUpon>r_BCxuatkhopx_CT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\BCXuatKho_new\r_BCXuatKho_CT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\BCXuatKho_new\r_BCXuatKho_CT.Designer.cs">
+      <DependentUpon>r_BCXuatKho_CT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\PXM\BCXuatKho_new\r_BCXuatkho_TH.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\PXM\BCXuatKho_new\r_BCXuatkho_TH.Designer.cs">
+      <DependentUpon>r_BCXuatkho_TH.cs</DependentUpon>
+    </Compile>
     <Compile Include="report\PXM\FormPrint68\BaseReport_68.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -2213,6 +2231,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="report\pnhap\r_bccpvt_th.resx">
       <DependentUpon>r_bccpvt_th.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\BCXuatKho_new\r_BCxuatkhopx_CT.resx">
+      <DependentUpon>r_BCxuatkhopx_CT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\BCXuatKho_new\r_BCXuatKho_CT.resx">
+      <DependentUpon>r_BCXuatKho_CT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\PXM\BCXuatKho_new\r_BCXuatkho_TH.resx">
+      <DependentUpon>r_BCXuatkho_TH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="report\PXM\FormPrint68\BaseReport_68.resx">
       <DependentUpon>BaseReport_68.cs</DependentUpon>

@@ -646,3 +646,11 @@ D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.dll
 D:\CODE\WINFORMS\CODE CCS\CCS\BUS\obj\Debug\BUS.pdb
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\bin\Debug\BUS.dll.config
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\bin\Debug\BUS.dll
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\bin\Debug\BUS.pdb
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\bin\Debug\DAL.dll
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\bin\Debug\DAL.pdb
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\obj\Debug\BUS.dll
+D:\MEO\CODE\GIT CODE\CCS\CCS\BUS\obj\Debug\BUS.pdb

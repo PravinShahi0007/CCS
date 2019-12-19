@@ -99,7 +99,7 @@ namespace GUI.report.dk_report
 
         private void inbc<T>(bool tg)
         {
-            if (layinfo(DateTime.Parse(tungay.EditValue.ToString()).ToShortDateString(), DateTime.Parse(denngay.EditValue.ToString()).ToShortDateString(),tg) == false)
+            if (layinfo(DateTime.Parse(tungay.EditValue.ToString()).ToShortDateString(), DateTime.Parse(denngay.EditValue.ToString()).ToShortDateString(), tg) == false)
             {
                 XtraMessageBox.Show("Cần phải chọn Kho xuất/Công trình để xem báo cáo", "THÔNG BÁO");
 
@@ -152,16 +152,19 @@ namespace GUI.report.dk_report
                 if (tgsloai.IsOn)
                 {
 
-                     inbc<r_BCxuatkhopx_CT>(false);
+                    //inbc<r_BCxuatkhopx_CT>(false);
+                    inbc<GUI.report.PXM.BCXuatKho_new.r_BCxuatkhopx_CT>(false);
                 }
                 else
                 {
-                     inbc<PXM.r_BCXuatKho_CT>(false);
+                    //inbc<PXM.r_BCXuatKho_CT>(false);
+                    inbc<GUI.report.PXM.BCXuatKho_new.r_BCXuatKho_CT>(false);
                 }
             }
             else
             {
-                 inbc<PXM.r_BCXuatkho_TH>(false);
+                //inbc<PXM.r_BCXuatkho_TH>(false);
+                inbc<GUI.report.PXM.BCXuatKho_new.r_BCXuatkho_TH>(false);
             }
 
             SplashScreenManager.CloseForm();
@@ -176,16 +179,16 @@ namespace GUI.report.dk_report
                 if (tgsloai.IsOn)
                 {
 
-                       inbc<r_BCxuatkhopx_CT>(true);
+                    inbc<r_BCxuatkhopx_CT>(true);
                 }
                 else
                 {
-                       inbc<PXM.r_BCXuatKho_CT>(true);
+                    inbc<PXM.r_BCXuatKho_CT>(true);
                 }
             }
             else
             {
-                   inbc<PXM.r_BCXuatkho_TH>(true);
+                inbc<PXM.r_BCXuatkho_TH>(true);
             }
 
             SplashScreenManager.CloseForm();
@@ -193,13 +196,14 @@ namespace GUI.report.dk_report
 
 
         private void loaixuat()
-        {switch (rdgloai.SelectedIndex)
+        {
+            switch (rdgloai.SelectedIndex)
             {
                 case 0:
                     txtdanhmuc.Properties.Items.Remove("Phương Tiện");
                     txtdanhmuc.Properties.Items.Add("Phương Tiện");
                     txtdanhmuc.Properties.Items.Remove("Kho Nhập Nội Bộ");
-                    if (txtdanhmuc.Text == "Kho Nhập Nội Bộ" )
+                    if (txtdanhmuc.Text == "Kho Nhập Nội Bộ")
                         txtdanhmuc.Text = "Công Trình";
                     loaddata();
                     break;
@@ -219,7 +223,7 @@ namespace GUI.report.dk_report
                         txtdanhmuc.Text = "Công Trình";
                     break;
             }
-   
+
         }
         private void rdgloai_SelectedIndexChanged(object sender, EventArgs e)
         {

@@ -70,14 +70,9 @@ namespace GUI
                 var lst = (from a in db.chamcongnvcongtrinhs where a.iddv == Biencucbo.donvi && a.idnv == Biencucbo.ma select a).Single(t => t.so == lstso);
                 loadata(lst.id);
             }
-            catch (Exception ex)
+            catch
             {
-
             }
-
-
-
-
         }
 
         private void loadata(string id)
@@ -111,13 +106,11 @@ namespace GUI
                 txtkhongluong.Text = "0";
                 txtngaykhac.Text = "0";
                 txtghichu.Text = "";
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
-
         }
 
         private void btnsua_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -160,19 +153,15 @@ namespace GUI
                 if (Biencucbo.id != "")
                     loadata(Biencucbo.id);
             }
-            catch (Exception ex)
+            catch
             {
-
             }
-
         }
 
         private void btnreload_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
             try
             {
-
                 if (Biencucbo.hdcc == 1)
                 {
                     loadata(_id);
@@ -199,7 +188,6 @@ namespace GUI
             {
                 MessageBox.Show(ex.ToString());
             }
-
         }
 
         private void luu()
@@ -292,10 +280,6 @@ namespace GUI
             int np = 0;
             try
             {
-                //ngayphep = int.Parse((from a in db.chamcongnvcongtrinhs
-                //                      where a.idnv == Biencucbo.ma && DateTime.Parse(a.thoigian.ToString()).Year == txtthoigian.DateTime.Year
-                //                      select a.ngayphep).Sum().ToString());
-                
                 //code moi sua 25/07/2019
                 ngayphep = int.Parse((from a in db.chamcongnvcongtrinhs
                                       where a.idnv == Biencucbo.ma
@@ -360,8 +344,6 @@ namespace GUI
 
                     try
                     {
-                        //ngayphep = int.Parse((from a in db.chamcongnvcongtrinhs where a.idnv == Biencucbo.ma /*&& a.id != Biencucbo.id*/ && DateTime.Parse(a.ngayphep.ToString()).Year == txtthoigian.DateTime.Year select a.ngayphep).Sum().ToString());
-
                         //code moi sua 25/07/2019
                         ngayphep = int.Parse((from a in db.chamcongnvcongtrinhs
                                               where a.idnv == Biencucbo.ma

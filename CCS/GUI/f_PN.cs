@@ -21,8 +21,6 @@ namespace GUI
         public f_PN()
         {
             InitializeComponent();
-            //gridControl1.DataSource = new DAL.KetNoiDBDataContext().pnhaps;
-
         }
 
         public void loaddata(DateTime tungay, DateTime denngay)
@@ -63,7 +61,6 @@ namespace GUI
                               a.nguyente
                               //MaTim = LayMaTim(d)
                           };
-                //var lst2 = lst.ToList().Where(t => t.MaTim.Contains("." + Biencucbo.donvi + "."));
 
                 gridControl1.DataSource = _tTodatatable.addlst(lst.ToList());
                 gridView1.ExpandAllGroups();
@@ -234,7 +231,6 @@ namespace GUI
                               a.nguyente
                               //MaTim = LayMaTim(d)
                           };
-                //var lst2 = lst.ToList().Where(t => t.MaTim.Contains("." + Biencucbo.donvi + "."));
 
                 gridControl1.DataSource = _tTodatatable.addlst(lst.ToList());
                 gridView1.ExpandAllGroups();
