@@ -125,11 +125,11 @@
             // txtinfo
             // 
             this.txtinfo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic);
-            this.txtinfo.LocationFloat = new DevExpress.Utils.PointFloat(5.298191E-05F, 138.2226F);
+            this.txtinfo.LocationFloat = new DevExpress.Utils.PointFloat(5.5631E-05F, 138.2226F);
             this.txtinfo.Multiline = true;
             this.txtinfo.Name = "txtinfo";
             this.txtinfo.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtinfo.SizeF = new System.Drawing.SizeF(1129F, 26.20511F);
+            this.txtinfo.SizeF = new System.Drawing.SizeF(1124.147F, 26.20511F);
             this.txtinfo.StylePriority.UseFont = false;
             this.txtinfo.StylePriority.UseTextAlignment = false;
             this.txtinfo.Text = "THÔNG TIN";
@@ -138,11 +138,11 @@
             // txtngayxem
             // 
             this.txtngayxem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic);
-            this.txtngayxem.LocationFloat = new DevExpress.Utils.PointFloat(5.298191E-05F, 112.0175F);
+            this.txtngayxem.LocationFloat = new DevExpress.Utils.PointFloat(5.5631E-05F, 112.0175F);
             this.txtngayxem.Multiline = true;
             this.txtngayxem.Name = "txtngayxem";
             this.txtngayxem.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtngayxem.SizeF = new System.Drawing.SizeF(1129F, 26.20512F);
+            this.txtngayxem.SizeF = new System.Drawing.SizeF(1124.147F, 26.20512F);
             this.txtngayxem.StylePriority.UseFont = false;
             this.txtngayxem.StylePriority.UseTextAlignment = false;
             this.txtngayxem.Text = "Từ Ngày......... Đến ngày.........";
@@ -173,11 +173,11 @@
             // xrLabel18
             // 
             this.xrLabel18.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(720.7545F, 0F);
+            this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(720.7546F, 0F);
             this.xrLabel18.Multiline = true;
             this.xrLabel18.Name = "xrLabel18";
             this.xrLabel18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel18.SizeF = new System.Drawing.SizeF(408.246F, 72.40203F);
+            this.xrLabel18.SizeF = new System.Drawing.SizeF(403.3924F, 72.40203F);
             this.xrLabel18.StylePriority.UseFont = false;
             this.xrLabel18.StylePriority.UseTextAlignment = false;
             this.xrLabel18.Text = "\r\nCỘNG HÒA DÂN CHỦ NHÂN DÂN LÀO\r\nHòa bình - Độc lập - Dân chủ - Thống nhất- Thịnh" +
@@ -187,11 +187,11 @@
             // xrLabel1
             // 
             this.xrLabel1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 79.40206F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 79.40205F);
             this.xrLabel1.Multiline = true;
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel1.SizeF = new System.Drawing.SizeF(1129F, 32.61539F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(1124.147F, 32.61539F);
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.StylePriority.UseTextAlignment = false;
             this.xrLabel1.Text = "BÁO CÁO TỔNG HỢP NHẬP XUẤT TỒN";
@@ -212,7 +212,7 @@
             this.xrTable3.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow3,
             this.xrTableRow1});
-            this.xrTable3.SizeF = new System.Drawing.SizeF(1129.001F, 50F);
+            this.xrTable3.SizeF = new System.Drawing.SizeF(1124.147F, 50F);
             this.xrTable3.StylePriority.UseFont = false;
             // 
             // xrTableRow3
@@ -305,7 +305,7 @@
             this.xrTableCell3.StylePriority.UseTextAlignment = false;
             this.xrTableCell3.Text = "Số Lượng";
             this.xrTableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            this.xrTableCell3.Weight = 7.30416268835986D;
+            this.xrTableCell3.Weight = 7.2460311011687528D;
             // 
             // xrTableRow1
             // 
@@ -443,7 +443,7 @@
             this.xrTableCell16.StylePriority.UseTextAlignment = false;
             this.xrTableCell16.Text = "Tồn Cuối Kỳ";
             this.xrTableCell16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            this.xrTableCell16.Weight = 1.65283814250031D;
+            this.xrTableCell16.Weight = 1.6002196560122779D;
             // 
             // GroupHeader1
             // 
@@ -461,7 +461,7 @@
             this.xrTable1.Name = "xrTable1";
             this.xrTable1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow5});
-            this.xrTable1.SizeF = new System.Drawing.SizeF(1129.001F, 25F);
+            this.xrTable1.SizeF = new System.Drawing.SizeF(1126F, 25F);
             this.xrTable1.StylePriority.UseFont = false;
             // 
             // xrTableRow5
@@ -619,7 +619,7 @@
             this.xrTableCell26.StylePriority.UseTextAlignment = false;
             this.xrTableCell26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             this.xrTableCell26.TextFormatString = "{0:n2}";
-            this.xrTableCell26.Weight = 1.65283814250031D;
+            this.xrTableCell26.Weight = 1.6203031084139372D;
             // 
             // GroupHeader2
             // 
@@ -638,7 +638,7 @@
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow2});
-            this.xrTable2.SizeF = new System.Drawing.SizeF(1129.001F, 25F);
+            this.xrTable2.SizeF = new System.Drawing.SizeF(1124.147F, 25F);
             this.xrTable2.StylePriority.UseBackColor = false;
             // 
             // xrTableRow2
@@ -675,7 +675,7 @@
             this.txtctnhap.StylePriority.UseFont = false;
             this.txtctnhap.StylePriority.UsePadding = false;
             this.txtctnhap.Text = "Kho Nhập: [idct]";
-            this.txtctnhap.Weight = 2.64747979409652D;
+            this.txtctnhap.Weight = 2.6353888681778455D;
             // 
             // ReportFooter
             // 
@@ -720,7 +720,7 @@
             this.xrPageInfo2.Name = "xrPageInfo2";
             this.xrPageInfo2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrPageInfo2.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
-            this.xrPageInfo2.SizeF = new System.Drawing.SizeF(304.9245F, 23F);
+            this.xrPageInfo2.SizeF = new System.Drawing.SizeF(300.0712F, 23F);
             this.xrPageInfo2.StylePriority.UseFont = false;
             this.xrPageInfo2.StylePriority.UseTextAlignment = false;
             this.xrPageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -729,11 +729,11 @@
             // xrLabel3
             // 
             this.xrLabel3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(824.0753F, 41.08331F);
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(824.0753F, 41.08327F);
             this.xrLabel3.Multiline = true;
             this.xrLabel3.Name = "xrLabel3";
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel3.SizeF = new System.Drawing.SizeF(304.9245F, 18.99358F);
+            this.xrLabel3.SizeF = new System.Drawing.SizeF(300.0712F, 18.99358F);
             this.xrLabel3.StylePriority.UseFont = false;
             this.xrLabel3.StylePriority.UseTextAlignment = false;
             this.xrLabel3.Text = "NGƯỜI LẬP";
@@ -742,11 +742,11 @@
             // xrLabel4
             // 
             this.xrLabel4.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Italic);
-            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(824.0755F, 60.07686F);
+            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(824.0755F, 60.07684F);
             this.xrLabel4.Multiline = true;
             this.xrLabel4.Name = "xrLabel4";
             this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel4.SizeF = new System.Drawing.SizeF(304.9245F, 18.99356F);
+            this.xrLabel4.SizeF = new System.Drawing.SizeF(300.0712F, 18.99356F);
             this.xrLabel4.StylePriority.UseFont = false;
             this.xrLabel4.StylePriority.UseTextAlignment = false;
             this.xrLabel4.Text = "(Ký & họ tên)";
@@ -761,10 +761,10 @@
             // 
             // xrPageInfo1
             // 
-            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(976.5396F, 10.00002F);
+            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(976.5396F, 10.00004F);
             this.xrPageInfo1.Name = "xrPageInfo1";
             this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(152.4604F, 23F);
+            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(147.6067F, 23F);
             this.xrPageInfo1.StylePriority.UseTextAlignment = false;
             this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             this.xrPageInfo1.TextFormatString = "Trang {0}/{1}";
@@ -786,7 +786,7 @@
             this.DataSource = this.objectDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
             this.Landscape = true;
-            this.Margins = new System.Drawing.Printing.Margins(20, 20, 20, 20);
+            this.Margins = new System.Drawing.Printing.Margins(20, 23, 20, 20);
             this.PageHeight = 827;
             this.PageWidth = 1169;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;

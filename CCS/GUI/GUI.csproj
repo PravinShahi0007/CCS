@@ -1527,7 +1527,6 @@
     <Compile Include="report\PXM\r_BCChenhlech_TH.Designer.cs">
       <DependentUpon>r_BCChenhlech_TH.cs</DependentUpon>
     </Compile>
-    <Compile Include="report\PXM\r_BCNhapKho_CT68.cs" />
     <Compile Include="report\PXM\r_BCNhapXuatTon_CT.cs">
       <SubType>Component</SubType>
     </Compile>

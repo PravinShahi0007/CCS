@@ -179,16 +179,66 @@ namespace GUI.report.dk_report
                 if (tgsloai.IsOn)
                 {
 
-                    inbc<r_BCxuatkhopx_CT>(true);
+                    inbc<GUI.report.PXM.BCXuatKho_new.r_BCxuatkhopx_CT>(true);
                 }
                 else
                 {
-                    inbc<PXM.r_BCXuatKho_CT>(true);
+                    inbc<GUI.report.PXM.BCXuatKho_new.r_BCXuatKho_CT>(true);
                 }
             }
             else
             {
-                inbc<PXM.r_BCXuatkho_TH>(true);
+                inbc<GUI.report.PXM.BCXuatKho_new.r_BCXuatkho_TH>(true);
+            }
+
+            SplashScreenManager.CloseForm();
+        }
+
+        protected override void search68()
+        {
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
+            if (tgsmode.IsOn == false)
+            {
+                if (tgsloai.IsOn)
+                {
+
+                    //inbc<r_BCxuatkhopx_CT>(false);
+                    inbc<GUI.report.PXM.FormPrint68.r_BCxuatkhopx_CT68>(false);
+                }
+                else
+                {
+                    //inbc<PXM.r_BCXuatKho_CT>(false);
+                    inbc<GUI.report.PXM.FormPrint68.r_BCXuatKho_CT68>(false);
+                }
+            }
+            else
+            {
+                //inbc<PXM.r_BCXuatkho_TH>(false);
+                inbc<GUI.report.PXM.FormPrint68.r_BCXuatkho_TH68>(false);
+            }
+
+            SplashScreenManager.CloseForm();
+
+        }
+
+        protected override void searchall68()
+        {
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
+            if (tgsmode.IsOn == false)
+            {
+                if (tgsloai.IsOn)
+                {
+
+                    inbc<GUI.report.PXM.FormPrint68.r_BCxuatkhopx_CT68>(true);
+                }
+                else
+                {
+                    inbc<GUI.report.PXM.FormPrint68.r_BCXuatKho_CT68>(true);
+                }
+            }
+            else
+            {
+                inbc<GUI.report.PXM.FormPrint68.r_BCXuatkho_TH68>(true);
             }
 
             SplashScreenManager.CloseForm();

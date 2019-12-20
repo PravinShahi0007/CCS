@@ -28,17 +28,17 @@ namespace GUI.report.PXM.FormPrint68
             stt1.Text = _stt1.ToString();
         }
 
-        private void stt2_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
-        {
-            _stt2++;
-            _stt3 = 0;
-            stt2.Text = stt1.Text + "." + _stt2;
-        }
+        //private void stt2_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        //{
+        //    _stt2++;
+        //    _stt3 = 0;
+        //    stt2.Text = stt1.Text + "." + _stt2;
+        //}
 
-        private void stt3_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
-        {
-            _stt3++;
-            stt3.Text = stt2.Text + "." + _stt3;
-        }
+        //private void stt3_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        //{
+        //    _stt3++;
+        //    stt3.Text = stt2.Text + "." + _stt3;
+        //}
     }
 }

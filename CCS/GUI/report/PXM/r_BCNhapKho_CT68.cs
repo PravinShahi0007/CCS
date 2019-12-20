@@ -1,4 +1,0 @@
-﻿namespace GUI.report.PXM
-{
-
-}
