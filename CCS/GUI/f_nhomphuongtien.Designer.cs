@@ -36,7 +36,6 @@
             this.btnSuaNDT = new DevExpress.XtraBars.BarButtonItem();
             this.btnXoaNPT = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
-            this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -53,8 +52,7 @@
             // barManager1
             // 
             this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar2,
-            this.bar3});
+            this.bar2});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
@@ -67,7 +65,6 @@
             this.barButtonItem1});
             this.barManager1.MainMenu = this.bar2;
             this.barManager1.MaxItemId = 4;
-            this.barManager1.StatusBar = this.bar3;
             // 
             // bar2
             // 
@@ -88,77 +85,69 @@
             // btnThemNPT
             // 
             this.btnThemNPT.Caption = "Thêm";
-            this.btnThemNPT.Glyph = ((System.Drawing.Image)(resources.GetObject("btnThemNPT.Glyph")));
             this.btnThemNPT.Id = 0;
-            this.btnThemNPT.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnThemNPT.LargeGlyph")));
+            this.btnThemNPT.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnThemNPT.ImageOptions.Image")));
+            this.btnThemNPT.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnThemNPT.ImageOptions.LargeImage")));
             this.btnThemNPT.Name = "btnThemNPT";
             this.btnThemNPT.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThemNDT_ItemClick);
             // 
             // btnSuaNDT
             // 
             this.btnSuaNDT.Caption = "Sửa";
-            this.btnSuaNDT.Glyph = ((System.Drawing.Image)(resources.GetObject("btnSuaNDT.Glyph")));
             this.btnSuaNDT.Id = 1;
-            this.btnSuaNDT.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnSuaNDT.LargeGlyph")));
+            this.btnSuaNDT.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSuaNDT.ImageOptions.Image")));
+            this.btnSuaNDT.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnSuaNDT.ImageOptions.LargeImage")));
             this.btnSuaNDT.Name = "btnSuaNDT";
             this.btnSuaNDT.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnSuaNDT_ItemClick);
             // 
             // btnXoaNPT
             // 
             this.btnXoaNPT.Caption = "Xoá";
-            this.btnXoaNPT.Glyph = ((System.Drawing.Image)(resources.GetObject("btnXoaNPT.Glyph")));
             this.btnXoaNPT.Id = 2;
-            this.btnXoaNPT.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnXoaNPT.LargeGlyph")));
+            this.btnXoaNPT.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnXoaNPT.ImageOptions.Image")));
+            this.btnXoaNPT.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnXoaNPT.ImageOptions.LargeImage")));
             this.btnXoaNPT.Name = "btnXoaNPT";
             this.btnXoaNPT.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnXoaNDT_ItemClick);
             // 
             // barButtonItem1
             // 
-            this.barButtonItem1.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.Glyph")));
             this.barButtonItem1.Id = 3;
-            this.barButtonItem1.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.LargeGlyph")));
+            this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
             this.barButtonItem1.Name = "barButtonItem1";
             this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
-            // 
-            // bar3
-            // 
-            this.bar3.BarName = "Status bar";
-            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar3.DockCol = 0;
-            this.bar3.DockRow = 0;
-            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar3.OptionsBar.AllowQuickCustomization = false;
-            this.bar3.OptionsBar.DrawDragBorder = false;
-            this.bar3.OptionsBar.UseWholeRow = true;
-            this.bar3.Text = "Status bar";
             // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Size = new System.Drawing.Size(511, 28);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 239);
-            this.barDockControlBottom.Size = new System.Drawing.Size(511, 22);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 261);
+            this.barDockControlBottom.Manager = this.barManager1;
+            this.barDockControlBottom.Size = new System.Drawing.Size(511, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 28);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 211);
+            this.barDockControlLeft.Manager = this.barManager1;
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 233);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(511, 28);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 211);
+            this.barDockControlRight.Manager = this.barManager1;
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 233);
             // 
             // gridControl1
             // 
@@ -167,7 +156,7 @@
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.MenuManager = this.barManager1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(511, 211);
+            this.gridControl1.Size = new System.Drawing.Size(511, 233);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -225,7 +214,6 @@
 
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.Bar bar2;
-        private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;

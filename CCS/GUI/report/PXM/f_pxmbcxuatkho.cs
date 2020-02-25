@@ -151,19 +151,15 @@ namespace GUI.report.dk_report
             {
                 if (tgsloai.IsOn)
                 {
-
-                    //inbc<r_BCxuatkhopx_CT>(false);
                     inbc<GUI.report.PXM.BCXuatKho_new.r_BCxuatkhopx_CT>(false);
                 }
                 else
                 {
-                    //inbc<PXM.r_BCXuatKho_CT>(false);
                     inbc<GUI.report.PXM.BCXuatKho_new.r_BCXuatKho_CT>(false);
                 }
             }
             else
             {
-                //inbc<PXM.r_BCXuatkho_TH>(false);
                 inbc<GUI.report.PXM.BCXuatKho_new.r_BCXuatkho_TH>(false);
             }
 
@@ -202,18 +198,15 @@ namespace GUI.report.dk_report
                 if (tgsloai.IsOn)
                 {
 
-                    //inbc<r_BCxuatkhopx_CT>(false);
                     inbc<GUI.report.PXM.FormPrint68.r_BCxuatkhopx_CT68>(false);
                 }
                 else
                 {
-                    //inbc<PXM.r_BCXuatKho_CT>(false);
                     inbc<GUI.report.PXM.FormPrint68.r_BCXuatKho_CT68>(false);
                 }
             }
             else
             {
-                //inbc<PXM.r_BCXuatkho_TH>(false);
                 inbc<GUI.report.PXM.FormPrint68.r_BCXuatkho_TH68>(false);
             }
 

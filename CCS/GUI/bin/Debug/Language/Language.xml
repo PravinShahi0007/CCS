@@ -2985,4 +2985,380 @@
     <name>.f_account_title</name>
     <value>Tài Khoản Đăng Nhập</value>
   </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.Root</name>
+    <value>Root</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem2</name>
+    <value>Mã Nhân Viên</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlGroup2</name>
+    <value>Thông tin liên lạc</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem6</name>
+    <value>Điện Thoại</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem16</name>
+    <value>Ngày Sinh</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem4</name>
+    <value>Địa Chỉ</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.txtgioitinh</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem17</name>
+    <value>Giới tính</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem18</name>
+    <value>Quốc Tịch</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem7</name>
+    <value>Email</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.txtcmnd</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem19</name>
+    <value>CMND</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.hinhanh</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem5</name>
+    <value>Ngày vào làm</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem3</name>
+    <value>Tên Nhân Viên</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.txttinhtrang</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem11</name>
+    <value>Tình trạng</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.btnimg</name>
+    <value>3x4</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem21</name>
+    <value>Ghi chú</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.Item20</name>
+    <value>Chức vụ</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem200</name>
+    <value>Ngày nghỉ việc</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.layoutControlItem20</name>
+    <value>Phương Tiện</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.btnhuy</name>
+    <value>Hủy</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.barButtonItem3</name>
+    <value>Đóng</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.barButtonItem6</name>
+    <value>barButtonItem6</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.luu</name>
+    <value>Lưu &amp;&amp; Đóng</value>
+  </Language>
+  <Language>
+    <name>.f_themnhanvienlaixe_title</name>
+    <value>Thêm Nhân Viên</value>
+  </Language>
+  <Language>
+    <name>f_themnhanvienlaixe.lblTenPT</name>
+    <value />
+  </Language>
+  <Language>
+    <name>Bạn có chắc chắn muốn xóa Đối tượng này không?</name>
+    <value>Bạn có chắc chắn muốn xóa Đối tượng này không?</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.panelControl2</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_tonghop.simpleButton4</name>
+    <value>&lt;&lt;</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.simpleButton3</name>
+    <value>&lt;</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.simpleButton2</name>
+    <value>&gt;&gt;</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.simpleButton1</name>
+    <value>&gt;</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nhan.gridColumn4</name>
+    <value>id</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nhan.gridColumn5</name>
+    <value>name</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nhan.gridColumn6</name>
+    <value>key</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nhan.gridColumn7</name>
+    <value>loai</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nguon.gridColumn1</name>
+    <value>id</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nguon.gridColumn3</name>
+    <value>key</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nguon.gridColumn2</name>
+    <value>name</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.nguon.gridColumn8</name>
+    <value>matim</value>
+  </Language>
+  <Language>
+    <name>f_tonghop.panelControl1</name>
+    <value />
+  </Language>
+  <Language>
+    <name>.f_tonghop_title</name>
+    <value>DANH SÁCH PHƯƠNG TIỆN</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.layoutControlGroup1</name>
+    <value>layoutControlGroup1</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.layoutControlGroup2</name>
+    <value>Xem danh sách</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.layoutControlItem3</name>
+    <value>Khoảng Thời Gian</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.layoutControlItem4</name>
+    <value>Từ tháng</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.layoutControlItem5</name>
+    <value>Đến Tháng</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.timkiem</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.btnIN</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.Root</name>
+    <value>Root</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn9</name>
+    <value>Mã PT</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn10</name>
+    <value>Tên Phương Tiện</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn11</name>
+    <value>Tháng</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn12</name>
+    <value>Mã Đơn Vị</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn13</name>
+    <value>Số Giờ</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn14</name>
+    <value>Số Ca</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn15</name>
+    <value>Số Ngày</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn16</name>
+    <value>NL Tồn đầu</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn17</name>
+    <value>NL Cấp</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn18</name>
+    <value>NL Tiêu Hao Khác</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn19</name>
+    <value>NL Tồn Cuối</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn20</name>
+    <value>NL Tiêu Hao</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn21</name>
+    <value>Tiêu Hao NL Đơn Vị</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn22</name>
+    <value>Định Mức</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn23</name>
+    <value>Chênh Lệch</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn24</name>
+    <value>Trạng Thái</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn25</name>
+    <value>Mã NV Lái Xe</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn26</name>
+    <value>Tên NV Lái Xe</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn27</name>
+    <value>gridColumn27</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn28</name>
+    <value>id</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.gridControl1.gridColumn29</name>
+    <value>Ghi Chú</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.btnThemNDT</name>
+    <value>Thêm</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.btnSuaNDT</name>
+    <value>Sửa</value>
+  </Language>
+  <Language>
+    <name>f_ds_theodoipt2.btnXoaNDT</name>
+    <value>Xoá</value>
+  </Language>
+  <Language>
+    <name>.f_ds_theodoipt2_title</name>
+    <value>Danh Sách Theo Dõi Phương Tiện</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.panelControl2</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.simpleButton4</name>
+    <value>&lt;&lt;</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.simpleButton3</name>
+    <value>&lt;</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.simpleButton2</name>
+    <value>&gt;&gt;</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.simpleButton1</name>
+    <value>&gt;</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nhan.gridColumn4</name>
+    <value>id</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nhan.gridColumn5</name>
+    <value>name</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nhan.gridColumn6</name>
+    <value>key</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nhan.gridColumn7</name>
+    <value>loai</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nguon.gridColumn1</name>
+    <value>id</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nguon.gridColumn3</name>
+    <value>key</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nguon.gridColumn2</name>
+    <value>name</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.nguon.gridColumn8</name>
+    <value>matim</value>
+  </Language>
+  <Language>
+    <name>f_bchd_cdt.panelControl1</name>
+    <value />
+  </Language>
+  <Language>
+    <name>.f_bchd_cdt_title</name>
+    <value>BÁO CÁO HỢP ĐỒNG VỚI CHỦ ĐẦU TƯ</value>
+  </Language>
 </NewDataSet>

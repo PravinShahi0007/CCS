@@ -596,11 +596,11 @@ namespace GUI
             gridView1.OptionsView.ShowAutoFilterRow = false;
             gridView1.ClearColumnsFilter();
 
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền chỉnh sửa phiếu này", "THÔNG BÁO");
-                return;
-            }
+            //if (Biencucbo.idnv != txtidnv.Text)
+            //{
+            //    XtraMessageBox.Show("  quyền chỉnh sửa phiếu này", "THÔNG BÁO");
+            //    return;
+            //}
             if (txtid.Text == "")
             {
                 return;
@@ -663,11 +663,11 @@ namespace GUI
         {
             gridView1.OptionsView.ShowAutoFilterRow = false;
             gridView1.ClearColumnsFilter();
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
-                return;
-            }
+            //if (Biencucbo.idnv != txtidnv.Text)
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
+            //    return;
+            //}
             if (txtid.Text == "")
             {
                 return;
@@ -818,7 +818,7 @@ namespace GUI
             if (e.Column.FieldName == "nguyente" || e.Column.FieldName == "dongia" || e.Column.FieldName == "catgiam")
             {
                 try
-                {
+                {  
                     gridView1.SetFocusedRowCellValue("sotien",
                         (double.Parse(gridView1.GetFocusedRowCellValue("nguyente").ToString()) *
                         double.Parse(gridView1.GetFocusedRowCellValue("dongia").ToString())) -
@@ -828,26 +828,26 @@ namespace GUI
                     gridView1.UpdateCurrentRow();
                     laychuyentien();
                 }
-                catch
+                catch (Exception ex)
                 {
                 }
             }
-            else if (e.Column.FieldName == "dongia")
-            {
-                try
-                {
-                    gridView1.SetFocusedRowCellValue("sotien",
-                       (double.Parse(gridView1.GetFocusedRowCellValue("nguyente").ToString()) *
-                       double.Parse(gridView1.GetFocusedRowCellValue("dongia").ToString())) -
-                       double.Parse(gridView1.GetFocusedRowCellValue("catgiam").ToString()));
-                    gridView1.PostEditor();
-                    gridView1.UpdateCurrentRow();
-                    laychuyentien();
-                }
-                catch (Exception)
-                {
-                }
-            }
+            //else if (e.Column.FieldName == "dongia")
+            //{
+            //    try
+            //    {
+            //        gridView1.SetFocusedRowCellValue("sotien",
+            //           (double.Parse(gridView1.GetFocusedRowCellValue("nguyente").ToString()) *
+            //           double.Parse(gridView1.GetFocusedRowCellValue("dongia").ToString())) -
+            //           double.Parse(gridView1.GetFocusedRowCellValue("catgiam").ToString()));
+            //        gridView1.PostEditor();
+            //        gridView1.UpdateCurrentRow();
+            //        laychuyentien();
+            //    }
+            //    catch (Exception)
+            //    {
+            //    }
+            //}
         }
 
         //Phím Tắt

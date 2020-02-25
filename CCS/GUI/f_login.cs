@@ -182,8 +182,6 @@ namespace GUI
             }
             catch
             {
-
-
             }
         }
         private void Completed(object sender, AsyncCompletedEventArgs e)

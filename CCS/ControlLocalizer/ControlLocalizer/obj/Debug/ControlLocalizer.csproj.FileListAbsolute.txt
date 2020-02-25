@@ -12422,9 +12422,9 @@ D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\bin\Debug\de\DevE
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\bin\Debug\es\DevExpress.Diagram.v18.2.Core.resources.dll
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\bin\Debug\ja\DevExpress.Diagram.v18.2.Core.resources.dll
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\bin\Debug\ru\DevExpress.Diagram.v18.2.Core.resources.dll
-D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.csprojResolveAssemblyReference.cache
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.FrmMain.resources
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.Properties.Resources.resources
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.csproj.GenerateResource.Cache
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.dll
 D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.pdb
+D:\MEO\CODE\GIT CODE\CCS\CCS\ControlLocalizer\ControlLocalizer\obj\Debug\ControlLocalizer.csprojResolveAssemblyReference.cache

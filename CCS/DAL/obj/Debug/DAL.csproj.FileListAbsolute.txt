@@ -450,3 +450,4 @@ D:\MEO\CODE\GIT CODE\CCS\CCS\DAL\bin\Debug\DAL.dll
 D:\MEO\CODE\GIT CODE\CCS\CCS\DAL\bin\Debug\DAL.pdb
 D:\MEO\CODE\GIT CODE\CCS\CCS\DAL\obj\Debug\DAL.dll
 D:\MEO\CODE\GIT CODE\CCS\CCS\DAL\obj\Debug\DAL.pdb
+D:\MEO\CODE\GIT CODE\CCS\CCS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

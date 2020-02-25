@@ -25,8 +25,7 @@ namespace GUI.Report.PhuongTien
         t_todatatable _tTodatatable = new t_todatatable();
 
         public double tongtt;
-        public double tongtt2;
-
+        public double tongtt2; 
 
         public f_bcthall()
         {
@@ -1266,85 +1265,90 @@ namespace GUI.Report.PhuongTien
                     Biencucbo.Congtrinh = "Tất cả";
                 }
 
+                //code lại đoạn này = sql 19022020
 
-                var lstpn = (from a in db.congtrinhs
-                    join b in db.r_bcpns on a.id equals b.idct into k
-                    from pn in k.DefaultIfEmpty()
-                    where a.ht != true
-                    select new
-                    {
-                        a.tencongtrinh,
-                        dv = a.khuvuc,
-                        a.gthanmuc,
-                        loai = a.loaict,
-                        pn.idct,
-                        gtqt = pn.gtqt == null ? 0 : pn.gtqt,
-                        gttt = pn.gttt == null ? 0 : pn.gttt,
-                        gtcl = (pn.gtqt == null ? 0 : pn.gtqt) - (pn.gttt == null ? 0 : pn.gttt)
-                    }).ToList();
-                var lsthd = (from a in db.congtrinhs
-                    join b in db.r_thanhtoans on a.id equals b.idct into k
-                    from pn in k.DefaultIfEmpty()
-                    where a.ht != true
-                    select new
-                    {
-                        a.tencongtrinh,
-                        dv = a.khuvuc,
-                        a.gthanmuc,
-                        loai = a.loaict,
-                        pn.idct,
-                        gtqt = pn.giatriqt == null ? 0 : pn.giatriqt,
-                        gttt = pn.giatritt == null ? 0 : pn.giatritt,
-                        gtcl = (pn.giatriqt == null ? 0 : pn.giatriqt) - (pn.giatritt == null ? 0 : pn.giatritt)
-                    }).ToList();
-                var lstcpm = (from a in db.congtrinhs
-                    join b in db.r_bccpms on a.id equals b.idct into k
-                    from pn in k.DefaultIfEmpty()
-                    where a.ht != true
-                    select new
-                    {
-                        a.tencongtrinh,
-                        dv = a.khuvuc,
-                        a.gthanmuc,
-                        loai = a.loaict,
-                        pn.idct,
-                        gtqt = pn.gtqt == null ? 0 : pn.gtqt,
-                        gttt = pn.gttt == null ? 0 : pn.gttt,
-                        gtcl = (pn.gtqt == null ? 0 : pn.gtqt) - (pn.gttt == null ? 0 : pn.gttt)
-                    }).ToList();
-                var lstcpk = (from a in db.congtrinhs
-                    join b in db.r_bccpks on a.id equals b.idct into k
-                    from pn in k.DefaultIfEmpty()
-                    where a.ht != true
-                    select new
-                    {
-                        a.tencongtrinh,
-                        dv = a.khuvuc,
-                        a.gthanmuc,
-                        loai = a.loaict,
-                        pn.idct,
-                        gtqt = pn.gtqt == null ? 0 : pn.gtqt,
-                        gttt = pn.gttt == null ? 0 : pn.gttt,
-                        gtcl = (pn.gtqt == null ? 0 : pn.gtqt) - (pn.gttt == null ? 0 : pn.gttt)
-                    }).ToList();
+                //var lstpn = (from a in db.congtrinhs
+                //    join b in db.r_bcpns on a.id equals b.idct into k
+                //    from pn in k.DefaultIfEmpty()
+                //    where a.ht != true
+                //    select new
+                //    {
+                //        a.tencongtrinh,
+                //        dv = a.khuvuc,
+                //        a.gthanmuc,
+                //        loai = a.loaict,
+                //        pn.idct,
+                //        gtqt = pn.gtqt == null ? 0 : pn.gtqt,
+                //        gttt = pn.gttt == null ? 0 : pn.gttt,
+                //        gtcl = (pn.gtqt == null ? 0 : pn.gtqt) - (pn.gttt == null ? 0 : pn.gttt)
+                //    }).ToList();
+                //var lsthd = (from a in db.congtrinhs
+                //    join b in db.r_thanhtoans on a.id equals b.idct into k
+                //    from pn in k.DefaultIfEmpty()
+                //    where a.ht != true
+                //    select new
+                //    {
+                //        a.tencongtrinh,
+                //        dv = a.khuvuc,
+                //        a.gthanmuc,
+                //        loai = a.loaict,
+                //        pn.idct,
+                //        gtqt = pn.giatriqt == null ? 0 : pn.giatriqt,
+                //        gttt = pn.giatritt == null ? 0 : pn.giatritt,
+                //        gtcl = (pn.giatriqt == null ? 0 : pn.giatriqt) - (pn.giatritt == null ? 0 : pn.giatritt)
+                //    }).ToList();
+                //var lstcpm = (from a in db.congtrinhs
+                //    join b in db.r_bccpms on a.id equals b.idct into k
+                //    from pn in k.DefaultIfEmpty()
+                //    where a.ht != true
+                //    select new
+                //    {
+                //        a.tencongtrinh,
+                //        dv = a.khuvuc,
+                //        a.gthanmuc,
+                //        loai = a.loaict,
+                //        pn.idct,
+                //        gtqt = pn.gtqt == null ? 0 : pn.gtqt,
+                //        gttt = pn.gttt == null ? 0 : pn.gttt,
+                //        gtcl = (pn.gtqt == null ? 0 : pn.gtqt) - (pn.gttt == null ? 0 : pn.gttt)
+                //    }).ToList();
+                //var lstcpk = (from a in db.congtrinhs
+                //    join b in db.r_bccpks on a.id equals b.idct into k
+                //    from pn in k.DefaultIfEmpty()
+                //    where a.ht != true
+                //    select new
+                //    {
+                //        a.tencongtrinh,
+                //        dv = a.khuvuc,
+                //        a.gthanmuc,
+                //        loai = a.loaict,
+                //        pn.idct,
+                //        gtqt = pn.gtqt == null ? 0 : pn.gtqt,
+                //        gttt = pn.gttt == null ? 0 : pn.gttt,
+                //        gtcl = (pn.gtqt == null ? 0 : pn.gtqt) - (pn.gttt == null ? 0 : pn.gttt)
+                //    }).ToList();
 
-                var lst = (from a in lstpn select a).Concat(from b in lsthd select b)
-                    .Concat(from c in lstcpm select c)
-                    .Concat(from d in lstcpk select d)
-                    .GroupBy(t => new {t.idct, t.dv, t.gthanmuc, t.tencongtrinh, t.loai})
-                    .Select(y => new
+                //var lst = (from a in lstpn select a).Concat(from b in lsthd select b)
+                //    .Concat(from c in lstcpm select c)
+                //    .Concat(from d in lstcpk select d)
+                //    .GroupBy(t => new {t.idct, t.dv, t.gthanmuc, t.tencongtrinh, t.loai})
+                //    .Select(y => new
 
-                    {
-                        y.Key.idct,
-                        y.Key.dv,
-                        y.Key.tencongtrinh,
-                        y.Key.loai,
-                        y.Key.gthanmuc,
-                        gtqt = y.Sum(t => t.gtqt),
-                        gttt = y.Sum(t => t.gttt),
-                        gtcl = y.Sum(t => t.gtcl)
-                    }
-                    ).Where(t => t.idct != null);
+                //    {
+                //        y.Key.idct,
+                //        y.Key.dv,
+                //        y.Key.tencongtrinh,
+                //        y.Key.loai,
+                //        y.Key.gthanmuc,
+                //        gtqt = y.Sum(t => t.gtqt),
+                //        gttt = y.Sum(t => t.gttt),
+                //        gtcl = y.Sum(t => t.gtcl)
+                //    }
+                //    ).Where(t => t.idct != null);
+
+                //code lại 
+                var lst = from a in db.bcthall_test() select a;
+
                 // nguồn cấp
                 var lst2 = lst;
 

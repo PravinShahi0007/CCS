@@ -169,11 +169,11 @@
             this.layoutControl1.Controls.Add(this.txtlink);
             this.layoutControl1.Controls.Add(this.cboSheetName);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl1.Location = new System.Drawing.Point(0, 31);
+            this.layoutControl1.Location = new System.Drawing.Point(0, 26);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(513, 17, 250, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(394, 102);
+            this.layoutControl1.Size = new System.Drawing.Size(394, 107);
             this.layoutControl1.TabIndex = 4;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -273,7 +273,7 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(394, 31);
+            this.barDockControlTop.Size = new System.Drawing.Size(394, 26);
             // 
             // barDockControlBottom
             // 
@@ -287,17 +287,17 @@
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 31);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 26);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 102);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 107);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(394, 31);
+            this.barDockControlRight.Location = new System.Drawing.Point(394, 26);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 102);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 107);
             // 
             // pdfZoom10CheckItem1
             // 
@@ -393,7 +393,7 @@
             this.layoutControlItem5,
             this.layoutControlItem6});
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(394, 102);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(394, 107);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem2
@@ -434,7 +434,7 @@
             this.layoutControlItem6.Control = this.cboSheetName;
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 48);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(374, 34);
+            this.layoutControlItem6.Size = new System.Drawing.Size(374, 39);
             this.layoutControlItem6.Text = "Chọn Sheet";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(56, 13);
             // 
@@ -638,7 +638,7 @@
             this.barDockControl4.Manager = this.barManager2;
             this.barDockControl4.Size = new System.Drawing.Size(0, 133);
             // 
-            // f_import
+            // f_import_bo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -653,7 +653,7 @@
             this.Controls.Add(this.barDockControl2);
             this.Controls.Add(this.barDockControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "f_import";
+            this.Name = "f_import_bo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm File";
             this.Load += new System.EventHandler(this.f_themaccount_Load);

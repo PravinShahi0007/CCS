@@ -58,8 +58,8 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtlink.Properties.DataSource = this.vanbandenBindingSource;
             this.txtlink.Properties.DisplayMember = "id";
+            this.txtlink.Properties.PopupView = this.searchLookUpEdit1View;
             this.txtlink.Properties.ValueMember = "id";
-            this.txtlink.Properties.View = this.searchLookUpEdit1View;
             this.txtlink.Size = new System.Drawing.Size(626, 20);
             this.txtlink.TabIndex = 0;
             this.txtlink.EditValueChanged += new System.EventHandler(this.txtlink_EditValueChanged);
@@ -130,6 +130,7 @@
             // lblid
             // 
             this.lblid.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblid.Appearance.Options.UseFont = true;
             this.lblid.Location = new System.Drawing.Point(12, 38);
             this.lblid.Name = "lblid";
             this.lblid.Size = new System.Drawing.Size(52, 18);
@@ -139,6 +140,7 @@
             // lblsovb
             // 
             this.lblsovb.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsovb.Appearance.Options.UseFont = true;
             this.lblsovb.Location = new System.Drawing.Point(12, 57);
             this.lblsovb.Name = "lblsovb";
             this.lblsovb.Size = new System.Drawing.Size(74, 18);
@@ -148,6 +150,7 @@
             // lblngaynhan
             // 
             this.lblngaynhan.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblngaynhan.Appearance.Options.UseFont = true;
             this.lblngaynhan.Location = new System.Drawing.Point(12, 76);
             this.lblngaynhan.Name = "lblngaynhan";
             this.lblngaynhan.Size = new System.Drawing.Size(108, 18);
@@ -157,6 +160,7 @@
             // lblnoidung
             // 
             this.lblnoidung.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnoidung.Appearance.Options.UseFont = true;
             this.lblnoidung.Location = new System.Drawing.Point(12, 95);
             this.lblnoidung.Name = "lblnoidung";
             this.lblnoidung.Size = new System.Drawing.Size(94, 18);
@@ -166,6 +170,7 @@
             // lbltrichyeu
             // 
             this.lbltrichyeu.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltrichyeu.Appearance.Options.UseFont = true;
             this.lbltrichyeu.Location = new System.Drawing.Point(12, 114);
             this.lbltrichyeu.Name = "lbltrichyeu";
             this.lbltrichyeu.Size = new System.Drawing.Size(98, 18);
@@ -174,7 +179,7 @@
             // 
             // btnin
             // 
-            this.btnin.Image = ((System.Drawing.Image)(resources.GetObject("btnin.Image")));
+            this.btnin.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnin.ImageOptions.Image")));
             this.btnin.Location = new System.Drawing.Point(644, 10);
             this.btnin.Name = "btnin";
             this.btnin.Size = new System.Drawing.Size(27, 23);

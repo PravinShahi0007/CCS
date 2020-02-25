@@ -47,6 +47,9 @@
             this.gridColumn27 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn34 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.btnThem = new DevExpress.XtraBars.BarButtonItem();
@@ -63,7 +66,6 @@
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.btnExport = new DevExpress.XtraBars.BarButtonItem();
             this.btnImport = new DevExpress.XtraBars.BarButtonItem();
-            this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -80,6 +82,7 @@
             this.repositoryItemComboBox2 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.hinhanh = new System.Windows.Forms.PictureBox();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.lblMaPT = new DevExpress.XtraEditors.LabelControl();
             this.lbltinhtrang = new DevExpress.XtraEditors.LabelControl();
             this.lblnct = new DevExpress.XtraEditors.LabelControl();
             this.lblemail = new DevExpress.XtraEditors.LabelControl();
@@ -106,13 +109,14 @@
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
@@ -153,17 +157,17 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 72);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(889, 367);
+            this.layoutControl1.Size = new System.Drawing.Size(932, 389);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // gridControl2
             // 
-            this.gridControl2.Location = new System.Drawing.Point(12, 335);
+            this.gridControl2.Location = new System.Drawing.Point(2, 365);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.MenuManager = this.barManager1;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(865, 20);
+            this.gridControl2.Size = new System.Drawing.Size(928, 22);
             this.gridControl2.TabIndex = 7;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -185,7 +189,9 @@
             this.gridColumn27,
             this.gridColumn28,
             this.gridColumn29,
-            this.gridColumn30});
+            this.gridColumn30,
+            this.gridColumn33,
+            this.gridColumn34});
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
             // 
@@ -196,118 +202,146 @@
             this.gridColumn16.Name = "gridColumn16";
             this.gridColumn16.Visible = true;
             this.gridColumn16.VisibleIndex = 0;
+            this.gridColumn16.Width = 43;
             // 
             // gridColumn17
             // 
             this.gridColumn17.Caption = "id";
             this.gridColumn17.FieldName = "id";
             this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.Visible = true;
-            this.gridColumn17.VisibleIndex = 1;
+            this.gridColumn17.Width = 78;
             // 
             // gridColumn18
             // 
             this.gridColumn18.Caption = "idnv";
             this.gridColumn18.FieldName = "idnv";
             this.gridColumn18.Name = "gridColumn18";
-            this.gridColumn18.Visible = true;
-            this.gridColumn18.VisibleIndex = 2;
+            this.gridColumn18.Width = 78;
             // 
             // gridColumn19
             // 
-            this.gridColumn19.Caption = "ten";
+            this.gridColumn19.Caption = "Tên Nhân Viên";
             this.gridColumn19.FieldName = "ten";
             this.gridColumn19.Name = "gridColumn19";
             this.gridColumn19.Visible = true;
-            this.gridColumn19.VisibleIndex = 3;
+            this.gridColumn19.VisibleIndex = 1;
+            this.gridColumn19.Width = 78;
             // 
             // gridColumn20
             // 
-            this.gridColumn20.Caption = "noicongtac";
+            this.gridColumn20.Caption = "Nơi Công Tác";
             this.gridColumn20.FieldName = "noicongtac";
             this.gridColumn20.Name = "gridColumn20";
             this.gridColumn20.Visible = true;
-            this.gridColumn20.VisibleIndex = 5;
+            this.gridColumn20.VisibleIndex = 3;
+            this.gridColumn20.Width = 78;
             // 
             // gridColumn21
             // 
             this.gridColumn21.Caption = "Chucvu";
             this.gridColumn21.FieldName = "Chucvu";
             this.gridColumn21.Name = "gridColumn21";
-            this.gridColumn21.Visible = true;
-            this.gridColumn21.VisibleIndex = 6;
+            this.gridColumn21.Width = 78;
             // 
             // gridColumn22
             // 
-            this.gridColumn22.Caption = "ngaycong";
+            this.gridColumn22.Caption = "Ngày Công";
             this.gridColumn22.FieldName = "ngaycong";
             this.gridColumn22.Name = "gridColumn22";
             this.gridColumn22.Visible = true;
-            this.gridColumn22.VisibleIndex = 7;
+            this.gridColumn22.VisibleIndex = 4;
+            this.gridColumn22.Width = 78;
             // 
             // gridColumn23
             // 
-            this.gridColumn23.Caption = "ngayphep";
+            this.gridColumn23.Caption = "Ngày Phép";
             this.gridColumn23.FieldName = "ngayphep";
             this.gridColumn23.Name = "gridColumn23";
             this.gridColumn23.Visible = true;
-            this.gridColumn23.VisibleIndex = 8;
+            this.gridColumn23.VisibleIndex = 5;
+            this.gridColumn23.Width = 78;
             // 
             // gridColumn24
             // 
-            this.gridColumn24.Caption = "khongluong";
+            this.gridColumn24.Caption = "Không Lương";
             this.gridColumn24.FieldName = "khongluong";
             this.gridColumn24.Name = "gridColumn24";
             this.gridColumn24.Visible = true;
-            this.gridColumn24.VisibleIndex = 9;
+            this.gridColumn24.VisibleIndex = 6;
+            this.gridColumn24.Width = 78;
             // 
             // gridColumn25
             // 
-            this.gridColumn25.Caption = "ngaykhac";
+            this.gridColumn25.Caption = "Ngày Khác";
             this.gridColumn25.FieldName = "ngaykhac";
             this.gridColumn25.Name = "gridColumn25";
             this.gridColumn25.Visible = true;
-            this.gridColumn25.VisibleIndex = 10;
+            this.gridColumn25.VisibleIndex = 7;
+            this.gridColumn25.Width = 78;
             // 
             // gridColumn26
             // 
-            this.gridColumn26.Caption = "ghichu";
+            this.gridColumn26.Caption = "Ghi Chú";
             this.gridColumn26.FieldName = "ghichu";
             this.gridColumn26.Name = "gridColumn26";
             this.gridColumn26.Visible = true;
-            this.gridColumn26.VisibleIndex = 11;
+            this.gridColumn26.VisibleIndex = 8;
+            this.gridColumn26.Width = 78;
             // 
             // gridColumn27
             // 
             this.gridColumn27.Caption = "iddv";
             this.gridColumn27.FieldName = "iddv";
             this.gridColumn27.Name = "gridColumn27";
-            this.gridColumn27.Visible = true;
-            this.gridColumn27.VisibleIndex = 12;
+            this.gridColumn27.Width = 78;
             // 
             // gridColumn28
             // 
             this.gridColumn28.Caption = "so";
             this.gridColumn28.FieldName = "so";
             this.gridColumn28.Name = "gridColumn28";
-            this.gridColumn28.Visible = true;
-            this.gridColumn28.VisibleIndex = 13;
+            this.gridColumn28.Width = 78;
             // 
             // gridColumn29
             // 
-            this.gridColumn29.Caption = "thoigian";
-            this.gridColumn29.DisplayFormat.FormatString = "yyyy-MM-dd";
+            this.gridColumn29.Caption = "Thời Gian";
+            this.gridColumn29.DisplayFormat.FormatString = "dd/MM/yyyy";
             this.gridColumn29.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.gridColumn29.FieldName = "thoigian";
             this.gridColumn29.Name = "gridColumn29";
             this.gridColumn29.Visible = true;
-            this.gridColumn29.VisibleIndex = 14;
+            this.gridColumn29.VisibleIndex = 9;
+            this.gridColumn29.Width = 78;
+            // 
+            // gridColumn30
+            // 
+            this.gridColumn30.Caption = "Passport";
+            this.gridColumn30.FieldName = "cmnd";
+            this.gridColumn30.Name = "gridColumn30";
+            this.gridColumn30.Visible = true;
+            this.gridColumn30.VisibleIndex = 2;
+            this.gridColumn30.Width = 78;
+            // 
+            // gridColumn33
+            // 
+            this.gridColumn33.Caption = "mapt";
+            this.gridColumn33.FieldName = "mapt";
+            this.gridColumn33.Name = "gridColumn33";
+            this.gridColumn33.Width = 78;
+            // 
+            // gridColumn34
+            // 
+            this.gridColumn34.Caption = "Phương Tiện";
+            this.gridColumn34.FieldName = "tenpt";
+            this.gridColumn34.Name = "gridColumn34";
+            this.gridColumn34.Visible = true;
+            this.gridColumn34.VisibleIndex = 10;
+            this.gridColumn34.Width = 88;
             // 
             // barManager1
             // 
             this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar2,
-            this.bar3});
+            this.bar2});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
@@ -335,7 +369,6 @@
             this.repositoryItemComboBox1,
             this.repositoryItemComboBox2,
             this.repositoryItemSearchLookUpEdit1});
-            this.barManager1.StatusBar = this.bar3;
             // 
             // bar2
             // 
@@ -488,33 +521,21 @@
             this.btnImport.Name = "btnImport";
             this.btnImport.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnImport_ItemClick);
             // 
-            // bar3
-            // 
-            this.bar3.BarName = "Status bar";
-            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar3.DockCol = 0;
-            this.bar3.DockRow = 0;
-            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar3.OptionsBar.AllowQuickCustomization = false;
-            this.bar3.OptionsBar.DrawDragBorder = false;
-            this.bar3.OptionsBar.UseWholeRow = true;
-            this.bar3.Text = "Status bar";
-            // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(889, 72);
+            this.barDockControlTop.Size = new System.Drawing.Size(932, 72);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 439);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 461);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(889, 22);
+            this.barDockControlBottom.Size = new System.Drawing.Size(932, 0);
             // 
             // barDockControlLeft
             // 
@@ -522,15 +543,15 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 72);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 367);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 389);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(889, 72);
+            this.barDockControlRight.Location = new System.Drawing.Point(932, 72);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 367);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 389);
             // 
             // txtcongtrinh
             // 
@@ -621,7 +642,7 @@
             // 
             // hinhanh
             // 
-            this.hinhanh.Location = new System.Drawing.Point(656, 12);
+            this.hinhanh.Location = new System.Drawing.Point(692, 2);
             this.hinhanh.Name = "hinhanh";
             this.hinhanh.Size = new System.Drawing.Size(102, 130);
             this.hinhanh.TabIndex = 6;
@@ -629,6 +650,7 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.lblMaPT);
             this.groupControl1.Controls.Add(this.lbltinhtrang);
             this.groupControl1.Controls.Add(this.lblnct);
             this.groupControl1.Controls.Add(this.lblemail);
@@ -641,11 +663,20 @@
             this.groupControl1.Controls.Add(this.lbldiachi);
             this.groupControl1.Controls.Add(this.lblten);
             this.groupControl1.Controls.Add(this.lblid);
-            this.groupControl1.Location = new System.Drawing.Point(656, 146);
+            this.groupControl1.Location = new System.Drawing.Point(692, 136);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(221, 185);
+            this.groupControl1.Size = new System.Drawing.Size(238, 225);
             this.groupControl1.TabIndex = 5;
             this.groupControl1.Text = "Thông tin chung";
+            // 
+            // lblMaPT
+            // 
+            this.lblMaPT.AllowHtmlString = true;
+            this.lblMaPT.Location = new System.Drawing.Point(14, 245);
+            this.lblMaPT.Name = "lblMaPT";
+            this.lblMaPT.Size = new System.Drawing.Size(67, 13);
+            this.lblMaPT.TabIndex = 12;
+            this.lblMaPT.Text = "Phương Tiện: ";
             // 
             // lbltinhtrang
             // 
@@ -758,11 +789,11 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(12, 12);
+            this.gridControl1.Location = new System.Drawing.Point(2, 2);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.MenuManager = this.barManager1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(640, 319);
+            this.gridControl1.Size = new System.Drawing.Size(686, 359);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -781,7 +812,9 @@
             this.gridColumn12,
             this.gridColumn13,
             this.gridColumn14,
-            this.gridColumn15});
+            this.gridColumn15,
+            this.gridColumn31,
+            this.gridColumn32});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
@@ -837,7 +870,7 @@
             // 
             // gridColumn9
             // 
-            this.gridColumn9.Caption = "CMND/Passport";
+            this.gridColumn9.Caption = "Passport";
             this.gridColumn9.FieldName = "cmnd";
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.Visible = true;
@@ -898,6 +931,22 @@
             this.gridColumn15.VisibleIndex = 10;
             this.gridColumn15.Width = 125;
             // 
+            // gridColumn31
+            // 
+            this.gridColumn31.Caption = "Mã PT";
+            this.gridColumn31.FieldName = "mapt";
+            this.gridColumn31.Name = "gridColumn31";
+            this.gridColumn31.Visible = true;
+            this.gridColumn31.VisibleIndex = 11;
+            // 
+            // gridColumn32
+            // 
+            this.gridColumn32.Caption = "Phương Tiện";
+            this.gridColumn32.FieldName = "tenpt";
+            this.gridColumn32.Name = "gridColumn32";
+            this.gridColumn32.Visible = true;
+            this.gridColumn32.VisibleIndex = 12;
+            // 
             // Root
             // 
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -909,7 +958,8 @@
             this.emptySpaceItem1,
             this.layoutControlItem4});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(889, 367);
+            this.Root.Padding = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
+            this.Root.Size = new System.Drawing.Size(932, 389);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -917,23 +967,23 @@
             this.layoutControlItem1.Control = this.gridControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(644, 323);
+            this.layoutControlItem1.Size = new System.Drawing.Size(690, 363);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.groupControl1;
-            this.layoutControlItem2.Location = new System.Drawing.Point(644, 134);
+            this.layoutControlItem2.Location = new System.Drawing.Point(690, 134);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(225, 189);
+            this.layoutControlItem2.Size = new System.Drawing.Size(242, 229);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.hinhanh;
-            this.layoutControlItem3.Location = new System.Drawing.Point(644, 0);
+            this.layoutControlItem3.Location = new System.Drawing.Point(690, 0);
             this.layoutControlItem3.MaxSize = new System.Drawing.Size(106, 134);
             this.layoutControlItem3.MinSize = new System.Drawing.Size(106, 134);
             this.layoutControlItem3.Name = "layoutControlItem3";
@@ -945,35 +995,27 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(750, 0);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(796, 0);
             this.emptySpaceItem1.MinSize = new System.Drawing.Size(104, 24);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(119, 134);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(136, 134);
             this.emptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.gridControl2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 323);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 363);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(869, 24);
+            this.layoutControlItem4.Size = new System.Drawing.Size(932, 26);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
-            // 
-            // gridColumn30
-            // 
-            this.gridColumn30.Caption = "cmnd";
-            this.gridColumn30.FieldName = "cmnd";
-            this.gridColumn30.Name = "gridColumn30";
-            this.gridColumn30.Visible = true;
-            this.gridColumn30.VisibleIndex = 4;
             // 
             // f_dsnhanvienlaixe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(889, 461);
+            this.ClientSize = new System.Drawing.Size(932, 461);
             this.Controls.Add(this.layoutControl1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -1031,7 +1073,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.Bar bar2;
-        private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
@@ -1102,5 +1143,10 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn29;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
+        private DevExpress.XtraEditors.LabelControl lblMaPT;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn33;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn34;
     }
 }

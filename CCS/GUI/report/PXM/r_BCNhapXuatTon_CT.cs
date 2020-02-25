@@ -19,8 +19,10 @@ namespace GUI.report.PXM
         public r_BCNhapXuatTon_CT()
         {
             InitializeComponent();
+
             txtngayxem.Text = Biencucbo.ngaybc;
             txtinfo.Text = Biencucbo.info;
+
             dt.Columns.Add("idpn", typeof(string));
             dt.Columns.Add("keypx", typeof (string));
             dt.Columns.Add("congtrinh", typeof(string));
@@ -43,11 +45,7 @@ namespace GUI.report.PXM
             stt2.Text = stt1.Text + "." + _stt2;
         }
 
-        private void stt3_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
-        {
-            _stt3++;
-            stt3.Text = stt2.Text + "." + _stt3;
-        }
+       
 
         private void Detail_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
@@ -117,6 +115,11 @@ namespace GUI.report.PXM
                     XtraMessageBox.Show(ex.ToString());
                 }
             }
+        }
+
+        private void stt3_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+
         }
     }
 }

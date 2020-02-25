@@ -796,11 +796,11 @@ namespace GUI
 
         private void xoa()
         {
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
-                return;
-            }
+            //if (Biencucbo.idnv != txtidnv.Text)
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
+            //    return;
+            //}
             if (txtid.Text == "")
             {
                 return;

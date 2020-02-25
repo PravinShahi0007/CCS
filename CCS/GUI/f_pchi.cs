@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
@@ -687,11 +687,11 @@ namespace GUI
         //Xóa
         private void xoa()
         {
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
-                return;
-            }
+            //if (Biencucbo.idnv != txtidnv.Text)
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
+            //    return;
+            //}
             if (txtid.Text == "")
             {
                 return;

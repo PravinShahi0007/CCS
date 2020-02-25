@@ -35,36 +35,38 @@ namespace GUI
 
 
         //moi 15/10
-        public void setFontRibbon(RibbonControl ribbonControl)
-        {
-            foreach (RibbonPage page in ribbonControl.Pages)
-            {
-                page.Appearance.Font = new Font("Saysettha OT", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
 
-                foreach (RibbonPageGroup g in page.Groups)
-                {
-                    //ko co font 
+        #region  set FONT chu tieng Lao & Viet
+        //public void setFontRibbon(RibbonControl ribbonControl)
+        //{
+        //    foreach (RibbonPage page in ribbonControl.Pages)
+        //    {
+        //        page.Appearance.Font = new Font("Saysettha OT", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
 
-                    foreach (BarItemLink i in g.ItemLinks)
-                    {
-                        i.Item.ItemAppearance.Normal.Font = new Font("Saysettha OT", 8.25F, FontStyle.Regular,
-                            GraphicsUnit.Point, 0);
+        //        foreach (RibbonPageGroup g in page.Groups)
+        //        {
+        //            //ko co font 
 
-                        if (i.Item is BarSubItem)
-                        {
-                            var sub = i.Item as BarSubItem;
-                            sub.Enabled = true;
-                            foreach (BarItemLink y in sub.ItemLinks)
-                            {
-                                y.Item.ItemAppearance.Normal.Font = new Font("Saysettha OT", 8.25F, FontStyle.Regular,
-                                    GraphicsUnit.Point, 0);
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        //            foreach (BarItemLink i in g.ItemLinks)
+        //            {
+        //                i.Item.ItemAppearance.Normal.Font = new Font("Saysettha OT", 8.25F, FontStyle.Regular,
+        //                    GraphicsUnit.Point, 0);
 
+        //                if (i.Item is BarSubItem)
+        //                {
+        //                    var sub = i.Item as BarSubItem;
+        //                    sub.Enabled = true;
+        //                    foreach (BarItemLink y in sub.ItemLinks)
+        //                    {
+        //                        y.Item.ItemAppearance.Normal.Font = new Font("Saysettha OT", 8.25F, FontStyle.Regular,
+        //                            GraphicsUnit.Point, 0);
+        //                    }
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
+        #endregion
 
         private void OpenForm<T>()
         {
@@ -81,8 +83,8 @@ namespace GUI
 
         private void f_main_Load(object sender, EventArgs e)
         {
-
             DangNhap();
+
             try
             {
                 Show();
@@ -124,14 +126,16 @@ namespace GUI
                     //code moi 
                     LanguageHelper.Language = (LanguageEnum)Biencucbo.ngonngu;
 
-                    changeFont.Translate(this);
-                    changeFont.Translate(ribbon);
+                    ////thay doi ngon ngu
+                    //changeFont.Translate(this);
+                    //changeFont.Translate(ribbon);
 
-                    LanguageHelper.Active(LanguageHelper.Language);
-                    LanguageHelper.Translate(this);
-                    LanguageHelper.Translate(ribbon);
+                    ////dich ngon ngu 
+                    //LanguageHelper.Active(LanguageHelper.Language);
+                    //LanguageHelper.Translate(this);
+                    //LanguageHelper.Translate(ribbon);
 
-                    Text = LanguageHelper.TranslateMsgString("." + Name + "_title", "PetroLao Co.,Ltd");
+                    Text = LanguageHelper.TranslateMsgString("." + Name + "_title", "CCS - Phần mềm Quản lý Chi phí Công trình - Công ty Chitchareune");
 
                     var lst2 = (from a in db.donvis where a.id == Biencucbo.donvi select a.tendonvi).FirstOrDefault();
                     Biencucbo.tendvbc = lst2;
@@ -149,41 +153,43 @@ namespace GUI
                     // duyet ribbon
                     duyetRibbon(ribbon);
 
-                    if (Biencucbo.ngonngu.ToString() == "Lao")
-                    {
-                        Font =
-                            btninfo_account.ItemAppearance.Normal.Font =
-                                btninfo_account.ItemAppearance.Disabled.Font =
-                                    btninfo_account.ItemAppearance.Hovered.Font =
-                                        btninfo_account.ItemAppearance.Pressed.Font =
-                                            btninfo_donvi.ItemAppearance.Normal.Font =
-                                                btninfo_donvi.ItemAppearance.Disabled.Font =
-                                                    btninfo_donvi.ItemAppearance.Hovered.Font =
-                                                        btninfo_donvi.ItemAppearance.Pressed.Font =
-                                                            btninfo_phong.ItemAppearance.Normal.Font =
-                                                                btninfo_phong.ItemAppearance.Disabled.Font =
-                                                                    btninfo_phong.ItemAppearance.Hovered.Font =
-                                                                        btninfo_phong.ItemAppearance.Pressed.Font =
-                                                                            btnDb.ItemAppearance.Normal.Font =
-                                                                                btnDb.ItemAppearance.Disabled.Font =
-                                                                                    btnDb.ItemAppearance.Hovered.Font =
-                                                                                        btnDb.ItemAppearance.Pressed
-                                                                                            .Font =
-                                                                                            btnVersion.ItemAppearance
-                                                                                                .Normal.Font =
-                                                                                                btnVersion
-                                                                                                    .ItemAppearance
-                                                                                                    .Disabled.Font =
-                                                                                                    btnVersion
-                                                                                                        .ItemAppearance
-                                                                                                        .Hovered.Font =
-                                                                                                        btnVersion
-                                                                                                            .ItemAppearance
-                                                                                                            .Pressed
-                                                                                                            .Font =
-                                                                                                            changeFont
-                                                                                                                .FontLao;
-                    }
+                    //    if (Biencucbo.ngonngu.ToString() == "Lao")
+                    //    {
+                    //        Font =
+                    //            btninfo_account.ItemAppearance.Normal.Font =
+                    //                btninfo_account.ItemAppearance.Disabled.Font =
+                    //                    btninfo_account.ItemAppearance.Hovered.Font =
+                    //                        btninfo_account.ItemAppearance.Pressed.Font =
+                    //                            btninfo_donvi.ItemAppearance.Normal.Font =
+                    //                                btninfo_donvi.ItemAppearance.Disabled.Font =
+                    //                                    btninfo_donvi.ItemAppearance.Hovered.Font =
+                    //                                        btninfo_donvi.ItemAppearance.Pressed.Font =
+                    //                                            btninfo_phong.ItemAppearance.Normal.Font =
+                    //                                                btninfo_phong.ItemAppearance.Disabled.Font =
+                    //                                                    btninfo_phong.ItemAppearance.Hovered.Font =
+                    //                                                        btninfo_phong.ItemAppearance.Pressed.Font =
+                    //                                                            btnDb.ItemAppearance.Normal.Font =
+                    //                                                                btnDb.ItemAppearance.Disabled.Font =
+                    //                                                                    btnDb.ItemAppearance.Hovered.Font =
+                    //                                                                        btnDb.ItemAppearance.Pressed
+                    //                                                                            .Font =
+                    //                                                                            btnVersion.ItemAppearance
+                    //                                                                                .Normal.Font =
+                    //                                                                                btnVersion
+                    //                                                                                    .ItemAppearance
+                    //                                                                                    .Disabled.Font =
+                    //                                                                                    btnVersion
+                    //                                                                                        .ItemAppearance
+                    //                                                                                        .Hovered.Font =
+                    //                                                                                        btnVersion
+                    //                                                                                            .ItemAppearance
+                    //                                                                                            .Pressed
+                    //                                                                                            .Font =
+                    //                                                                                            changeFont
+                    //                                                                                                .FontLao;
+                    //    }
+
+
                 }
                 else
                     Application.ExitThread();
@@ -260,6 +266,7 @@ namespace GUI
                             //        i.Item.Visibility = BarItemVisibility.Never;
                             //    }
                             //}
+
                             // luu vào tag của nút tren ribbon de xu ly sau
                             i.Item.Tag = quyen;
 
@@ -312,6 +319,7 @@ namespace GUI
                                     //        y.Item.Visibility = BarItemVisibility.Never;
                                     //    }
                                     //}
+
                                     // luu vào tag của nút tren ribbon de xu ly sau
                                     y.Item.Tag = quyen;
                                 }
@@ -322,12 +330,17 @@ namespace GUI
             }
         }
 
+        //btn Đăng Xuất
         private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
         {
             var a = Biencucbo.ngonngu.ToString();
-            var dlg = "";
-            if (a == "Vietnam") dlg = "Bạn muốn đăng xuất?";
-            if (a == "Lao") dlg = "ທ່ານຕ້ອງການລົງຊື່ອອກບໍ່?";
+
+            //var dlg = "";
+
+            //if (a == "Vietnam") dlg = "Bạn muốn đăng xuất?";
+            //if (a == "Lao") dlg = "ທ່ານຕ້ອງການລົງຊື່ອອກບໍ່?";
+
+            var dlg = "Bạn muốn đăng xuất?";
 
             if (MsgBox.ShowYesNoDialog(dlg) == DialogResult.Yes)
             {
@@ -369,7 +382,6 @@ namespace GUI
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
             var frm = new f_doituong();
             frm.ShowDialog();
-            //OpenForm<f_doituong>();
         }
 
         private void barButtonItem4_ItemClick_1(object sender, ItemClickEventArgs e)
@@ -454,11 +466,11 @@ namespace GUI
             }
         }
 
-        private void btnHopDong_ItemClick(object sender, ItemClickEventArgs e)
+        //kiem tra quyen truy cap cong trinh
+        void check_access_ct(Form frm)
         {
-            Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
+            //var frm = _form();
 
-            var frm = new f_dsHopDong();
             if (Biencucbo.mact != "")
             {
                 try
@@ -486,12 +498,44 @@ namespace GUI
                 MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
             }
         }
+        private void btnHopDong_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
+
+            //var frm = new f_dsHopDong();
+            //if (Biencucbo.mact != "")
+            //{
+            //    try
+            //    {
+            //        var lst = from a in db.congtrinhs
+            //                  join b in db.sxcongtrinhs on a.id equals b.idct
+            //                  where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
+            //                  select a;
+            //        if (lst.Count() != 0)
+            //        {
+            //            frm.Show();
+            //        }
+            //        else
+            //        {
+            //            XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
+            //        }
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        MessageBox.Show(ex.ToString());
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
+            //}
+
+            check_access_ct(new f_dsHopDong());
+        }
 
         private void btnphanquyen_ItemClick(object sender, ItemClickEventArgs e)
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
-            //OpenForm<FrmPhanQuyen>();
-            //OpenForm<frmPhanQuyenChucNang>();
             var frm = new frmPhanQuyenChucNang();
             frm.ShowDialog();
         }
@@ -500,66 +544,14 @@ namespace GUI
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_pnhap();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_pnhap());
         }
 
         private void btncpql_ItemClick(object sender, ItemClickEventArgs e)
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_pchi();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_pchi());
         }
 
         private void btntinhtrang_ItemClick(object sender, ItemClickEventArgs e)
@@ -583,13 +575,6 @@ namespace GUI
             frm.ShowDialog();
         }
 
-        //private void btndieuchuyen_ItemClick(object sender, ItemClickEventArgs e)
-        //{
-        //    Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
-        //    f_dieuchuyenphuongtien frm = new f_dieuchuyenphuongtien();
-        //    frm.ShowDialog();
-        //}
-
         private void btntheodoi_ItemClick(object sender, ItemClickEventArgs e)
         {
             if (Biencucbo.mact != "")
@@ -609,34 +594,7 @@ namespace GUI
 
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_cpmay();
-
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_cpmay());
         }
 
         private void btnfilein_ItemClick(object sender, ItemClickEventArgs e)
@@ -685,282 +643,176 @@ namespace GUI
             frm.ShowDialog();
         }
 
+        //edit code
         private void bccttb_ItemClick(object sender, ItemClickEventArgs e)
         {
             SplashScreenManager.ShowForm(this, typeof(SplashScreen2), true, true, false);
+
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
             try
             {
                 var lstct = (from a in db.congtrinhs select a).Single(t => t.id == Biencucbo.mact);
+
                 Biencucbo.bcct = "Công trình: " + lstct.tencongtrinh;
                 Biencucbo.bcdc = "Địa điểm: " + lstct.diadiem;
                 Biencucbo.bccht = "Chỉ huy trưởng: " + lstct.chihuytruong;
-                var lstpn = (from a in db.r_pnhaps
-                             join b in db.nguoncaps on a.idnc equals b.id into k
-                             from nc in k.DefaultIfEmpty()
-                             where a.idct == Biencucbo.mact
-                             select new
-                             {
-                                 dv = "I",
-                                 chiphi = "Chi phí vật tư",
-                                 donvi = "Kip",
-                                 loai = nc.tennguoncap,
-                                 gtqt = a.thanhtien == null ? 0 : a.thanhtien,
-                                 gttt = a.thanhtien == null ? 0 : a.thanhtien,
-                                 gtcl = a.thanhtien == null ? 0 : a.thanhtien - a.thanhtien
-                             }).ToList();
-                var lsthd1 = (from a in db.hopdong_tps
-                              join b in db.thanhtoan_tps on a.id equals b.idhd_tp into k
-                              from hd in k.DefaultIfEmpty()
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  a.id,
-                                  gttt = hd.giatritt == null ? 0 : (hd.giatritt * a.tygia) + (hd.cantru * a.tygia)
-                              }).GroupBy(t => new { t.id }).Select(y => new
 
-                              {
-                                  y.Key.id,
-                                  gttt = y.Sum(t => t.gttt)
-                              });
-                var lsthd2 = (from a in db.r_hopdongs
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  a.id,
-                                  gtqt = a.thanhtien == null ? 0 : a.thanhtien
-                              }).GroupBy(t => new { t.id }).Select(y => new
+                //var lstpn = (from a in db.r_pnhaps
+                //             join b in db.nguoncaps on a.idnc equals b.id into k
+                //             from nc in k.DefaultIfEmpty()
+                //             where a.idct == Biencucbo.mact
+                //             select new
+                //             {
+                //                 dv = "I",
+                //                 chiphi = "Chi phí vật tư",
+                //                 donvi = "Kip",
+                //                 loai = nc.tennguoncap,
+                //                 gtqt = a.thanhtien == null ? 0 : a.thanhtien,
+                //                 gttt = a.thanhtien == null ? 0 : a.thanhtien,
+                //                 gtcl = a.thanhtien == null ? 0 : a.thanhtien - a.thanhtien
+                //             }).ToList();
 
-                              {
-                                  y.Key.id,
-                                  gtqt = y.Sum(t => t.gtqt)
-                              });
+                //var lsthd1 = (from a in db.hopdong_tps
+                //              join b in db.thanhtoan_tps on a.id equals b.idhd_tp into k
+                //              from hd in k.DefaultIfEmpty()
+                //              where a.idct == Biencucbo.mact
+                //              select new
+                //              {
+                //                  a.id,
+                //                  gttt = hd.giatritt == null ? 0 : (hd.giatritt * a.tygia) + (hd.cantru * a.tygia)
+                //              }).GroupBy(t => new { t.id }).Select(y => new
+
+                //              {
+                //                  y.Key.id,
+                //                  gttt = y.Sum(t => t.gttt)
+                //              });
+
+                //var lsthd2 = (from a in db.r_hopdongs
+                //              where a.idct == Biencucbo.mact
+                //              select new
+                //              {
+                //                  a.id,
+                //                  gtqt = a.thanhtien == null ? 0 : a.thanhtien
+                //              }).GroupBy(t => new { t.id }).Select(y => new
+
+                //              {
+                //                  y.Key.id,
+                //                  gtqt = y.Sum(t => t.gtqt)
+                //              });
 
 
-                var lsthd = (from a in db.r_hopdongs
-                             join b in lsthd1 on a.id equals b.id
-                             join c in lsthd2 on a.id equals c.id
-                             //where a.idct == Biencucbo.mact
-                             select new
-                             {
-                                 dv = "II",
-                                 chiphi = "Chi phí hợp đồng",
-                                 donvi = "Kip",
-                                 loai =
-                                     "- Số HĐ:" + a.sohd + " - Đối tác: " + a.tendt + "\n- " + a.ngaybd + "/" + a.ngaykt + "\n" +
-                                     "- Nội Dung: " + a.noidunghd,
-                                 c.gtqt,
-                                 b.gttt,
-                                 gtcl = c.gtqt - b.gttt
-                             }).GroupBy(t => new
+                //var lsthd = (from a in db.r_hopdongs
+                //             join b in lsthd1 on a.id equals b.id
+                //             join c in lsthd2 on a.id equals c.id
+                //             //where a.idct == Biencucbo.mact
+                //             select new
+                //             {
+                //                 dv = "II",
+                //                 chiphi = "Chi phí hợp đồng",
+                //                 donvi = "Kip",
+                //                 loai =
+                //                     "- Số HĐ:" + a.sohd + " - Đối tác: " + a.tendt + "\n- " + a.ngaybd + "/" + a.ngaykt + "\n" +
+                //                     "- Nội Dung: " + a.noidunghd,
+                //                 c.gtqt,
+                //                 b.gttt,
+                //                 gtcl = c.gtqt - b.gttt
+                //             }).GroupBy(t => new
 
-                             {
-                                 t.dv,
-                                 t.chiphi,
-                                 t.donvi,
-                                 t.loai,
-                                 t.gtqt,
-                                 t.gttt,
-                                 t.gtcl
-                             }).Select(y => new
-                             {
-                                 y.Key.dv,
-                                 y.Key.chiphi,
-                                 y.Key.donvi,
-                                 y.Key.loai,
-                                 y.Key.gtqt,
-                                 y.Key.gttt,
-                                 y.Key.gtcl
-                             })
-                    ;
-                var lstcpm = (from a in db.r_cpmays
-                              join b in db.dmcpms on a.loaichi equals b.id
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  dv = "III",
-                                  chiphi = "Chi phí máy",
-                                  donvi = "Kip",
-                                  loai = b.loaichi,
-                                  gtqt = a.sotien == null ? 0 : a.sotien,
-                                  gttt = a.sotien == null ? 0 : a.sotien,
-                                  gtcl = (a.sotien == null ? 0 : a.sotien) - (a.sotien == null ? 0 : a.sotien)
-                              }).ToList();
-                var lstcpk = (from a in db.r_pchis
-                              join b in db.dmpchis on a.loaichi equals b.danhmuc
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  dv = "IV",
-                                  chiphi = "Chi phí khác",
-                                  donvi = "Kip",
-                                  loai = b.danhmuc_l,
-                                  gtqt = a.sotien == null ? 0 : a.sotien,
-                                  gttt = a.sotien == null ? 0 : a.sotien,
-                                  gtcl = (a.sotien == null ? 0 : a.sotien) - (a.sotien == null ? 0 : a.sotien)
-                              }).ToList();
-                var lst =
-                    (from a in lstpn select a).Concat(from b in lsthd select b)
-                        .Concat(from c in lstcpm select c)
-                        .Concat(from d in lstcpk select d)
-                        .GroupBy(t => new { t.loai, t.dv, t.chiphi, t.donvi })
-                        .Select(y => new
-                        {
-                            y.Key.dv,
-                            y.Key.donvi,
-                            y.Key.chiphi,
-                            y.Key.loai,
-                            gtqt = y.Sum(t => t.gtqt),
-                            gttt = y.Sum(t => t.gttt),
-                            gtcl = y.Sum(t => t.gtcl)
-                        });
-                ;
+                //             {
+                //                 t.dv,
+                //                 t.chiphi,
+                //                 t.donvi,
+                //                 t.loai,
+                //                 t.gtqt,
+                //                 t.gttt,
+                //                 t.gtcl
+                //             }).Select(y => new
+                //             {
+                //                 y.Key.dv,
+                //                 y.Key.chiphi,
+                //                 y.Key.donvi,
+                //                 y.Key.loai,
+                //                 y.Key.gtqt,
+                //                 y.Key.gttt,
+                //                 y.Key.gtcl
+                //             })
+                //    ;
+
+                //var lstcpm = (from a in db.r_cpmays
+                //              join b in db.dmcpms on a.loaichi equals b.id
+                //              where a.idct == Biencucbo.mact
+                //              select new
+                //              {
+                //                  dv = "III",
+                //                  chiphi = "Chi phí máy",
+                //                  donvi = "Kip",
+                //                  loai = b.loaichi,
+                //                  gtqt = a.sotien == null ? 0 : a.sotien,
+                //                  gttt = a.sotien == null ? 0 : a.sotien,
+                //                  gtcl = (a.sotien == null ? 0 : a.sotien) - (a.sotien == null ? 0 : a.sotien)
+                //              }).ToList();
+
+                //var lstcpk = (from a in db.r_pchis
+                //              join b in db.dmpchis on a.loaichi equals b.danhmuc
+                //              where a.idct == Biencucbo.mact
+                //              select new
+                //              {
+                //                  dv = "IV",
+                //                  chiphi = "Chi phí khác",
+                //                  donvi = "Kip",
+                //                  loai = b.danhmuc_l,
+                //                  gtqt = a.sotien == null ? 0 : a.sotien,
+                //                  gttt = a.sotien == null ? 0 : a.sotien,
+                //                  gtcl = (a.sotien == null ? 0 : a.sotien) - (a.sotien == null ? 0 : a.sotien)
+                //              }).ToList();
+
+                //var lst =
+                //    (from a in lstpn select a).Concat(from b in lsthd select b)
+                //        .Concat(from c in lstcpm select c)
+                //        .Concat(from d in lstcpk select d)
+                //        .GroupBy(t => new { t.loai, t.dv, t.chiphi, t.donvi })
+                //        .Select(y => new
+                //        {
+                //            y.Key.dv,
+                //            y.Key.donvi,
+                //            y.Key.chiphi,
+                //            y.Key.loai,
+                //            gtqt = y.Sum(t => t.gtqt),
+                //            gttt = y.Sum(t => t.gttt),
+                //            gtcl = y.Sum(t => t.gtcl)
+                //        });
+                //;
+
+
                 var xtra = new r_bccttb();
-                xtra.DataSource = _tTodatatable.addlst(lst.ToList());
+                xtra.DataSource = db.bccttb_test(Biencucbo.mact).ToList();
+                //xtra.DataSource = _tTodatatable.addlst(lst.ToList());
                 xtra.ShowPreviewDialog();
             }
             catch (Exception ex)
-
             {
                 MessageBox.Show(ex.ToString());
             }
+
             SplashScreenManager.CloseForm(false);
         }
 
+        //edit code 2
         private void btnbcthtb_ItemClick(object sender, ItemClickEventArgs e)
         {
             SplashScreenManager.ShowForm(this, typeof(SplashScreen2), true, true, false);
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
+
             try
             {
                 var lstct = (from a in db.congtrinhs select a).Single(t => t.id == Biencucbo.mact);
                 Biencucbo.bcct = "Công trình: " + lstct.tencongtrinh;
                 Biencucbo.bcdc = "Địa điểm: " + lstct.diadiem;
                 Biencucbo.bccht = "Chỉ huy trưởng: " + lstct.chihuytruong;
-                var lstpn = (from a in db.r_pnhaps
-                             join b in db.nguoncaps on a.idnc equals b.id into k
-                             from nc in k.DefaultIfEmpty()
-                             where a.idct == Biencucbo.mact
-                             select new
-                             {
-                                 dv = "I",
-                                 chiphi = "Chi phí vật tư",
-                                 donvi = "Kip",
-                                 loai = nc.tennguoncap,
-                                 gtqt = a.thanhtien == null ? 0 : a.thanhtien,
-                                 gttt = a.thanhtien == null ? 0 : a.thanhtien,
-                                 gtcl = a.thanhtien == null ? 0 : a.thanhtien - a.thanhtien
-                             }).ToList();
 
-
-                var lsthd1 = (from a in db.hopdong_tps
-                              join b in db.thanhtoan_tps on a.id equals b.idhd_tp into k
-                              from hd in k.DefaultIfEmpty()
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  a.id,
-                                  gttt = hd.giatritt == null ? 0 : (hd.giatritt * a.tygia) + (hd.cantru * a.tygia)
-                              }).GroupBy(t => new { t.id }).Select(y => new
-
-                              {
-                                  y.Key.id,
-                                  gttt = y.Sum(t => t.gttt)
-                              });
-                var lsthd2 = (from a in db.r_hopdongs
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  a.id,
-                                  gtqt = a.thanhtien == null ? 0 : a.thanhtien
-                              }).GroupBy(t => new { t.id }).Select(y => new
-
-                              {
-                                  y.Key.id,
-                                  gtqt = y.Sum(t => t.gtqt)
-                              });
-
-
-                var lsthd = (from a in db.r_hopdongs
-                             join b in lsthd1 on a.id equals b.id
-                             join c in lsthd2 on a.id equals c.id
-                             //where a.idct == Biencucbo.mact
-                             select new
-                             {
-                                 dv = "II",
-                                 chiphi = "Chi phí hợp đồng",
-                                 donvi = "Kip",
-                                 loai =
-                                     "- Số HĐ:" + a.sohd + " - Đối tác: " + a.tendt + "\n- " + a.ngaybd + "/" + a.ngaykt + "\n" +
-                                     "- Nội Dung: " + a.noidunghd,
-                                 c.gtqt,
-                                 b.gttt,
-                                 gtcl = c.gtqt - b.gttt
-                             }).GroupBy(t => new
-
-                             {
-                                 t.dv,
-                                 t.chiphi,
-                                 t.donvi,
-                                 t.loai,
-                                 t.gtqt,
-                                 t.gttt,
-                                 t.gtcl
-                             }).Select(y => new
-                             {
-                                 y.Key.dv,
-                                 y.Key.chiphi,
-                                 y.Key.donvi,
-                                 y.Key.loai,
-                                 y.Key.gtqt,
-                                 y.Key.gttt,
-                                 y.Key.gtcl
-                             })
-                    ;
-                var lstcpm = (from a in db.r_cpmays
-                              join b in db.dmcpms on a.loaichi equals b.id
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  dv = "III",
-                                  chiphi = "Chi phí máy",
-                                  donvi = "Kip",
-                                  loai = b.loaichi,
-                                  gtqt = a.sotien == null ? 0 : a.sotien,
-                                  gttt = a.sotien == null ? 0 : a.sotien,
-                                  gtcl = (a.sotien == null ? 0 : a.sotien) - (a.sotien == null ? 0 : a.sotien)
-                              }).ToList();
-                var lstcpk = (from a in db.r_pchis
-                              join b in db.dmpchis on a.loaichi equals b.danhmuc
-                              where a.idct == Biencucbo.mact
-                              select new
-                              {
-                                  dv = "IV",
-                                  chiphi = "Chi phí khác",
-                                  donvi = "Kip",
-                                  loai = b.danhmuc_l,
-                                  gtqt = a.sotien == null ? 0 : a.sotien,
-                                  gttt = a.sotien == null ? 0 : a.sotien,
-                                  gtcl = (a.sotien == null ? 0 : a.sotien) - (a.sotien == null ? 0 : a.sotien)
-                              }).ToList();
-                var lst =
-                    (from a in lstpn select a).Concat(from b in lsthd select b)
-                        .Concat(from c in lstcpm select c)
-                        .Concat(from d in lstcpk select d)
-                        .GroupBy(t => new { t.loai, t.dv, t.chiphi, t.donvi })
-                        .Select(y => new
-                        {
-                            y.Key.dv,
-                            y.Key.donvi,
-                            y.Key.chiphi,
-                            y.Key.loai,
-                            gtqt = y.Sum(t => t.gtqt),
-                            gttt = y.Sum(t => t.gttt),
-                            gtcl = y.Sum(t => t.gtcl)
-                        });
-                ;
                 var xtra = new r_bcthtb();
-                xtra.DataSource = _tTodatatable.addlst(lst.ToList());
+                //xtra.DataSource = _tTodatatable.addlst(lst.ToList());
+                xtra.DataSource = db.bccttb_test(Biencucbo.mact).ToList();
                 xtra.ShowPreviewDialog();
             }
             catch (Exception ex)
@@ -1028,33 +880,7 @@ namespace GUI
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_dsHopDong_cdt();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.ShowDialog();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_dsHopDong_cdt());
         }
 
         private void btnbchdcdt_ItemClick(object sender, ItemClickEventArgs e)
@@ -1113,16 +939,6 @@ namespace GUI
             {
                 btntb.Glyph = Resources.cotb;
             }
-
-            try
-            {
-                //var lst1 = (from a in db.skins select a).Single(t => t.trangthai == true);
-                //Biencucbo.skin = lst1.tenskin;
-                //defaultLookAndFeel1.LookAndFeel.SetSkinStyle(Biencucbo.skin);
-            }
-            catch
-            {
-            }
         }
 
         private void btnlths_ItemClick(object sender, ItemClickEventArgs e)
@@ -1146,13 +962,6 @@ namespace GUI
                 MessageBox.Show(ex.ToString());
             }
         }
-
-        //private void btnDSTheoDoiPT_ItemClick(object sender, ItemClickEventArgs e)
-        //{
-        //    //Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
-        //    //Report.PhuongTien.f_DsTheoDoiPT frm = new Report.PhuongTien.f_DsTheoDoiPT();
-        //    //frm.ShowDialog();
-        //}
 
         private void btnPT_TongHop_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -1213,69 +1022,14 @@ namespace GUI
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_pxmnhapkho();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
-
-            //var frm = new f_pxmnhapkho();
-            //frm.Show();
+            check_access_ct(new f_pxmnhapkho());
         }
 
         private void btnpxuatkho_ItemClick(object sender, ItemClickEventArgs e)
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_pxmxuatkho();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_pxmxuatkho());
         }
 
         private void btnpxmbcnhapkho_ItemClick(object sender, ItemClickEventArgs e)
@@ -1290,66 +1044,14 @@ namespace GUI
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_pxmpxuatkhoNB();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_pxmpxuatkhoNB());
         }
 
         private void btnpxmnhapnb_ItemClick(object sender, ItemClickEventArgs e)
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
 
-            var frm = new f_pxmpnhapkhoNB();
-            if (Biencucbo.mact != "")
-            {
-                try
-                {
-                    var lst = from a in db.congtrinhs
-                              join b in db.sxcongtrinhs on a.id equals b.idct
-                              where b.idname == Biencucbo.idnv && b.idct == Biencucbo.mact
-                              select a;
-                    if (lst.Count() != 0)
-                    {
-                        frm.Show();
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Bạn chưa được cấp quyền theo dõi công trình này - Vui lòng kiểm tra lại");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-            }
-            else
-            {
-                MessageBox.Show("Bạn chưa chọn công trình - Vui lòng kiểm tra lại!", "Thông Báo");
-            }
+            check_access_ct(new f_pxmpnhapkhoNB());
         }
 
         private void btnpxmbcxuatkho_ItemClick(object sender, ItemClickEventArgs e)

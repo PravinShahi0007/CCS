@@ -793,56 +793,10 @@
       <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
-  <Table Name="dbo.r_dsnhanvien" Member="r_dsnhanviens">
-    <Type Name="r_dsnhanvien">
-      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="diachi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="quequan" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="quoctich" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="ngaycapcmnd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="hinhanh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="ngayvaolam" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
-      <Column Name="ngaythuviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="tencongtrinh" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.dmchucvu" Member="dmchucvus">
     <Type Name="dmchucvu">
       <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.nhanvien" Member="nhanviens">
-    <Type Name="nhanvien">
-      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="diachi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="quequan" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="quoctich" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="ngaycapcmnd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="hinhanh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="ngayvaolam" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
-      <Column Name="ngaythuviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="ngaynghiviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
     </Type>
   </Table>
   <Table Name="dbo.xuamauexcel" Member="xuamauexcels">
@@ -1875,6 +1829,56 @@
       <Association Name="dutoan_cpql_dutoan_cpqlct" Member="dutoan_cpql" ThisKey="keycp" OtherKey="key" Type="dutoan_cpql" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.nhanvien" Member="nhanviens">
+    <Type Name="nhanvien">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="quequan" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="quoctich" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaycapcmnd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="hinhanh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ngayvaolam" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="ngaythuviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ngaynghiviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="mapt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_dsnhanvien" Member="r_dsnhanviens">
+    <Type Name="r_dsnhanvien">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="quequan" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="quoctich" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaycapcmnd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="hinhanh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ngayvaolam" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="ngaythuviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tencongtrinh" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ngaynghiviec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="mapt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tenpt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
   <Function Name="dbo.laydsnoicongtac" Method="laydsnoicongtac">
     <ElementType Name="laydsnoicongtacResult">
       <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
@@ -2478,55 +2482,6 @@
       <Column Name="idctnhap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
     </ElementType>
   </Function>
-  <Function Name="dbo.INBCNhapXuatTon" Method="INBCNhapXuatTon">
-    <Parameter Name="idnv" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="form" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="PC" Parameter="pC" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="tungay" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="denngay" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="tg" Type="System.Boolean" DbType="Bit" />
-    <ElementType Name="INBCNhapXuatTonResult">
-      <Column Name="[key]" Member="key" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
-      <Column Name="iddv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
-      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="iddt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="dt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="idct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="congtrinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="tensp" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="dvt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="sln" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Column Name="slx" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="idpn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="idpx" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="tondau" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Column Name="toncuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
-    </ElementType>
-  </Function>
-  <Function Name="dbo.ExportChamCong" Method="ExportChamCong">
-    <Parameter Name="d1" Type="System.DateTime" DbType="Date" />
-    <ElementType Name="ExportChamCongResult">
-      <Column Name="STT" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Column Name="id" Type="System.String" DbType="NVarChar(81)" CanBeNull="true" />
-      <Column Name="idnv" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
-      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="ngaycong" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ngayphep" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="khongluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ngaykhac" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ghichu" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="iddv" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
-      <Column Name="so" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="thoigian" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-    </ElementType>
-  </Function>
   <Function Name="dbo.LayDSTonSP" Method="LayDSTonSP">
     <Parameter Name="idct" Type="System.String" DbType="NVarChar(50)" />
     <Parameter Name="ngaynhap" Type="System.DateTime" DbType="Date" />
@@ -2575,26 +2530,6 @@
       <Column Name="thoigian" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="tondau" Type="System.Double" DbType="Float" CanBeNull="true" />
       <Column Name="sokmdau" Type="System.Double" DbType="Float" CanBeNull="true" />
-    </ElementType>
-  </Function>
-  <Function Name="dbo.LayDanhSachNV" Method="LayDanhSachNV">
-    <Parameter Name="d1" Type="System.DateTime" DbType="Date" />
-    <ElementType Name="LayDanhSachNVResult">
-      <Column Name="STT" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="idnct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
-      <Column Name="trangthainghi" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
-      <Column Name="ngaycong" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ngayphep" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="khongluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ngaykhac" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
-      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
     </ElementType>
   </Function>
   <Function Name="dbo.SP_InBCChiPhiQuanLy" Method="SP_InBCChiPhiQuanLy">
@@ -3010,6 +2945,125 @@
       <Column Name="idpx" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="tondau" Type="System.Double" DbType="Float" CanBeNull="true" />
       <Column Name="toncuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.LayDanhSachNV" Method="LayDanhSachNV">
+    <Parameter Name="d1" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="LayDanhSachNVResult">
+      <Column Name="STT" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="idnct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="trangthainghi" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="mapt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tenpt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ngaycong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ngayphep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="khongluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ngaykhac" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.LayDanhSachNV" Method="LayDanhSachNV1">
+    <Parameter Name="d1" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="LayDanhSachNVResult1">
+      <Column Name="STT" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="idnct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="trangthainghi" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="mapt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tenpt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ngaycong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ngayphep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="khongluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ngaykhac" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.INBCNhapXuatTon" Method="INBCNhapXuatTon">
+    <Parameter Name="idnv" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="form" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="PC" Parameter="pC" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tungay" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="denngay" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="tg" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="INBCNhapXuatTonResult">
+      <Column Name="[key]" Member="key" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="dt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idct" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="congtrinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sln" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="slx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="idpn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idpx" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tondau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="toncuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.bccttb_test" Method="bccttb_test">
+    <Parameter Name="mact" Type="System.String" DbType="NVarChar(1)" />
+    <ElementType Name="bccttb_testResult">
+      <Column Name="dv" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="chiphi" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="donvi" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="gtqt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gttt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtcl" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ExportChamCong" Method="ExportChamCong">
+    <Parameter Name="d1" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="ExportChamCongResult">
+      <Column Name="STT" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(81)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="cmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="noicongtac" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ngaycong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ngayphep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="khongluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ngaykhac" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="so" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="thoigian" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="mapt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tenpt" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.bcthall_test" Method="bcthall_test">
+    <ElementType Name="bcthall_testResult">
+      <Column Name="idct" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tencongtrinh" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="gthanmuc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtqt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gttt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtcl" Type="System.Double" DbType="Float" CanBeNull="true" />
     </ElementType>
   </Function>
 </Database>

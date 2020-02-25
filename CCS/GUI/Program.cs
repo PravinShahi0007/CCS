@@ -23,13 +23,10 @@ namespace GUI
 
             CapNhatOnline();
 
-            SplashScreenManager.ShowForm(typeof (SplashScreen1));
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
 
 
-
-
-
-            // kiem tra kêt nối nối
+            //lay thong tin tai khoan da luu
 
             XmlDocument xmlDoc = new XmlDocument();
             try
@@ -48,10 +45,11 @@ namespace GUI
                 }
                 catch (Exception ex)
                 {
-
                     MessageBox.Show(ex.ToString());
                 }
             }
+
+            // kiem tra kêt nối 
             var fKetNoi = new f_connectDB();
 
             var isconnected = fKetNoi.KiemTraKetNoi();
@@ -68,6 +66,7 @@ namespace GUI
             {
                 SplashScreenManager.CloseForm();
             }
+
             try
             {
                 var tmpPath = Application.StartupPath + "\\tmp";
@@ -84,9 +83,8 @@ namespace GUI
 
         public static void CapNhatOnline()
         {
-            SplashScreenManager.ShowForm(typeof (SplashScreen1));
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
 
-            //var app = String.Format("{0}\\{1}", Application.StartupPath, "Lotus.AutoUpdate.exe");
             var app = string.Format("{0}\\{1}", Application.StartupPath, "Lotus.AutoUpdate_eng.exe");
             if (!File.Exists(app)) return;
 

@@ -32,46 +32,46 @@ namespace GUI
             LanguageHelper.Translate(barManager1);
             Text = LanguageHelper.TranslateMsgString("." + Name + "_title", "Thêm Nhân Viên");
             txtpp.Properties.DataSource = new KetNoiDBDataContext().dmchucvus;
+
+            cboMaPT.Properties.DataSource = new KetNoiDBDataContext().phuongtiens;
+
             changeFont.Translate(this);
             changeFont.Translate(barManager1);
             hinhanh.SizeMode = PictureBoxSizeMode.StretchImage;
             if (Biencucbo.hddt == 1)
             {
                 txtid.Enabled = false;
-                var Lst = (from dt in db.nhanviens  select dt).Single(t=>t.id == Biencucbo.ma);
-            
-                txtid.Text= Lst.id;
+                var Lst = (from dt in db.nhanviens select dt).Single(t => t.id == Biencucbo.ma);
+
+                txtid.Text = Lst.id;
                 txtten.Text = Lst.ten;
                 txtdc.Text = Lst.diachi;
-                txtdt.Text= Lst.dienthoai;
+                txtdt.Text = Lst.dienthoai;
                 txtemail.Text = Lst.email;
                 txtghichu.Text = Lst.ghichu;
                 try
                 {
                     txtngaysinh.DateTime = DateTime.Parse(Lst.ngaysinh.ToString());
                 }
-                catch (Exception)
-                { 
-                }
+                catch { }
+
                 try
                 {
                     txtNgayNghiViec.DateTime = DateTime.Parse(Lst.ngaynghiviec.ToString());
                 }
-                catch (Exception)
-                {
-                }
+                catch { }
 
                 txtquoctich.Text = Lst.quoctich;
                 txtcmnd.Text = Lst.cmnd;
-                txtpp.Text = Lst.Chucvu;try
+                txtpp.Text = Lst.Chucvu;
+                cboMaPT.Text = Lst.mapt;
+
+                try
                 {
                     txtngayvaolam.DateTime = DateTime.Parse(Lst.ngayvaolam.ToString());
                 }
-                catch (Exception)
-                {
-                    
-                   
-                }
+                catch { }
+
                 txtgioitinh.Text = Lst.gioitinh;
                 txttinhtrang.Text = Lst.tinhtrang;
                 try
@@ -81,10 +81,7 @@ namespace GUI
                     hinhanh.SizeMode = PictureBoxSizeMode.StretchImage;
                     file = Lst.hinhanh.ToArray();
                 }
-                catch
-                {
-
-                }
+                catch { }
             }
         }
 
@@ -114,7 +111,9 @@ namespace GUI
                     }
                     else
                     {
-                        dt.moi(txtid.Text.Trim(), txtten.Text, txtdc.Text, txtdt.Text, txtemail.Text, txtghichu.Text, txtngaysinh.DateTime, txtquoctich.Text, txtcmnd.Text, txtpp.Text, txtngayvaolam.DateTime, txtgioitinh.Text, txttinhtrang.Text, file, txtNgayNghiViec.DateTime);
+                        if (cboMaPT.EditValue ==null) cboMaPT.Text = "";
+
+                        dt.moi(txtid.Text.Trim(), txtten.Text, txtdc.Text, txtdt.Text, txtemail.Text, txtghichu.Text, txtngaysinh.DateTime, txtquoctich.Text, txtcmnd.Text, txtpp.Text, txtngayvaolam.DateTime, txtgioitinh.Text, txttinhtrang.Text, file, txtNgayNghiViec.DateTime, cboMaPT.EditValue.ToString());
                         Close();
                     }
                 }
@@ -129,7 +128,9 @@ namespace GUI
                     }
                     else
                     {
-                        dt.sua(txtid.Text.Trim(), txtten.Text, txtdc.Text, txtdt.Text, txtemail.Text, txtghichu.Text, txtngaysinh.DateTime, txtquoctich.Text, txtcmnd.Text, txtpp.Text, txtngayvaolam.DateTime, txtgioitinh.Text, txttinhtrang.Text, file, txtNgayNghiViec.DateTime);
+                        if (cboMaPT.EditValue == null) cboMaPT.Text = "";
+
+                        dt.sua(txtid.Text.Trim(), txtten.Text, txtdc.Text, txtdt.Text, txtemail.Text, txtghichu.Text, txtngaysinh.DateTime, txtquoctich.Text, txtcmnd.Text, txtpp.Text, txtngayvaolam.DateTime, txtgioitinh.Text, txttinhtrang.Text, file, txtNgayNghiViec.DateTime, cboMaPT.EditValue.ToString());
                         Close();
                     }
                 }
@@ -153,8 +154,6 @@ namespace GUI
                         ImageConverter objfile = new ImageConverter();
                         hinhanh.Image = (Image)objfile.ConvertFrom(file);
                         hinhanh.SizeMode = PictureBoxSizeMode.StretchImage;
-
-
                     }
                 }
 
@@ -183,6 +182,27 @@ namespace GUI
             var frm = new f_dmchucvu();
             frm.ShowDialog();
             txtpp.Properties.DataSource = new KetNoiDBDataContext().dmchucvus;
+        }
+
+        //gan ten Phuong Tien vao lblTenPT
+        private void cboMaPT_EditValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cboMaPT.EditValue == null)
+                {
+                    lblTenPT.Text = null;
+                    return;
+                }
+
+                var _id = cboMaPT.EditValue.ToString();
+                if (_id == String.Empty) return;
+
+                var _ten = (from pt in db.phuongtiens where pt.id == _id select  pt.ten ).ToList();
+
+                lblTenPT.Text = _ten.ElementAt(0).ToString();
+            }
+            catch { }
         }
     }
 }

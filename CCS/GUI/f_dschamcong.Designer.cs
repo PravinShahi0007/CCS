@@ -63,10 +63,10 @@
             // 
             // gcontrol
             // 
-            this.gcontrol.Location = new System.Drawing.Point(12, 12);
+            this.gcontrol.Location = new System.Drawing.Point(2, 2);
             this.gcontrol.MainView = this.gview;
             this.gcontrol.Name = "gcontrol";
-            this.gcontrol.Size = new System.Drawing.Size(759, 408);
+            this.gcontrol.Size = new System.Drawing.Size(779, 428);
             this.gcontrol.TabIndex = 4;
             this.gcontrol.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gview});
@@ -171,6 +171,7 @@
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem1});
             this.Root.Name = "Root";
+            this.Root.Padding = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
             this.Root.Size = new System.Drawing.Size(783, 432);
             this.Root.TextVisible = false;
             // 
@@ -179,7 +180,7 @@
             this.layoutControlItem1.Control = this.gcontrol;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(763, 412);
+            this.layoutControlItem1.Size = new System.Drawing.Size(783, 432);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 

@@ -305,7 +305,7 @@
             this.xrTableCell3.StylePriority.UseTextAlignment = false;
             this.xrTableCell3.Text = "Số Lượng";
             this.xrTableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            this.xrTableCell3.Weight = 7.2460311011687528D;
+            this.xrTableCell3.Weight = 7.24603110116875D;
             // 
             // xrTableRow1
             // 
@@ -443,7 +443,7 @@
             this.xrTableCell16.StylePriority.UseTextAlignment = false;
             this.xrTableCell16.Text = "Tồn Cuối Kỳ";
             this.xrTableCell16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            this.xrTableCell16.Weight = 1.6002196560122779D;
+            this.xrTableCell16.Weight = 1.60021965601228D;
             // 
             // GroupHeader1
             // 
@@ -608,7 +608,7 @@
             this.xrTableCell26.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell26.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[toncuoi]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([toncuoi] >0, [toncuoi] ,0 )")});
             this.xrTableCell26.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.xrTableCell26.Multiline = true;
             this.xrTableCell26.Name = "xrTableCell26";
@@ -619,7 +619,7 @@
             this.xrTableCell26.StylePriority.UseTextAlignment = false;
             this.xrTableCell26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             this.xrTableCell26.TextFormatString = "{0:n2}";
-            this.xrTableCell26.Weight = 1.6203031084139372D;
+            this.xrTableCell26.Weight = 1.62030310841394D;
             // 
             // GroupHeader2
             // 
@@ -675,7 +675,7 @@
             this.txtctnhap.StylePriority.UseFont = false;
             this.txtctnhap.StylePriority.UsePadding = false;
             this.txtctnhap.Text = "Kho Nhập: [idct]";
-            this.txtctnhap.Weight = 2.6353888681778455D;
+            this.txtctnhap.Weight = 2.63538886817785D;
             // 
             // ReportFooter
             // 

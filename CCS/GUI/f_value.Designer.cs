@@ -49,7 +49,7 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(298, 45);
+            this.layoutControl1.Size = new System.Drawing.Size(298, 54);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -61,7 +61,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcEdit1.Properties.Mask.EditMask = "n2";
             this.calcEdit1.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.calcEdit1.Size = new System.Drawing.Size(257, 20);
+            this.calcEdit1.Size = new System.Drawing.Size(274, 20);
             this.calcEdit1.StyleController = this.layoutControl1;
             this.calcEdit1.TabIndex = 4;
             this.calcEdit1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.calcEdit1_KeyDown);
@@ -75,7 +75,7 @@
             this.layoutControlItem1,
             this.emptySpaceItem1});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(281, 54);
+            this.Root.Size = new System.Drawing.Size(298, 54);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -83,7 +83,7 @@
             this.layoutControlItem1.Control = this.calcEdit1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(261, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(278, 24);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -92,14 +92,14 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 24);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(261, 10);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(278, 10);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // f_value
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 45);
+            this.ClientSize = new System.Drawing.Size(298, 54);
             this.ControlBox = false;
             this.Controls.Add(this.layoutControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

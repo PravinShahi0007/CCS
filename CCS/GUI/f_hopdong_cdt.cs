@@ -540,11 +540,11 @@ namespace GUI
 
         private void btnxoa_ItemClick(object sender, ItemClickEventArgs e)
         {
-            if (Biencucbo.idnv != txtidnv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
-                return;
-            }
+            //if (Biencucbo.idnv != txtidnv.Text)
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền xóa phiếu này", "THÔNG BÁO");
+            //    return;
+            //}
             if (txtid.Text == "") return;
 
             if (
@@ -1071,11 +1071,11 @@ namespace GUI
 
         private void btnthanhtoan_ItemClick(object sender, ItemClickEventArgs e)
         {
-            if (Biencucbo.dvTen != txtdv.Text)
-            {
-                XtraMessageBox.Show("Bạn không có quyền điều chỉnh phiếu này", "THÔNG BÁO");
-                return;
-            }
+            //if (Biencucbo.dvTen != txtdv.Text)
+            //{
+            //    XtraMessageBox.Show("Bạn không có quyền điều chỉnh phiếu này", "THÔNG BÁO");
+            //    return;
+            //}
 
             if (Biencucbo.hdhdtp == 0 || Biencucbo.hdhdtp == 1 || txtid.Text == "" || txtid.Text == "YYYY")
                 return;

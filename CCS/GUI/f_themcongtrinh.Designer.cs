@@ -42,6 +42,7 @@
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.ckkho = new DevExpress.XtraEditors.CheckEdit();
             this.txtgthanmuc = new DevExpress.XtraEditors.TextEdit();
             this.lbllct = new System.Windows.Forms.Label();
             this.l3 = new System.Windows.Forms.Label();
@@ -58,7 +59,6 @@
             this.txtngaykt = new DevExpress.XtraEditors.DateEdit();
             this.txtloaict = new DevExpress.XtraEditors.LookUpEdit();
             this.barManager2 = new DevExpress.XtraBars.BarManager(this.components);
-            this.bar4 = new DevExpress.XtraBars.Bar();
             this.barDockControl1 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
@@ -85,6 +85,7 @@
             this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem20 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
             this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.donviBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
@@ -101,11 +102,10 @@
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.ckkho = new DevExpress.XtraEditors.CheckEdit();
-            this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ckkho.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtgthanmuc.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtcht.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtcdt.Properties)).BeginInit();
@@ -138,6 +138,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donviBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
@@ -155,8 +156,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ckkho.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -216,13 +215,13 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(979, 24);
+            this.barDockControlTop.Size = new System.Drawing.Size(979, 28);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 203);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 213);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Size = new System.Drawing.Size(979, 0);
             // 
@@ -230,17 +229,17 @@
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 28);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 179);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 185);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(979, 24);
+            this.barDockControlRight.Location = new System.Drawing.Point(979, 28);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 179);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 185);
             // 
             // btnluu
             // 
@@ -280,13 +279,23 @@
             this.layoutControl1.Controls.Add(this.txtngaykt);
             this.layoutControl1.Controls.Add(this.txtloaict);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl1.Location = new System.Drawing.Point(0, 24);
+            this.layoutControl1.Location = new System.Drawing.Point(0, 28);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(673, 17, 250, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(979, 179);
+            this.layoutControl1.Size = new System.Drawing.Size(979, 185);
             this.layoutControl1.TabIndex = 4;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // ckkho
+            // 
+            this.ckkho.Location = new System.Drawing.Point(864, 36);
+            this.ckkho.MenuManager = this.barManager1;
+            this.ckkho.Name = "ckkho";
+            this.ckkho.Properties.Caption = "Kho PXM";
+            this.ckkho.Size = new System.Drawing.Size(103, 19);
+            this.ckkho.StyleController = this.layoutControl1;
+            this.ckkho.TabIndex = 27;
             // 
             // txtgthanmuc
             // 
@@ -297,7 +306,7 @@
             this.txtgthanmuc.Properties.Mask.EditMask = "n";
             this.txtgthanmuc.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txtgthanmuc.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.txtgthanmuc.Size = new System.Drawing.Size(397, 20);
+            this.txtgthanmuc.Size = new System.Drawing.Size(414, 20);
             this.txtgthanmuc.StyleController = this.layoutControl1;
             this.txtgthanmuc.TabIndex = 26;
             // 
@@ -321,7 +330,7 @@
             // l2
             // 
             this.l2.BackColor = System.Drawing.Color.Transparent;
-            this.l2.Location = new System.Drawing.Point(287, 115);
+            this.l2.Location = new System.Drawing.Point(287, 117);
             this.l2.Name = "l2";
             this.l2.Size = new System.Drawing.Size(172, 44);
             this.l2.TabIndex = 23;
@@ -347,7 +356,7 @@
             // 
             // txtcht
             // 
-            this.txtcht.Location = new System.Drawing.Point(565, 138);
+            this.txtcht.Location = new System.Drawing.Point(565, 140);
             this.txtcht.MenuManager = this.barManager1;
             this.txtcht.Name = "txtcht";
             this.txtcht.Size = new System.Drawing.Size(373, 20);
@@ -356,7 +365,7 @@
             // 
             // txtcdt
             // 
-            this.txtcdt.Location = new System.Drawing.Point(565, 114);
+            this.txtcdt.Location = new System.Drawing.Point(565, 116);
             this.txtcdt.MenuManager = this.barManager1;
             this.txtcdt.Name = "txtcdt";
             this.txtcdt.Size = new System.Drawing.Size(373, 20);
@@ -417,7 +426,7 @@
             // txtngaybd
             // 
             this.txtngaybd.EditValue = null;
-            this.txtngaybd.Location = new System.Drawing.Point(102, 115);
+            this.txtngaybd.Location = new System.Drawing.Point(102, 117);
             this.txtngaybd.MenuManager = this.barManager1;
             this.txtngaybd.Name = "txtngaybd";
             this.txtngaybd.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -437,7 +446,7 @@
             // txtngaykt
             // 
             this.txtngaykt.EditValue = null;
-            this.txtngaykt.Location = new System.Drawing.Point(102, 139);
+            this.txtngaykt.Location = new System.Drawing.Point(102, 141);
             this.txtngaykt.MenuManager = this.barManager1;
             this.txtngaykt.Name = "txtngaykt";
             this.txtngaykt.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -478,8 +487,6 @@
             // 
             // barManager2
             // 
-            this.barManager2.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar4});
             this.barManager2.DockControls.Add(this.barDockControl1);
             this.barManager2.DockControls.Add(this.barDockControl2);
             this.barManager2.DockControls.Add(this.barDockControl3);
@@ -490,19 +497,6 @@
             this.barButtonItem4,
             this.barButtonItem5});
             this.barManager2.MaxItemId = 3;
-            this.barManager2.StatusBar = this.bar4;
-            // 
-            // bar4
-            // 
-            this.bar4.BarName = "Status bar";
-            this.bar4.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar4.DockCol = 0;
-            this.bar4.DockRow = 0;
-            this.bar4.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar4.OptionsBar.AllowQuickCustomization = false;
-            this.bar4.OptionsBar.DrawDragBorder = false;
-            this.bar4.OptionsBar.UseWholeRow = true;
-            this.bar4.Text = "Status bar";
             // 
             // barDockControl1
             // 
@@ -516,9 +510,9 @@
             // 
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControl2.Location = new System.Drawing.Point(0, 203);
+            this.barDockControl2.Location = new System.Drawing.Point(0, 213);
             this.barDockControl2.Manager = this.barManager2;
-            this.barDockControl2.Size = new System.Drawing.Size(979, 23);
+            this.barDockControl2.Size = new System.Drawing.Size(979, 0);
             // 
             // barDockControl3
             // 
@@ -526,7 +520,7 @@
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControl3.Location = new System.Drawing.Point(0, 0);
             this.barDockControl3.Manager = this.barManager2;
-            this.barDockControl3.Size = new System.Drawing.Size(0, 203);
+            this.barDockControl3.Size = new System.Drawing.Size(0, 213);
             // 
             // barDockControl4
             // 
@@ -534,7 +528,7 @@
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControl4.Location = new System.Drawing.Point(979, 0);
             this.barDockControl4.Manager = this.barManager2;
-            this.barDockControl4.Size = new System.Drawing.Size(0, 203);
+            this.barDockControl4.Size = new System.Drawing.Size(0, 213);
             // 
             // barButtonItem1
             // 
@@ -583,7 +577,7 @@
             this.layoutControlItem20,
             this.layoutControlItem22});
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(962, 183);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(979, 185);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem2
@@ -631,7 +625,7 @@
             this.layoutControlItem18});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 73);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(463, 90);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(463, 92);
             this.layoutControlGroup2.Text = "Tiến Độ";
             // 
             // layoutControlItem6
@@ -698,7 +692,7 @@
             this.layoutControlItem5});
             this.layoutControlGroup4.Location = new System.Drawing.Point(463, 72);
             this.layoutControlGroup4.Name = "layoutControlGroup4";
-            this.layoutControlGroup4.Size = new System.Drawing.Size(479, 91);
+            this.layoutControlGroup4.Size = new System.Drawing.Size(496, 93);
             this.layoutControlGroup4.Text = "Thông Tin Chung";
             // 
             // layoutControlItem17
@@ -708,7 +702,7 @@
             this.layoutControlItem17.MaxSize = new System.Drawing.Size(455, 24);
             this.layoutControlItem17.MinSize = new System.Drawing.Size(455, 24);
             this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(455, 24);
+            this.layoutControlItem17.Size = new System.Drawing.Size(472, 24);
             this.layoutControlItem17.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem17.Text = "Chủ Đầu Tư";
             this.layoutControlItem17.TextSize = new System.Drawing.Size(75, 13);
@@ -720,7 +714,7 @@
             this.layoutControlItem5.MaxSize = new System.Drawing.Size(455, 24);
             this.layoutControlItem5.MinSize = new System.Drawing.Size(455, 24);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(455, 25);
+            this.layoutControlItem5.Size = new System.Drawing.Size(472, 25);
             this.layoutControlItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem5.Text = "Chỉ Huy Trưởng";
             this.layoutControlItem5.TextSize = new System.Drawing.Size(75, 13);
@@ -732,7 +726,7 @@
             this.layoutControlItem7.MaxSize = new System.Drawing.Size(90, 24);
             this.layoutControlItem7.MinSize = new System.Drawing.Size(90, 24);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(90, 24);
+            this.layoutControlItem7.Size = new System.Drawing.Size(107, 24);
             this.layoutControlItem7.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
@@ -774,9 +768,18 @@
             this.layoutControlItem20.Control = this.txtgthanmuc;
             this.layoutControlItem20.Location = new System.Drawing.Point(463, 48);
             this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem20.Size = new System.Drawing.Size(496, 24);
             this.layoutControlItem20.Text = "Giá Trị Hạn Mức";
             this.layoutControlItem20.TextSize = new System.Drawing.Size(75, 13);
+            // 
+            // layoutControlItem22
+            // 
+            this.layoutControlItem22.Control = this.ckkho;
+            this.layoutControlItem22.Location = new System.Drawing.Point(852, 24);
+            this.layoutControlItem22.Name = "layoutControlItem22";
+            this.layoutControlItem22.Size = new System.Drawing.Size(107, 24);
+            this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem22.TextVisible = false;
             // 
             // accountBindingSource
             // 
@@ -930,30 +933,11 @@
             this.layoutControlItem14.Text = "Phòng Ban";
             this.layoutControlItem14.TextSize = new System.Drawing.Size(75, 13);
             // 
-            // ckkho
-            // 
-            this.ckkho.Location = new System.Drawing.Point(864, 36);
-            this.ckkho.MenuManager = this.barManager1;
-            this.ckkho.Name = "ckkho";
-            this.ckkho.Properties.Caption = "Kho PXM";
-            this.ckkho.Size = new System.Drawing.Size(86, 19);
-            this.ckkho.StyleController = this.layoutControl1;
-            this.ckkho.TabIndex = 27;
-            // 
-            // layoutControlItem22
-            // 
-            this.layoutControlItem22.Control = this.ckkho;
-            this.layoutControlItem22.Location = new System.Drawing.Point(852, 24);
-            this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(90, 24);
-            this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem22.TextVisible = false;
-            // 
             // f_themcongtrinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(979, 226);
+            this.ClientSize = new System.Drawing.Size(979, 213);
             this.Controls.Add(this.layoutControl1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -971,6 +955,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ckkho.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtgthanmuc.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtcht.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtcdt.Properties)).EndInit();
@@ -1003,6 +988,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.donviBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
@@ -1020,8 +1006,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ckkho.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1047,7 +1031,6 @@
         private DevExpress.XtraBars.BarManager barManager2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
-        private DevExpress.XtraBars.Bar bar4;
         private DevExpress.XtraBars.BarDockControl barDockControl1;
         private DevExpress.XtraBars.BarDockControl barDockControl2;
         private DevExpress.XtraBars.BarDockControl barDockControl3;

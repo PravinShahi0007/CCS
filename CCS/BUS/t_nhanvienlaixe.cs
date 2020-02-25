@@ -11,7 +11,7 @@ namespace BUS
     {
         KetNoiDBDataContext db = new KetNoiDBDataContext();
 
-        public void moi(string id, string ten, string diachi, string dienthoai, string email, string ghichu, DateTime ngaysinh, string quoctich, string cmnd, string chucvu, DateTime ngayvaolam, string gioitinh, string tinhtrang, byte[] hinhanh, DateTime ngaynghiviec)
+        public void moi(string id, string ten, string diachi, string dienthoai, string email, string ghichu, DateTime ngaysinh, string quoctich, string cmnd, string chucvu, DateTime ngayvaolam, string gioitinh, string tinhtrang, byte[] hinhanh, DateTime ngaynghiviec, string mapt)
         {
             nhanvien dt = new nhanvien();
             dt.id = id;
@@ -29,11 +29,11 @@ namespace BUS
             dt.gioitinh = gioitinh;
             dt.tinhtrang = tinhtrang;
             dt.ngaynghiviec = ngaynghiviec;
+            dt.mapt = mapt;
             db.nhanviens.InsertOnSubmit(dt);
             db.SubmitChanges();
-
         }
-        public void sua(string id, string ten, string diachi, string dienthoai, string email, string ghichu, DateTime ngaysinh, string quoctich, string cmnd, string chucvu, DateTime ngayvaolam, string gioitinh, string tinhtrang, byte[] hinhanh, DateTime ngaynghiviec)
+        public void sua(string id, string ten, string diachi, string dienthoai, string email, string ghichu, DateTime ngaysinh, string quoctich, string cmnd, string chucvu, DateTime ngayvaolam, string gioitinh, string tinhtrang, byte[] hinhanh, DateTime ngaynghiviec, string mapt)
         {
             nhanvien dt = (from d in db.nhanviens select d).Single(t => t.id == id);
             dt.ten = ten;
@@ -50,6 +50,7 @@ namespace BUS
             dt.gioitinh = gioitinh;
             dt.tinhtrang = tinhtrang;
             dt.ngaynghiviec = ngaynghiviec;
+            dt.mapt = mapt;
             db.SubmitChanges();
         }
         public void xoa(string id)

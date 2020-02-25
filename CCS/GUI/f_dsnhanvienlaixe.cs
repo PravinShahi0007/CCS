@@ -121,7 +121,6 @@ namespace GUI
                 }
                 catch (Exception)
                 {
-
                     hinhanh.Image = Resources.Personnel_icon;
                     hinhanh.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
@@ -137,6 +136,7 @@ namespace GUI
                 lblcmnd.Text = "<b>Số CMND/Passport: </b>" + lst.cmnd;
                 lblpp.Text = "<b>Chức vụ: </b>" + lst.Chucvu;
                 lbltinhtrang.Text = "<b>Tình Trạng: </b>" + lst.tinhtrang;
+                lblMaPT.Text = "<b>Phương Tiện: </b>" + lst.mapt + " - " + lst.tenpt;
 
             }
             catch (Exception)
@@ -156,7 +156,7 @@ namespace GUI
                 lblcmnd.Text = "<b>Số CMND/Passport: </b>";
                 lblpp.Text = "<b>Passport: </b>";
                 lbltinhtrang.Text = "<b>Tình Trạng: </b>";
-
+                lblMaPT.Text = "<b>Phương Tiện: </b>";
             }
             gridView1.ClearGrouping();
             gridView1.Columns["noicongtac"].GroupIndex = 1;
@@ -200,12 +200,7 @@ namespace GUI
                         frm.ShowDialog();
                         loaddata();
                     }
-                    catch (Exception)
-                    {
-
-
-                    }
-
+                    catch { }
                 }
                 try
                 {
@@ -236,7 +231,7 @@ namespace GUI
                     lblcmnd.Text = "<b>Số CMND/Passport: </b>" + lst.cmnd;
                     lblpp.Text = "<b>Chức Vụ: </b>" + lst.Chucvu;
                     lbltinhtrang.Text = "<b>Tình Trạng: </b>" + lst.tinhtrang;
-
+                    lblMaPT.Text = "<b>Phương Tiện: </b>" + lst.mapt + " - " + lst.tenpt;
                 }
                 catch (Exception)
                 {
@@ -255,7 +250,7 @@ namespace GUI
                     lblcmnd.Text = "<b>Số CMND/Passport: </b>";
                     lblpp.Text = "<b>Passport: </b>";
                     lbltinhtrang.Text = "<b>Tình Trạng: </b>";
-
+                    lblMaPT.Text = "<b>Phương Tiện: </b>";
                 }
             }
 
@@ -362,7 +357,7 @@ namespace GUI
                 lblcmnd.Text = "<b>Số CMND/Passport: </b>" + lst.cmnd;
                 lblpp.Text = "<b>Chức vụ: </b>" + lst.Chucvu;
                 lbltinhtrang.Text = "<b>Tình Trạng: </b>" + lst.tinhtrang;
-
+                lblMaPT.Text = "<b>Phương Tiện: </b>" + lst.mapt + " - " + lst.tenpt;
             }
             catch (Exception)
             {
@@ -381,7 +376,7 @@ namespace GUI
                 lblcmnd.Text = "<b>Số CMND/Passport: </b>";
                 lblpp.Text = "<b>Passport: </b>";
                 lbltinhtrang.Text = "<b>Tình Trạng: </b>";
-
+                lblMaPT.Text = "<b>Phương Tiện: </b>";
             }
         }
 
@@ -517,9 +512,6 @@ namespace GUI
             }
 
             gridView2.BestFitColumns();
-
-            //gridView2.Columns["thoigian"].DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            //gridView2.Columns["thoigian"].DisplayFormat.FormatString = "yyyy-MM-dd";
 
             r_Export report = new r_Export();
             report.GridControl = gridControl2;

@@ -36,6 +36,7 @@
             this.txtphongban = new System.Windows.Forms.TextBox();
             this.txtname = new System.Windows.Forms.TextBox();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.checkremem = new DevExpress.XtraEditors.CheckEdit();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -55,11 +56,11 @@
             this.txtidnv = new System.Windows.Forms.TextBox();
             this.imageComboBoxEdit1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.checkremem = new DevExpress.XtraEditors.CheckEdit();
             labelControl4 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.checkremem.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtpass1.Properties)).BeginInit();
@@ -69,7 +70,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnLangLA.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLangVI.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkremem.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl4
@@ -156,6 +156,14 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(238, 267);
             this.panelControl1.TabIndex = 10;
+            // 
+            // checkremem
+            // 
+            this.checkremem.Location = new System.Drawing.Point(140, 156);
+            this.checkremem.Name = "checkremem";
+            this.checkremem.Properties.Caption = "Ghi nhớ";
+            this.checkremem.Size = new System.Drawing.Size(75, 19);
+            this.checkremem.TabIndex = 32;
             // 
             // pictureBox4
             // 
@@ -360,14 +368,6 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Caramel";
             // 
-            // checkremem
-            // 
-            this.checkremem.Location = new System.Drawing.Point(140, 156);
-            this.checkremem.Name = "checkremem";
-            this.checkremem.Properties.Caption = "Ghi nhớ";
-            this.checkremem.Size = new System.Drawing.Size(75, 19);
-            this.checkremem.TabIndex = 32;
-            // 
             // f_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -390,6 +390,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.checkremem.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtpass1.Properties)).EndInit();
@@ -399,7 +400,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnLangLA.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLangVI.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkremem.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

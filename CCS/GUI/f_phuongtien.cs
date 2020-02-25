@@ -30,7 +30,6 @@ namespace GUI
         public f_phuongtien()
         {
             InitializeComponent();
-            //gridControl1.DataSource = new KetNoiDBDataContext().phuongtiens;
             gridControl1.DataSource = new KetNoiDBDataContext().DS_PhuongTien();
 
             WindowState = FormWindowState.Maximized;
@@ -221,7 +220,6 @@ namespace GUI
 
             if (cbongay.EditValue == "") cbongay.EditValue = DateTime.Now;
             else g_ngaycapnhat = DateTime.Parse(cbongay.EditValue.ToString());
-            //var lst = from a in db.phuongtiens select a;
 
             //check cong trỉnh
             var tenct = "";

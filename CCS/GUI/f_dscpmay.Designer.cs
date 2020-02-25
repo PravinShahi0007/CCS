@@ -33,7 +33,6 @@
             this.spinso = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.pnhapBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
-            this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -69,6 +68,9 @@
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
@@ -79,9 +81,6 @@
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.spinso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnhapBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
@@ -125,8 +124,6 @@
             // 
             // barManager1
             // 
-            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar3});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
@@ -137,19 +134,6 @@
             this.barManager1.MaxItemId = 1;
             this.barManager1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemDateEdit1});
-            this.barManager1.StatusBar = this.bar3;
-            // 
-            // bar3
-            // 
-            this.bar3.BarName = "Status bar";
-            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar3.DockCol = 0;
-            this.bar3.DockRow = 0;
-            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar3.OptionsBar.AllowQuickCustomization = false;
-            this.bar3.OptionsBar.DrawDragBorder = false;
-            this.bar3.OptionsBar.UseWholeRow = true;
-            this.bar3.Text = "Status bar";
             // 
             // barDockControlTop
             // 
@@ -163,9 +147,9 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 449);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 472);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1176, 23);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1176, 0);
             // 
             // barDockControlLeft
             // 
@@ -173,7 +157,7 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 449);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 472);
             // 
             // barDockControlRight
             // 
@@ -181,7 +165,7 @@
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(1176, 0);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 449);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 472);
             // 
             // barEditItem1
             // 
@@ -224,14 +208,14 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(104, 251, 250, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(1176, 449);
+            this.layoutControl1.Size = new System.Drawing.Size(1176, 472);
             this.layoutControl1.TabIndex = 28;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton1
             // 
             this.simpleButton1.ImageOptions.Image = global::GUI.Properties.Resources.exporttoxls_16x162;
-            this.simpleButton1.Location = new System.Drawing.Point(795, 42);
+            this.simpleButton1.Location = new System.Drawing.Point(785, 34);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(53, 22);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -242,7 +226,7 @@
             // btnall
             // 
             this.btnall.ImageOptions.Image = global::GUI.Properties.Resources.icons8_checked_24;
-            this.btnall.Location = new System.Drawing.Point(742, 42);
+            this.btnall.Location = new System.Drawing.Point(732, 34);
             this.btnall.Name = "btnall";
             this.btnall.Size = new System.Drawing.Size(49, 30);
             this.btnall.StyleController = this.layoutControl1;
@@ -252,7 +236,7 @@
             // 
             // btnexcel
             // 
-            this.btnexcel.Location = new System.Drawing.Point(852, 42);
+            this.btnexcel.Location = new System.Drawing.Point(842, 34);
             this.btnexcel.Name = "btnexcel";
             this.btnexcel.Size = new System.Drawing.Size(357, 30);
             this.btnexcel.StyleController = this.layoutControl1;
@@ -262,7 +246,7 @@
             // timkiem
             // 
             this.timkiem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("timkiem.ImageOptions.Image")));
-            this.timkiem.Location = new System.Drawing.Point(712, 42);
+            this.timkiem.Location = new System.Drawing.Point(702, 34);
             this.timkiem.Name = "timkiem";
             this.timkiem.Size = new System.Drawing.Size(26, 22);
             this.timkiem.StyleController = this.layoutControl1;
@@ -273,7 +257,7 @@
             // denngay
             // 
             this.denngay.EditValue = null;
-            this.denngay.Location = new System.Drawing.Point(572, 42);
+            this.denngay.Location = new System.Drawing.Point(562, 34);
             this.denngay.MenuManager = this.barManager1;
             this.denngay.Name = "denngay";
             this.denngay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -289,7 +273,7 @@
             // tungay
             // 
             this.tungay.EditValue = null;
-            this.tungay.Location = new System.Drawing.Point(362, 42);
+            this.tungay.Location = new System.Drawing.Point(352, 34);
             this.tungay.MenuManager = this.barManager1;
             this.tungay.Name = "tungay";
             this.tungay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -304,7 +288,7 @@
             // 
             // thoigian
             // 
-            this.thoigian.Location = new System.Drawing.Point(111, 42);
+            this.thoigian.Location = new System.Drawing.Point(101, 34);
             this.thoigian.MenuManager = this.barManager1;
             this.thoigian.Name = "thoigian";
             this.thoigian.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -319,13 +303,13 @@
             // gridControl1
             // 
             this.gridControl1.DataSource = this.pnhapBindingSource;
-            this.gridControl1.Location = new System.Drawing.Point(12, 88);
+            this.gridControl1.Location = new System.Drawing.Point(2, 80);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.spn,
             this.check});
-            this.gridControl1.Size = new System.Drawing.Size(1209, 332);
+            this.gridControl1.Size = new System.Drawing.Size(1209, 373);
             this.gridControl1.TabIndex = 6;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -520,6 +504,33 @@
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 13;
             // 
+            // gridColumn13
+            // 
+            this.gridColumn13.Caption = "Cắt Giảm";
+            this.gridColumn13.ColumnEdit = this.spn;
+            this.gridColumn13.FieldName = "catgiam";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "catgiam", "{0:n2}")});
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 6;
+            // 
+            // gridColumn14
+            // 
+            this.gridColumn14.Caption = "Lý Do cắt Giảm";
+            this.gridColumn14.FieldName = "lydocg";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 8;
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.Caption = "Hồ Sơ Gốc";
+            this.gridColumn15.FieldName = "linkgoc";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 14;
+            // 
             // layoutControlGroup1
             // 
             this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -528,15 +539,16 @@
             this.layoutControlItem8,
             this.layoutControlGroup2});
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(1233, 432);
+            this.layoutControlGroup1.Padding = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(1213, 455);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.gridControl1;
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 76);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 78);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(1213, 336);
+            this.layoutControlItem8.Size = new System.Drawing.Size(1213, 377);
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextVisible = false;
             // 
@@ -552,7 +564,7 @@
             this.layoutControlItem6});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(1213, 76);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(1213, 78);
             this.layoutControlGroup2.Text = "Chọn Thời Gian Tìm Kiếm";
             // 
             // layoutControlItem2
@@ -635,33 +647,6 @@
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem6.TextVisible = false;
             // 
-            // gridColumn13
-            // 
-            this.gridColumn13.Caption = "Cắt Giảm";
-            this.gridColumn13.ColumnEdit = this.spn;
-            this.gridColumn13.FieldName = "catgiam";
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "catgiam", "{0:n2}")});
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 6;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.Caption = "Lý Do cắt Giảm";
-            this.gridColumn14.FieldName = "lydocg";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 8;
-            // 
-            // gridColumn15
-            // 
-            this.gridColumn15.Caption = "Hồ Sơ Gốc";
-            this.gridColumn15.FieldName = "linkgoc";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 14;
-            // 
             // f_dscpmay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -713,7 +698,6 @@
         #endregion
 
         private DevExpress.XtraBars.BarManager barManager1;
-        private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;

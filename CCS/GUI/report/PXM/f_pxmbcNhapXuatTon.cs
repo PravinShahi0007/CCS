@@ -103,9 +103,6 @@ namespace GUI.report.PXM
                           DateTime.Parse(denngay.EditValue.ToString()), tg);
                 }
                 rp.ShowPreview();
-
-
-
             }
             catch (Exception ex)
             {
@@ -115,6 +112,7 @@ namespace GUI.report.PXM
         protected override void search()
         {
             SplashScreenManager.ShowForm(typeof(SplashScreen1));
+
             if (tgsmode.IsOn == false)
             {
 

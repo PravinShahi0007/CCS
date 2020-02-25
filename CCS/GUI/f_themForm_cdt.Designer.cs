@@ -105,7 +105,7 @@
             this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.pdfBarController1 = new DevExpress.XtraPdfViewer.Bars.PdfBarController();
+            this.pdfBarController1 = new DevExpress.XtraPdfViewer.Bars.PdfBarController(this.components);
             this.barManager2 = new DevExpress.XtraBars.BarManager(this.components);
             this.barDockControl1 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
@@ -156,44 +156,37 @@
             // barAndDockingController7
             // 
             this.barAndDockingController7.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController7.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController7.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController7.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barAndDockingController6
             // 
             this.barAndDockingController6.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController6.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController6.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController6.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barAndDockingController5
             // 
             this.barAndDockingController5.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController5.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController5.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController5.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barAndDockingController4
             // 
             this.barAndDockingController4.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController4.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController4.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController4.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barAndDockingController3
             // 
             this.barAndDockingController3.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController3.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController3.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController3.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barAndDockingController2
             // 
             this.barAndDockingController2.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController2.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController2.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController2.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barAndDockingController1
             // 
             this.barAndDockingController1.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController1.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController1.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
+            this.barAndDockingController1.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // layoutControl1
             // 
@@ -214,7 +207,7 @@
             // 
             // txtdiengiai
             // 
-            this.txtdiengiai.Location = new System.Drawing.Point(69, 60);
+            this.txtdiengiai.Location = new System.Drawing.Point(59, 50);
             this.txtdiengiai.MenuManager = this.barManager1;
             this.txtdiengiai.Name = "txtdiengiai";
             this.txtdiengiai.Size = new System.Drawing.Size(290, 20);
@@ -291,10 +284,10 @@
             // 
             // pdfViewer1
             // 
-            this.pdfViewer1.Location = new System.Drawing.Point(363, 12);
+            this.pdfViewer1.Location = new System.Drawing.Point(353, 2);
             this.pdfViewer1.MenuManager = this.barManager1;
             this.pdfViewer1.Name = "pdfViewer1";
-            this.pdfViewer1.Size = new System.Drawing.Size(478, 366);
+            this.pdfViewer1.Size = new System.Drawing.Size(498, 386);
             this.pdfViewer1.TabIndex = 12;
             // 
             // btnmo
@@ -308,45 +301,45 @@
             // btnluu
             // 
             this.btnluu.Caption = "Lưu";
-            this.btnluu.Glyph = ((System.Drawing.Image)(resources.GetObject("btnluu.Glyph")));
             this.btnluu.Id = 25;
-            this.btnluu.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnluu.LargeGlyph")));
+            this.btnluu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnluu.ImageOptions.Image")));
+            this.btnluu.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnluu.ImageOptions.LargeImage")));
             this.btnluu.Name = "btnluu";
             this.btnluu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnluu_ItemClick);
             // 
             // btnthem
             // 
             this.btnthem.Caption = "Thêm";
-            this.btnthem.Glyph = ((System.Drawing.Image)(resources.GetObject("btnthem.Glyph")));
             this.btnthem.Id = 28;
-            this.btnthem.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnthem.LargeGlyph")));
+            this.btnthem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnthem.ImageOptions.Image")));
+            this.btnthem.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnthem.ImageOptions.LargeImage")));
             this.btnthem.Name = "btnthem";
             this.btnthem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnthem_ItemClick);
             // 
             // btnsua
             // 
             this.btnsua.Caption = "Sửa";
-            this.btnsua.Glyph = ((System.Drawing.Image)(resources.GetObject("btnsua.Glyph")));
             this.btnsua.Id = 26;
-            this.btnsua.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnsua.LargeGlyph")));
+            this.btnsua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnsua.ImageOptions.Image")));
+            this.btnsua.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnsua.ImageOptions.LargeImage")));
             this.btnsua.Name = "btnsua";
             this.btnsua.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnsua_ItemClick);
             // 
             // btnxoa
             // 
             this.btnxoa.Caption = "Xoá";
-            this.btnxoa.Glyph = ((System.Drawing.Image)(resources.GetObject("btnxoa.Glyph")));
             this.btnxoa.Id = 27;
-            this.btnxoa.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnxoa.LargeGlyph")));
+            this.btnxoa.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnxoa.ImageOptions.Image")));
+            this.btnxoa.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnxoa.ImageOptions.LargeImage")));
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnxoa_ItemClick);
             // 
             // btnreload
             // 
             this.btnreload.Caption = "Reload";
-            this.btnreload.Glyph = ((System.Drawing.Image)(resources.GetObject("btnreload.Glyph")));
             this.btnreload.Id = 29;
-            this.btnreload.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnreload.LargeGlyph")));
+            this.btnreload.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnreload.ImageOptions.Image")));
+            this.btnreload.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnreload.ImageOptions.LargeImage")));
             this.btnreload.Name = "btnreload";
             this.btnreload.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnreload_ItemClick);
             // 
@@ -488,6 +481,7 @@
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Size = new System.Drawing.Size(853, 26);
             // 
             // barDockControlBottom
@@ -495,6 +489,7 @@
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControlBottom.Location = new System.Drawing.Point(0, 416);
+            this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Size = new System.Drawing.Size(853, 0);
             // 
             // barDockControlLeft
@@ -502,6 +497,7 @@
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 26);
+            this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Size = new System.Drawing.Size(0, 390);
             // 
             // barDockControlRight
@@ -509,11 +505,12 @@
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(853, 26);
+            this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Size = new System.Drawing.Size(0, 390);
             // 
             // txtname
             // 
-            this.txtname.Location = new System.Drawing.Point(231, 12);
+            this.txtname.Location = new System.Drawing.Point(221, 2);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(128, 20);
             this.txtname.StyleController = this.layoutControl1;
@@ -521,7 +518,7 @@
             // 
             // txtid
             // 
-            this.txtid.Location = new System.Drawing.Point(69, 12);
+            this.txtid.Location = new System.Drawing.Point(59, 2);
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(101, 20);
             this.txtid.StyleController = this.layoutControl1;
@@ -529,7 +526,7 @@
             // 
             // txtlink
             // 
-            this.txtlink.Location = new System.Drawing.Point(69, 36);
+            this.txtlink.Location = new System.Drawing.Point(59, 26);
             this.txtlink.Name = "txtlink";
             this.txtlink.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -540,10 +537,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(12, 84);
+            this.gridControl1.Location = new System.Drawing.Point(2, 74);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(347, 294);
+            this.gridControl1.Size = new System.Drawing.Size(347, 314);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -600,8 +597,8 @@
             this.layoutControlItem5,
             this.layoutControlItem7,
             this.layoutControlItem3});
-            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "Root";
+            this.layoutControlGroup1.Padding = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
             this.layoutControlGroup1.Size = new System.Drawing.Size(853, 390);
             this.layoutControlGroup1.TextVisible = false;
             // 
@@ -610,7 +607,7 @@
             this.layoutControlItem1.Control = this.gridControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 72);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(351, 298);
+            this.layoutControlItem1.Size = new System.Drawing.Size(351, 318);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -652,7 +649,7 @@
             this.layoutControlItem7.Control = this.pdfViewer1;
             this.layoutControlItem7.Location = new System.Drawing.Point(351, 0);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(482, 370);
+            this.layoutControlItem7.Size = new System.Drawing.Size(502, 390);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
             // 
@@ -745,7 +742,6 @@
             this.layoutControlItem12,
             this.layoutControlItem13,
             this.layoutControlItem14});
-            this.layoutControlGroup3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup3.Name = "Root";
             this.layoutControlGroup3.Size = new System.Drawing.Size(680, 147);
             this.layoutControlGroup3.TextVisible = false;
@@ -844,13 +840,13 @@
             this.barManager2.DockControls.Add(this.barDockControl3);
             this.barManager2.DockControls.Add(this.barDockControl4);
             this.barManager2.Form = this;
-            this.barManager2.MaxItemId = 0;
             // 
             // barDockControl1
             // 
             this.barDockControl1.CausesValidation = false;
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControl1.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl1.Manager = this.barManager2;
             this.barDockControl1.Size = new System.Drawing.Size(853, 0);
             // 
             // barDockControl2
@@ -858,6 +854,7 @@
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControl2.Location = new System.Drawing.Point(0, 416);
+            this.barDockControl2.Manager = this.barManager2;
             this.barDockControl2.Size = new System.Drawing.Size(853, 0);
             // 
             // barDockControl3
@@ -865,6 +862,7 @@
             this.barDockControl3.CausesValidation = false;
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControl3.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl3.Manager = this.barManager2;
             this.barDockControl3.Size = new System.Drawing.Size(0, 416);
             // 
             // barDockControl4
@@ -872,6 +870,7 @@
             this.barDockControl4.CausesValidation = false;
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControl4.Location = new System.Drawing.Point(853, 0);
+            this.barDockControl4.Manager = this.barManager2;
             this.barDockControl4.Size = new System.Drawing.Size(0, 416);
             // 
             // f_themForm_cdt

@@ -171,11 +171,11 @@
             this.layoutControl1.Controls.Add(this.txtlink);
             this.layoutControl1.Controls.Add(this.cboSheetName);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl1.Location = new System.Drawing.Point(0, 31);
+            this.layoutControl1.Location = new System.Drawing.Point(0, 26);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(513, 17, 250, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(685, 125);
+            this.layoutControl1.Size = new System.Drawing.Size(685, 130);
             this.layoutControl1.TabIndex = 4;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -247,7 +247,7 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(685, 31);
+            this.barDockControlTop.Size = new System.Drawing.Size(685, 26);
             // 
             // barDockControlBottom
             // 
@@ -261,17 +261,17 @@
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 31);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 26);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 125);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 130);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(685, 31);
+            this.barDockControlRight.Location = new System.Drawing.Point(685, 26);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 125);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 130);
             // 
             // pdfZoom10CheckItem1
             // 
@@ -404,7 +404,7 @@
             this.txtname2,
             this.layoutControlItem4});
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(685, 125);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(685, 130);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem2
@@ -426,7 +426,7 @@
             this.layoutControlItem6.MaxSize = new System.Drawing.Size(654, 40);
             this.layoutControlItem6.MinSize = new System.Drawing.Size(654, 40);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(665, 45);
+            this.layoutControlItem6.Size = new System.Drawing.Size(665, 50);
             this.layoutControlItem6.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem6.Text = "Chọn Sheet";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(56, 13);
